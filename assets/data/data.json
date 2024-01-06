@@ -1,0 +1,164 @@
+{
+  "Nike": [
+    {
+      "id": "8b1d31d2-6e7b-4e0a-85c5-d3dd769237f7",
+      "name": "Nike SB Dunk Low Gibson Guitar Case",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-dunk-sb-low-gibson-guitar-case.webp",
+      "releasedAt": "2007-01-01",
+      "sizing": "man",
+      "initialPrice": 100,
+      "colorway": "Light British Tan/Metallic Gold",
+      "sku": "313170-271",
+      "createdAt": "2022-12-24T11:28:29.519416+00:00",
+      "updatedAt": "2023-11-20T19:48:00.754955+00:00",
+      "brand": {
+        "id": "2bd9a45a-683b-11ed-9022-0242ac120002",
+        "name": "Nike"
+      }
+    },
+    {
+      "id": "d886474d-0cf4-4ed9-89ce-f473d7d743ba",
+      "name": "Nike Air More Uptempo Rayguns (PS)",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-air-more-uptempo-rayguns-ps.webp",
+      "releasedAt": "2021-01-15",
+      "sizing": "primaryschool",
+      "initialPrice": 95,
+      "colorway": "White/Multi-Color",
+      "sku": "DD9286-100",
+      "createdAt": "2023-03-05T17:57:42.968679+00:00",
+      "updatedAt": "2023-11-18T22:33:00.654634+00:00",
+      "brand": {
+        "id": "2bd9a45a-683b-11ed-9022-0242ac120002",
+        "name": "Nike"
+      }
+    },
+    {
+      "id": "905095a4-8771-4fa8-a921-ad1f0319e8d7",
+      "name": "Nike Flex Supreme Tr 5 Wolf Grey Ghost Green (Women's)",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-flex-supreme-tr-5-wolf-grey-ghost-green-w.webp",
+      "releasedAt": null,
+      "sizing": "woman",
+      "initialPrice": null,
+      "colorway": "Wolf Grey/Ghost Green",
+      "sku": "852467-005",
+      "createdAt": "2023-04-03T21:01:06.821722+00:00",
+      "updatedAt": "2023-11-20T19:45:00.737678+00:00",
+      "brand": {
+        "id": "2bd9a45a-683b-11ed-9022-0242ac120002",
+        "name": "Nike"
+      }
+    },
+    {
+      "id": "ded358c6-fa7c-4c64-a32d-25a095d8841e",
+      "name": "Nike Air Max 97 Tie Dye Chicago",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-air-max-97-tie-dye-chicago.webp",
+      "releasedAt": "2019-07-08",
+      "sizing": "man",
+      "initialPrice": 175,
+      "colorway": "Multi-Color/White",
+      "sku": "CK0839-100",
+      "createdAt": "2023-03-02T20:56:03.083131+00:00",
+      "updatedAt": "2023-11-23T20:27:00.67162+00:00",
+      "brand": {
+        "id": "2bd9a45a-683b-11ed-9022-0242ac120002",
+        "name": "Nike"
+      }
+    },
+    {
+      "id": "69d45815-aa0f-4ed5-8740-979b890a7abd",
+      "name": "Nike Air Force 1 Mid Legion Green",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-air-force-1-mid-legion-green.webp",
+      "releasedAt": "2017-01-29",
+      "sizing": "man",
+      "initialPrice": 95,
+      "colorway": "Legion Green/White-Legion Green",
+      "sku": "315123-302",
+      "createdAt": "2023-05-01T18:05:42.298449+00:00",
+      "updatedAt": "2023-11-24T16:42:00.697212+00:00",
+      "brand": {
+        "id": "2bd9a45a-683b-11ed-9022-0242ac120002",
+        "name": "Nike"
+      }
+    },
+    {
+      "id": "b81bc62e-785d-4f7a-b91a-9f639a198610",
+      "name": "Nike Air Max 90 Nylon Royal",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-air-max-90-nylon-royal.webp",
+      "releasedAt": "2018-05-01",
+      "sizing": "man",
+      "initialPrice": 120,
+      "colorway": "Deep Royal Blue/Deep Royal Blue",
+      "sku": "AO1063-400",
+      "createdAt": "2023-03-11T12:51:17.840426+00:00",
+      "updatedAt": "2023-11-15T13:36:00.701831+00:00",
+      "brand": {
+        "id": "2bd9a45a-683b-11ed-9022-0242ac120002",
+        "name": "Nike"
+      }
+    },
+    {
+      "id": "68e2d3a0-4844-4765-b9af-7ac88c9f5fff",
+      "name": "Nike Air Footscape Woven Chukka Birch Varsity Maize",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-air-footscape-woven-chukka-birch-varsity-maize.webp",
+      "releasedAt": null,
+      "sizing": "man",
+      "initialPrice": 180,
+      "colorway": "Birch/Birch/Varsity Maize",
+      "sku": "315097-223",
+      "createdAt": "2023-03-07T21:24:43.668101+00:00",
+      "updatedAt": "2023-11-18T04:09:00.670709+00:00",
+      "brand": {
+        "id": "2bd9a45a-683b-11ed-9022-0242ac120002",
+        "name": "Nike"
+      }
+    },
+    {
+      "id": "b9ab3bc1-d787-4961-9adc-ccb757e44c88",
+      "name": "Nike Air Max Uptempo 97 Cranberry",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/air-max-uptempo-97-cranberry.webp",
+      "releasedAt": null,
+      "sizing": "man",
+      "initialPrice": null,
+      "colorway": "Varsity Red/Black-Varsity Red",
+      "sku": "399207-600",
+      "createdAt": "2023-04-08T21:39:39.937049+00:00",
+      "updatedAt": "2023-11-20T08:48:00.76089+00:00",
+      "brand": {
+        "id": "2bd9a45a-683b-11ed-9022-0242ac120002",
+        "name": "Nike"
+      }
+    },
+    {
+      "id": "c789f68f-fbdd-453e-b938-d5b8872bba80",
+      "name": "Nike Hakata Just Do It Pack Black",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-hakata-just-do-it-pack-black.webp",
+      "releasedAt": "2018-08-02",
+      "sizing": "man",
+      "initialPrice": 80,
+      "colorway": "Black/White-Total Orange",
+      "sku": "AQ9336-001",
+      "createdAt": "2023-04-18T14:13:29.968479+00:00",
+      "updatedAt": "2023-11-20T19:54:00.7338+00:00",
+      "brand": {
+        "id": "2bd9a45a-683b-11ed-9022-0242ac120002",
+        "name": "Nike"
+      }
+    },
+    {
+      "id": "0d5d1438-4101-4b18-bb53-e1f005ff7605",
+      "name": "Nike Air Max Tavas Black Persian Voliet-White",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-air-max-tavas-black-persian-voliet-white.webp",
+      "releasedAt": null,
+      "sizing": "man",
+      "initialPrice": null,
+      "colorway": "Black/Persian Voliet-White",
+      "sku": "705149-025",
+      "createdAt": "2023-04-11T20:59:01.068944+00:00",
+      "updatedAt": "2023-11-23T18:15:00.735417+00:00",
+      "brand": {
+        "id": "2bd9a45a-683b-11ed-9022-0242ac120002",
+        "name": "Nike"
+      }
+    }
+  ]
+}

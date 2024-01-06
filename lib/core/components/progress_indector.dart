@@ -1,0 +1,26 @@
+import 'package:flutter/material.dart';
+import 'package:loading_indicator/loading_indicator.dart';
+
+import '../../config/colors/app_colors.dart';
+
+class CustomLoadingIndicator extends StatelessWidget {
+  const CustomLoadingIndicator({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const Center(
+      child: SizedBox(
+        width: 45,
+        height: 45,
+        child: LoadingIndicator(
+          indicatorType: Indicator.ballRotateChase,
+          colors: [
+            Color(
+              AppColors.kPrimaryColor,
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}

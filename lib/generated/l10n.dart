@@ -1,0 +1,518 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
+import 'intl/messages_all.dart';
+
+// **************************************************************************
+// Generator: Flutter Intl IDE plugin
+// Made by Localizely
+// **************************************************************************
+
+// ignore_for_file: non_constant_identifier_names, lines_longer_than_80_chars
+// ignore_for_file: join_return_with_assignment, prefer_final_in_for_each
+// ignore_for_file: avoid_redundant_argument_values, avoid_escaping_inner_quotes
+
+class S {
+  S();
+
+  static S? _current;
+
+  static S get current {
+    assert(_current != null,
+        'No instance of S was loaded. Try to initialize the S delegate before accessing S.current.');
+    return _current!;
+  }
+
+  static const AppLocalizationDelegate delegate = AppLocalizationDelegate();
+
+  static Future<S> load(Locale locale) {
+    final name = (locale.countryCode?.isEmpty ?? false)
+        ? locale.languageCode
+        : locale.toString();
+    final localeName = Intl.canonicalizedLocale(name);
+    return initializeMessages(localeName).then((_) {
+      Intl.defaultLocale = localeName;
+      final instance = S();
+      S._current = instance;
+
+      return instance;
+    });
+  }
+
+  static S of(BuildContext context) {
+    final instance = S.maybeOf(context);
+    assert(instance != null,
+        'No instance of S present in the widget tree. Did you add S.delegate in localizationsDelegates?');
+    return instance!;
+  }
+
+  static S? maybeOf(BuildContext context) {
+    return Localizations.of<S>(context, S);
+  }
+
+  /// `Welcome to \nNike`
+  String get onBoardingTitle1 {
+    return Intl.message(
+      'Welcome to \nNike',
+      name: 'onBoardingTitle1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Discover a world of knowledge and learning at your fingertips with 3almni. We're here to guide you through an enriching educational journey`
+  String get onBoardingDescription1 {
+    return Intl.message(
+      'Discover a world of knowledge and learning at your fingertips with 3almni. We\'re here to guide you through an enriching educational journey',
+      name: 'onBoardingDescription1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Let’s Start Journey \nWith Nike`
+  String get onBoardingTitle2 {
+    return Intl.message(
+      'Let’s Start Journey \nWith Nike',
+      name: 'onBoardingTitle2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Smart, Gorgeous & Fashionable Collection Explor Now`
+  String get onBoardingDescription2 {
+    return Intl.message(
+      'Smart, Gorgeous & Fashionable Collection Explor Now',
+      name: 'onBoardingDescription2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `You Have the Power To`
+  String get onBoardingTitle3 {
+    return Intl.message(
+      'You Have the Power To',
+      name: 'onBoardingTitle3',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `There Are Many Beautiful And Attractive Plants To Your Room`
+  String get onBoardingDescription3 {
+    return Intl.message(
+      'There Are Many Beautiful And Attractive Plants To Your Room',
+      name: 'onBoardingDescription3',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Next`
+  String get onBoardingButtonText {
+    return Intl.message(
+      'Next',
+      name: 'onBoardingButtonText',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Skip`
+  String get onBoardingTextButtonText {
+    return Intl.message(
+      'Skip',
+      name: 'onBoardingTextButtonText',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Log`
+  String get loginScreenTitlePartOne {
+    return Intl.message(
+      'Log',
+      name: 'loginScreenTitlePartOne',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// ` In`
+  String get loginScreenTitlePartTwo {
+    return Intl.message(
+      ' In',
+      name: 'loginScreenTitlePartTwo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Email`
+  String get loginScreenEmail {
+    return Intl.message(
+      'Email',
+      name: 'loginScreenEmail',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `password`
+  String get loginScreenPass {
+    return Intl.message(
+      'password',
+      name: 'loginScreenPass',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Login`
+  String get loginScreenButton {
+    return Intl.message(
+      'Login',
+      name: 'loginScreenButton',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Don't have an account ? `
+  String get loginScreenHaveNotAccount {
+    return Intl.message(
+      'Don\'t have an account ? ',
+      name: 'loginScreenHaveNotAccount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `create account`
+  String get loginScreenCreateAccount {
+    return Intl.message(
+      'create account',
+      name: 'loginScreenCreateAccount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Forget Password ?`
+  String get loginScreenForgetPass {
+    return Intl.message(
+      'Forget Password ?',
+      name: 'loginScreenForgetPass',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Full name`
+  String get registerFullName {
+    return Intl.message(
+      'Full name',
+      name: 'registerFullName',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sign`
+  String get sign {
+    return Intl.message(
+      'Sign',
+      name: 'sign',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `up`
+  String get up {
+    return Intl.message(
+      'up',
+      name: 'up',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sign up`
+  String get signUp {
+    return Intl.message(
+      'Sign up',
+      name: 'signUp',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Already have an account`
+  String get registerScreenHaveAccount {
+    return Intl.message(
+      'Already have an account',
+      name: 'registerScreenHaveAccount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Effortlessly access personalized learning experiences with the 3lamni `
+  String get loginDesc {
+    return Intl.message(
+      'Effortlessly access personalized learning experiences with the 3lamni ',
+      name: 'loginDesc',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `3lamni's offers a seamless user experience for new learners `
+  String get registerScreenDescription {
+    return Intl.message(
+      '3lamni\'s offers a seamless user experience for new learners ',
+      name: 'registerScreenDescription',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter`
+  String get otpCodeEnter {
+    return Intl.message(
+      'Enter',
+      name: 'otpCodeEnter',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// ` OTP`
+  String get otpCodeCode {
+    return Intl.message(
+      ' OTP',
+      name: 'otpCodeCode',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Verify OTP`
+  String get submit {
+    return Intl.message(
+      'Verify OTP',
+      name: 'submit',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Home`
+  String get home {
+    return Intl.message(
+      'Home',
+      name: 'home',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Rating`
+  String get rating {
+    return Intl.message(
+      'Rating',
+      name: 'rating',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Download`
+  String get download {
+    return Intl.message(
+      'Download',
+      name: 'download',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `wallet`
+  String get wallet {
+    return Intl.message(
+      'wallet',
+      name: 'wallet',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Subjects`
+  String get subjects {
+    return Intl.message(
+      'Subjects',
+      name: 'subjects',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `view pdf lecture`
+  String get viewPdfLecture {
+    return Intl.message(
+      'view pdf lecture',
+      name: 'viewPdfLecture',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Back`
+  String get back {
+    return Intl.message(
+      'Back',
+      name: 'back',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Lecture`
+  String get lecture {
+    return Intl.message(
+      'Lecture',
+      name: 'lecture',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Files`
+  String get files {
+    return Intl.message(
+      'Files',
+      name: 'files',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Choose Pay Method`
+  String get choosePayment {
+    return Intl.message(
+      'Choose Pay Method',
+      name: 'choosePayment',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `you can choose the most suitable \npayment method for payment`
+  String get walletDesc {
+    return Intl.message(
+      'you can choose the most suitable \npayment method for payment',
+      name: 'walletDesc',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Vodafone cash`
+  String get vodafone {
+    return Intl.message(
+      'Vodafone cash',
+      name: 'vodafone',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Cash`
+  String get cash {
+    return Intl.message(
+      'Cash',
+      name: 'cash',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Profile`
+  String get profile {
+    return Intl.message(
+      'Profile',
+      name: 'profile',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Account Details`
+  String get accountDetails {
+    return Intl.message(
+      'Account Details',
+      name: 'accountDetails',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Passwords`
+  String get password {
+    return Intl.message(
+      'Passwords',
+      name: 'password',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Contact Us`
+  String get contactUs {
+    return Intl.message(
+      'Contact Us',
+      name: 'contactUs',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Logout`
+  String get logout {
+    return Intl.message(
+      'Logout',
+      name: 'logout',
+      desc: '',
+      args: [],
+    );
+  }
+}
+
+class AppLocalizationDelegate extends LocalizationsDelegate<S> {
+  const AppLocalizationDelegate();
+
+  List<Locale> get supportedLocales {
+    return const <Locale>[
+      Locale.fromSubtags(languageCode: 'en'),
+    ];
+  }
+
+  @override
+  bool isSupported(Locale locale) => _isSupported(locale);
+  @override
+  Future<S> load(Locale locale) => S.load(locale);
+  @override
+  bool shouldReload(AppLocalizationDelegate old) => false;
+
+  bool _isSupported(Locale locale) {
+    for (var supportedLocale in supportedLocales) {
+      if (supportedLocale.languageCode == locale.languageCode) {
+        return true;
+      }
+    }
+    return false;
+  }
+}
