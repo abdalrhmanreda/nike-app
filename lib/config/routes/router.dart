@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nike/config/routes/routes_path.dart';
+import 'package:nike/ui/feature/splash_screen/screens/splash_screen.dart';
 
 import '../../ui/feature/splash_screen/screens/on_boarding_screen.dart';
 
@@ -7,8 +8,8 @@ Route? generateRoute(RouteSettings settings) {
   switch (settings.name) {
     case RoutePath.onBoarding:
       return MaterialPageRoute(builder: (_) => const OnBoardingScreen());
-    // case RoutePath.login:
-    //   return MaterialPageRoute(builder: (_) => const LoginScreen());
+    case RoutePath.splash:
+      return MaterialPageRoute(builder: (_) => const SplashScreen());
     // case RoutePath.signUp:
     //   return MaterialPageRoute(builder: (_) => const RegisterScreen());
     // case RoutePath.otpCode:
