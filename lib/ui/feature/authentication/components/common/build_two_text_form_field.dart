@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:gap/gap.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:nike/ui/feature/authentication/components/common/container_with_text_from_feild.dart';
@@ -39,8 +40,13 @@ class _CustomTwoTextFromFieldState extends State<CustomTwoTextFromField> {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(S.of(context).email,
-                style: Theme.of(context).textTheme.bodySmall),
+            Text(
+              S.of(context).email,
+              style: Theme.of(context)
+                  .textTheme
+                  .bodySmall!
+                  .copyWith(fontSize: 15.sp),
+            ),
             const Gap(10),
             ContainerTextFormFeild(
               isPass: false,
@@ -49,8 +55,13 @@ class _CustomTwoTextFromFieldState extends State<CustomTwoTextFromField> {
               keyboardType: TextInputType.emailAddress,
             ),
             const Gap(20),
-            Text(S.of(context).password,
-                style: Theme.of(context).textTheme.bodySmall),
+            Text(
+              S.of(context).password,
+              style: Theme.of(context)
+                  .textTheme
+                  .bodySmall!
+                  .copyWith(fontSize: 15.sp),
+            ),
             const Gap(10),
             ContainerTextFormFeild(
               isPass: isPass,

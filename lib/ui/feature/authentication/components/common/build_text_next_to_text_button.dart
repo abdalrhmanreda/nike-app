@@ -15,7 +15,8 @@ Widget customTextNextToTextButton({
         Text(
           text,
           style: Theme.of(context).textTheme.bodyMedium!.copyWith(
-                fontSize: 16.sp,
+                fontSize: 17.sp,
+                fontWeight: FontWeight.w500,
               ),
         ),
         CustomTextButton(
@@ -23,7 +24,7 @@ Widget customTextNextToTextButton({
             onPressed?.call();
           },
           text: textButton,
-          fontSize: 16,
+          fontSize: 17.sp,
         ),
       ],
     );

@@ -13,17 +13,17 @@
   "loginScreenEmail" : "example@gmail.com" ,
   "email": "Email Address" ,
   "loginScreenPass" : "********" ,
-  "loginScreenButton" : "Login" ,
+  "loginScreenButton" : "Sign i" ,
   "loginScreenHaveNotAccount" : "New User?" ,
   "loginScreenCreateAccount" : "create account" ,
   "loginScreenForgetPass" : "Recovery Password" ,
   "registerFullName":"Full name" ,
   "sign": "Sign" ,
   "up": "up" ,
-  "signUpWithGoogle ": "Sign up with Google ",
-  "signInWithGoogle ": "Sign in with Google ",
+  "signUpWithGoogle": "Sign up with Google ",
+  "signInWithGoogle": "Sign in with Google ",
   "signUp": "Sign up" ,
-  "registerScreenHaveAccount" : "Already have an account" ,
+  "registerScreenHaveAccount" : "Already have an account?" ,
   "loginDesc": "Fill your details or continue with\nsocial media" ,
   "registerScreenDescription": "Fill your details or continue with\nsocial media" ,
   "otpCodeEnter": "Enter" ,
@@ -43,10 +43,19 @@
   "vodafone": "Vodafone cash",
   "cash": "Cash" ,
   "profile": "Profile" ,
+  "cart": "My Cart",
+  "favorite": "Favorite",
+  "notification": "Notification",
+  "settings": "Settings",
+  "signOut": "Sign Out",
   "accountDetails": "Account Details" ,
   "password": "Password" ,
   "contactUs": "Contact Us" ,
-  "logout": "Logout"
+  "logout": "Logout" ,
+  "explore": "Explore" ,
+  "lookingFor": "Looking for shoes" ,
+  "selectCategory": "Select Category"
+
 
 
 }

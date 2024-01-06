@@ -5,7 +5,9 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:nike/core/api/dio_helper.dart';
 import 'package:nike/core/cache/hive_cache.dart';
 import 'package:nike/core/observer/blocObserver.dart';
+import 'package:nike/ui/cubit/app_cubit.dart';
 import 'package:nike/ui/feature/authentication/controller/auth_cubit.dart';
+import 'package:nike/ui/feature/home/controllers/product_cubit.dart';
 
 import 'config/routes/router.dart';
 import 'config/routes/routes_path.dart';
@@ -38,11 +40,17 @@ class NikeApp extends StatelessWidget {
             BlocProvider(
               create: (context) => AuthCubit(),
             ),
+            BlocProvider(
+              create: (context) => AppCubit(),
+            ),
+            BlocProvider(
+              create: (context) => ProductCubit(),
+            ),
           ],
           child: MaterialApp(
             onGenerateRoute: generateRoute,
             // home: startWidget,
-            initialRoute: RoutePath.login,
+            initialRoute: RoutePath.layout,
             locale: const Locale('en', 'US'),
             localizationsDelegates: const [
               S.delegate,

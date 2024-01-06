@@ -26,18 +26,21 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Account Details"),
         "appName": MessageLookupByLibrary.simpleMessage("Nike"),
         "back": MessageLookupByLibrary.simpleMessage("Back"),
+        "cart": MessageLookupByLibrary.simpleMessage("My Cart"),
         "cash": MessageLookupByLibrary.simpleMessage("Cash"),
         "choosePayment":
             MessageLookupByLibrary.simpleMessage("Choose Pay Method"),
         "contactUs": MessageLookupByLibrary.simpleMessage("Contact Us"),
         "download": MessageLookupByLibrary.simpleMessage("Download"),
         "email": MessageLookupByLibrary.simpleMessage("Email Address"),
+        "explore": MessageLookupByLibrary.simpleMessage("Explore"),
+        "favorite": MessageLookupByLibrary.simpleMessage("Favorite"),
         "files": MessageLookupByLibrary.simpleMessage("Files"),
         "home": MessageLookupByLibrary.simpleMessage("Home"),
         "lecture": MessageLookupByLibrary.simpleMessage("Lecture"),
         "loginDesc": MessageLookupByLibrary.simpleMessage(
             "Fill your details or continue with\nsocial media"),
-        "loginScreenButton": MessageLookupByLibrary.simpleMessage("Login"),
+        "loginScreenButton": MessageLookupByLibrary.simpleMessage("Sign i"),
         "loginScreenCreateAccount":
             MessageLookupByLibrary.simpleMessage("create account"),
         "loginScreenEmail":
@@ -51,6 +54,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Hello Again!"),
         "loginScreenTitlePartTwo": MessageLookupByLibrary.simpleMessage(" "),
         "logout": MessageLookupByLibrary.simpleMessage("Logout"),
+        "lookingFor": MessageLookupByLibrary.simpleMessage("Looking for shoes"),
+        "notification": MessageLookupByLibrary.simpleMessage("Notification"),
         "onBoardingButtonText": MessageLookupByLibrary.simpleMessage("Next"),
         "onBoardingDescription1": MessageLookupByLibrary.simpleMessage(
             "Discover a world of knowledge and learning at your fingertips with 3almni. We\'re here to guide you through an enriching educational journey"),
@@ -75,9 +80,17 @@ class MessageLookup extends MessageLookupByLibrary {
         "registerScreenDescription": MessageLookupByLibrary.simpleMessage(
             "Fill your details or continue with\nsocial media"),
         "registerScreenHaveAccount":
-            MessageLookupByLibrary.simpleMessage("Already have an account"),
+            MessageLookupByLibrary.simpleMessage("Already have an account?"),
+        "selectCategory":
+            MessageLookupByLibrary.simpleMessage("Select Category"),
+        "settings": MessageLookupByLibrary.simpleMessage("Settings"),
         "sign": MessageLookupByLibrary.simpleMessage("Sign"),
+        "signInWithGoogle":
+            MessageLookupByLibrary.simpleMessage("Sign in with Google "),
+        "signOut": MessageLookupByLibrary.simpleMessage("Sign Out"),
         "signUp": MessageLookupByLibrary.simpleMessage("Sign up"),
+        "signUpWithGoogle":
+            MessageLookupByLibrary.simpleMessage("Sign up with Google "),
         "subjects": MessageLookupByLibrary.simpleMessage("Subjects"),
         "submit": MessageLookupByLibrary.simpleMessage("Verify OTP"),
         "up": MessageLookupByLibrary.simpleMessage("up"),

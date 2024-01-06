@@ -190,10 +190,10 @@ class S {
     );
   }
 
-  /// `Login`
+  /// `Sign i`
   String get loginScreenButton {
     return Intl.message(
-      'Login',
+      'Sign i',
       name: 'loginScreenButton',
       desc: '',
       args: [],
@@ -260,9 +260,25 @@ class S {
     );
   }
 
-  // skipped getter for the 'signUpWithGoogle ' key
+  /// `Sign up with Google `
+  String get signUpWithGoogle {
+    return Intl.message(
+      'Sign up with Google ',
+      name: 'signUpWithGoogle',
+      desc: '',
+      args: [],
+    );
+  }
 
-  // skipped getter for the 'signInWithGoogle ' key
+  /// `Sign in with Google `
+  String get signInWithGoogle {
+    return Intl.message(
+      'Sign in with Google ',
+      name: 'signInWithGoogle',
+      desc: '',
+      args: [],
+    );
+  }
 
   /// `Sign up`
   String get signUp {
@@ -274,10 +290,10 @@ class S {
     );
   }
 
-  /// `Already have an account`
+  /// `Already have an account?`
   String get registerScreenHaveAccount {
     return Intl.message(
-      'Already have an account',
+      'Already have an account?',
       name: 'registerScreenHaveAccount',
       desc: '',
       args: [],
@@ -474,6 +490,56 @@ class S {
     );
   }
 
+  /// `My Cart`
+  String get cart {
+    return Intl.message(
+      'My Cart',
+      name: 'cart',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Favorite`
+  String get favorite {
+    return Intl.message(
+      'Favorite',
+      name: 'favorite',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Notification`
+  String get notification {
+    return Intl.message(
+      'Notification',
+      name: 'notification',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Settings`
+  String get settings {
+    return Intl.message(
+      'Settings',
+      name: 'settings',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sign Out`
+  String get signOut {
+    return Intl.message(
+      'Sign Out',
+      name: 'signOut',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Account Details`
   String get accountDetails {
     return Intl.message(
@@ -509,6 +575,36 @@ class S {
     return Intl.message(
       'Logout',
       name: 'logout',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Explore`
+  String get explore {
+    return Intl.message(
+      'Explore',
+      name: 'explore',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Looking for shoes`
+  String get lookingFor {
+    return Intl.message(
+      'Looking for shoes',
+      name: 'lookingFor',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Select Category`
+  String get selectCategory {
+    return Intl.message(
+      'Select Category',
+      name: 'selectCategory',
       desc: '',
       args: [],
     );

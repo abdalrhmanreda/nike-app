@@ -2,7 +2,10 @@
 class Assets {
   Assets._();
 
+  static const String dataBrands = 'assets/data/brands.json';
   static const String dataData = 'assets/data/data.json';
+  static const String dataNike = 'assets/data/nike.json';
+  static const String dataProducts = 'assets/data/products.json';
   static const String iconsGoogle = 'assets/images/icons/google.png';
   static const String logoLogo = 'assets/images/logo/logo.png';
   static const String onBoarding1Nike =
@@ -29,4 +32,6 @@ class Assets {
       'assets/images/on_boarding/on_boarding2/shadow.png';
   static const String onBoarding3Vector =
       'assets/images/on_boarding/on_boarding3/Vector.png';
+  static const String profileAbdalrhmanReda =
+      'assets/images/profile/Abdalrhman-Reda.jpg';
 }

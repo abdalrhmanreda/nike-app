@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:gap/gap.dart';
 
 import '../common/container_with_text_from_feild.dart';
@@ -20,7 +21,11 @@ class TitleAndTextFormFeild extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(title, style: Theme.of(context).textTheme.bodySmall),
+        Text(
+          title,
+          style:
+              Theme.of(context).textTheme.bodySmall!.copyWith(fontSize: 15.sp),
+        ),
         const Gap(10),
         ContainerTextFormFeild(
           isPass: false,

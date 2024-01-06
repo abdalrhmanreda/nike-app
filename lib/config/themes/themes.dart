@@ -14,6 +14,7 @@ class Style {
           onPrimary: const Color(AppColors.kPrimaryColor),
           onSurface: Colors.black,
         ),
+    useMaterial3: false,
     appBarTheme: AppBarTheme(
       backgroundColor: const Color(AppColors.kScaffoldBackGroundColor),
       elevation: 0,

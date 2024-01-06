@@ -77,7 +77,7 @@ class LoginScreenBody extends StatelessWidget {
                                   ),
                         ),
                       ),
-                      const Gap(15),
+                      const Gap(20),
                       ConditionalBuilder(
                           condition: state is! LoadingState,
                           builder: (context) => CustomButton(
@@ -96,11 +96,11 @@ class LoginScreenBody extends StatelessWidget {
                                 vertical: 0,
                                 radius: 10,
                                 textColor: AppColors.kWhiteColor,
-                                fontSize: 20.sp,
+                                fontSize: 18.sp,
                               ),
                           fallback: (context) =>
                               const CustomLoadingIndicator()),
-                      const Gap(20),
+                      const Gap(25),
                       const SignWithGoogle(text: "Sign in with Google "),
                       const Gap(20),
                       customTextNextToTextButton(

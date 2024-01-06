@@ -10,7 +10,7 @@ class AppColors {
   static const int kGreyColor = 0xff82898d;
   static const int kOrangeColor = 0xffff6900;
   static const int kSkyBlueColor = 0xffe5eff5;
-  static const int kScaffoldBackGroundColor = 0xffF2F2F2;
+  static const int kScaffoldBackGroundColor = 0xfff7f7f9;
   static const int kLabelOfSearchTextFromFeildColor = 0xffb2dbf5;
   static const int kOnBoardingDesc = 0xffD8D8D8;
 }

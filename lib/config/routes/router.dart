@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:nike/config/routes/routes_path.dart';
 import 'package:nike/ui/feature/authentication/screens/login_screen/login_screen.dart';
 import 'package:nike/ui/feature/authentication/screens/otp_code_screen/otp_code_screen.dart';
+import 'package:nike/ui/feature/search/screens/screen.dart';
 import 'package:nike/ui/feature/splash_screen/screens/splash_screen.dart';
 
 import '../../ui/feature/authentication/screens/register_screen/register_screen.dart';
@@ -22,8 +23,8 @@ Route? generateRoute(RouteSettings settings) {
       return MaterialPageRoute(builder: (_) => const OtpCodeScreen());
     case RoutePath.layout:
       return MaterialPageRoute(builder: (_) => const LayoutScreen());
-    // case RoutePath.courseDetails:
-    //   return MaterialPageRoute(builder: (_) => const CourseDetailsScreen());
+    case RoutePath.searchScreen:
+      return MaterialPageRoute(builder: (_) => const SearchScreen());
     // case RoutePath.lectureDetails:
     //   return MaterialPageRoute(builder: (_) => const LectureDetailsScreen());
     // case RoutePath.profile:

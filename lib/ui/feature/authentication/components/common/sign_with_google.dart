@@ -13,11 +13,17 @@ class SignWithGoogle extends StatelessWidget {
       children: [
         Image.asset(
           Assets.iconsGoogle,
-          width: 20,
-          height: 20,
+          width: 30,
+          height: 30,
         ),
         const Gap(10),
-        Text(text),
+        Text(
+          text,
+          style: Theme.of(context)
+              .textTheme
+              .bodyMedium!
+              .copyWith(fontSize: 17, fontWeight: FontWeight.w500),
+        ),
       ],
     );
   }
