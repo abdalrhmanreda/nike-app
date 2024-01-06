@@ -2,6 +2,8 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:meta/meta.dart';
 import 'package:nike/core/api/api_constant.dart';
 import 'package:nike/core/api/dio_helper.dart';
+import 'package:nike/core/cache/hive_cache.dart';
+import 'package:nike/ui/feature/authentication/models/ResponeModel.dart';
 
 part 'auth_state.dart';
 
@@ -26,9 +28,34 @@ class AuthCubit extends Cubit<AuthState> {
         "phone": phone,
       },
     ).then((value) {
-      ApiConstant.token = value.data['token'];
-      print(value.data['token']);
+      ResponeModel responeModel = ResponeModel.fromJson(value.data);
+      ApiConstant.token = responeModel.token!;
+      HiveCache.saveData(key: 'token', value: responeModel.token!);
+      print(responeModel.token!);
       emit(RegisterSuccessState());
+    }).catchError((error) {
+      print(error.toString());
+      emit(FailureState(error: error.toString()));
+    });
+  }
+
+  void userLogin({
+    required String email,
+    required String password,
+  }) {
+    emit(LoadingState());
+    DioHelper.postData(
+      url: ApiConstant.signIn,
+      data: {
+        "email": email,
+        "password": password,
+      },
+    ).then((value) {
+      ResponeModel responeModel = ResponeModel.fromJson(value.data);
+      ApiConstant.token = responeModel.token!;
+      HiveCache.saveData(key: 'token', value: responeModel.token!);
+      print(responeModel.token!);
+      emit(LoginSuccessState());
     }).catchError((error) {
       print(error.toString());
       emit(FailureState(error: error.toString()));

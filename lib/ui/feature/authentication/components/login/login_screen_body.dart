@@ -25,7 +25,7 @@ class LoginScreenBody extends StatelessWidget {
     var passController = TextEditingController();
     return BlocConsumer<AuthCubit, AuthState>(
       listener: (context, state) {
-        if (state is GetUserDataSuccessState && state is LoginSuccessState) {
+        if (state is LoginSuccessState) {
           // showToast(message: 'Login successfully', state: ToastState.SUCCESS);
           CustomNavigation.navigateByNamedTo(context, RoutePath.layout);
         } else if (state is FailureState) {
@@ -83,9 +83,9 @@ class LoginScreenBody extends StatelessWidget {
                           builder: (context) => CustomButton(
                                 onPressed: () {
                                   if (formKey.currentState!.validate()) {
-                                    // AuthCubit.get(context).userLogin(
-                                    //     email: emailController.text,
-                                    //     password: passController.text);
+                                    AuthCubit.get(context).userLogin(
+                                        email: emailController.text,
+                                        password: passController.text);
                                   }
                                 },
                                 text: S.of(context).loginScreenButton,
