@@ -50,6 +50,16 @@ class S {
     return Localizations.of<S>(context, S);
   }
 
+  /// `Nike`
+  String get appName {
+    return Intl.message(
+      'Nike',
+      name: 'appName',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Welcome to \nNike`
   String get onBoardingTitle1 {
     return Intl.message(
@@ -130,40 +140,50 @@ class S {
     );
   }
 
-  /// `Log`
+  /// `Hello Again!`
   String get loginScreenTitlePartOne {
     return Intl.message(
-      'Log',
+      'Hello Again!',
       name: 'loginScreenTitlePartOne',
       desc: '',
       args: [],
     );
   }
 
-  /// ` In`
+  /// ` `
   String get loginScreenTitlePartTwo {
     return Intl.message(
-      ' In',
+      ' ',
       name: 'loginScreenTitlePartTwo',
       desc: '',
       args: [],
     );
   }
 
-  /// `Email`
+  /// `example@gmail.com`
   String get loginScreenEmail {
     return Intl.message(
-      'Email',
+      'example@gmail.com',
       name: 'loginScreenEmail',
       desc: '',
       args: [],
     );
   }
 
-  /// `password`
+  /// `Email Address`
+  String get email {
+    return Intl.message(
+      'Email Address',
+      name: 'email',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `********`
   String get loginScreenPass {
     return Intl.message(
-      'password',
+      '********',
       name: 'loginScreenPass',
       desc: '',
       args: [],
@@ -180,10 +200,10 @@ class S {
     );
   }
 
-  /// `Don't have an account ? `
+  /// `New User?`
   String get loginScreenHaveNotAccount {
     return Intl.message(
-      'Don\'t have an account ? ',
+      'New User?',
       name: 'loginScreenHaveNotAccount',
       desc: '',
       args: [],
@@ -200,10 +220,10 @@ class S {
     );
   }
 
-  /// `Forget Password ?`
+  /// `Recovery Password`
   String get loginScreenForgetPass {
     return Intl.message(
-      'Forget Password ?',
+      'Recovery Password',
       name: 'loginScreenForgetPass',
       desc: '',
       args: [],
@@ -240,6 +260,10 @@ class S {
     );
   }
 
+  // skipped getter for the 'signUpWithGoogle ' key
+
+  // skipped getter for the 'signInWithGoogle ' key
+
   /// `Sign up`
   String get signUp {
     return Intl.message(
@@ -260,20 +284,20 @@ class S {
     );
   }
 
-  /// `Effortlessly access personalized learning experiences with the 3lamni `
+  /// `Fill your details or continue with\nsocial media`
   String get loginDesc {
     return Intl.message(
-      'Effortlessly access personalized learning experiences with the 3lamni ',
+      'Fill your details or continue with\nsocial media',
       name: 'loginDesc',
       desc: '',
       args: [],
     );
   }
 
-  /// `3lamni's offers a seamless user experience for new learners `
+  /// `Fill your details or continue with\nsocial media`
   String get registerScreenDescription {
     return Intl.message(
-      '3lamni\'s offers a seamless user experience for new learners ',
+      'Fill your details or continue with\nsocial media',
       name: 'registerScreenDescription',
       desc: '',
       args: [],
@@ -460,10 +484,10 @@ class S {
     );
   }
 
-  /// `Passwords`
+  /// `Password`
   String get password {
     return Intl.message(
-      'Passwords',
+      'Password',
       name: 'password',
       desc: '',
       args: [],

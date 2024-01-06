@@ -3,7 +3,8 @@ class Assets {
   Assets._();
 
   static const String dataData = 'assets/data/data.json';
-  static const String logoLogo = 'assets/images/logo/logo.svg';
+  static const String iconsGoogle = 'assets/images/icons/google.png';
+  static const String logoLogo = 'assets/images/logo/logo.png';
   static const String onBoarding1Nike =
       'assets/images/on_boarding/on_boarding1/nike.png';
   static const String onBoarding1OnBoarding1 =

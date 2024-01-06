@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:nike/core/api/dio_helper.dart';
+import 'package:nike/core/observer/blocObserver.dart';
+import 'package:nike/ui/feature/authentication/controller/auth_cubit.dart';
 
 import 'config/routes/router.dart';
 import 'config/routes/routes_path.dart';
@@ -8,6 +12,9 @@ import 'config/themes/themes.dart';
 import 'generated/l10n.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  DioHelper.init();
+  Bloc.observer = MyBlocObserver();
   runApp(const NikeApp());
 }
 
@@ -21,11 +28,16 @@ class NikeApp extends StatelessWidget {
       minTextAdapt: true,
       splitScreenMode: true,
       builder: (context, child) {
-        return SafeArea(
+        return MultiBlocProvider(
+          providers: [
+            BlocProvider(
+              create: (context) => AuthCubit(),
+            ),
+          ],
           child: MaterialApp(
             onGenerateRoute: generateRoute,
             // home: startWidget,
-            initialRoute: RoutePath.onBoarding,
+            initialRoute: RoutePath.login,
             locale: const Locale('en', 'US'),
             localizationsDelegates: const [
               S.delegate,

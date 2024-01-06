@@ -24,28 +24,32 @@ class MessageLookup extends MessageLookupByLibrary {
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "accountDetails":
             MessageLookupByLibrary.simpleMessage("Account Details"),
+        "appName": MessageLookupByLibrary.simpleMessage("Nike"),
         "back": MessageLookupByLibrary.simpleMessage("Back"),
         "cash": MessageLookupByLibrary.simpleMessage("Cash"),
         "choosePayment":
             MessageLookupByLibrary.simpleMessage("Choose Pay Method"),
         "contactUs": MessageLookupByLibrary.simpleMessage("Contact Us"),
         "download": MessageLookupByLibrary.simpleMessage("Download"),
+        "email": MessageLookupByLibrary.simpleMessage("Email Address"),
         "files": MessageLookupByLibrary.simpleMessage("Files"),
         "home": MessageLookupByLibrary.simpleMessage("Home"),
         "lecture": MessageLookupByLibrary.simpleMessage("Lecture"),
         "loginDesc": MessageLookupByLibrary.simpleMessage(
-            "Effortlessly access personalized learning experiences with the 3lamni "),
+            "Fill your details or continue with\nsocial media"),
         "loginScreenButton": MessageLookupByLibrary.simpleMessage("Login"),
         "loginScreenCreateAccount":
             MessageLookupByLibrary.simpleMessage("create account"),
-        "loginScreenEmail": MessageLookupByLibrary.simpleMessage("Email"),
+        "loginScreenEmail":
+            MessageLookupByLibrary.simpleMessage("example@gmail.com"),
         "loginScreenForgetPass":
-            MessageLookupByLibrary.simpleMessage("Forget Password ?"),
+            MessageLookupByLibrary.simpleMessage("Recovery Password"),
         "loginScreenHaveNotAccount":
-            MessageLookupByLibrary.simpleMessage("Don\'t have an account ? "),
-        "loginScreenPass": MessageLookupByLibrary.simpleMessage("password"),
-        "loginScreenTitlePartOne": MessageLookupByLibrary.simpleMessage("Log"),
-        "loginScreenTitlePartTwo": MessageLookupByLibrary.simpleMessage(" In"),
+            MessageLookupByLibrary.simpleMessage("New User?"),
+        "loginScreenPass": MessageLookupByLibrary.simpleMessage("********"),
+        "loginScreenTitlePartOne":
+            MessageLookupByLibrary.simpleMessage("Hello Again!"),
+        "loginScreenTitlePartTwo": MessageLookupByLibrary.simpleMessage(" "),
         "logout": MessageLookupByLibrary.simpleMessage("Logout"),
         "onBoardingButtonText": MessageLookupByLibrary.simpleMessage("Next"),
         "onBoardingDescription1": MessageLookupByLibrary.simpleMessage(
@@ -64,12 +68,12 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("You Have the Power To"),
         "otpCodeCode": MessageLookupByLibrary.simpleMessage(" OTP"),
         "otpCodeEnter": MessageLookupByLibrary.simpleMessage("Enter"),
-        "password": MessageLookupByLibrary.simpleMessage("Passwords"),
+        "password": MessageLookupByLibrary.simpleMessage("Password"),
         "profile": MessageLookupByLibrary.simpleMessage("Profile"),
         "rating": MessageLookupByLibrary.simpleMessage("Rating"),
         "registerFullName": MessageLookupByLibrary.simpleMessage("Full name"),
         "registerScreenDescription": MessageLookupByLibrary.simpleMessage(
-            "3lamni\'s offers a seamless user experience for new learners "),
+            "Fill your details or continue with\nsocial media"),
         "registerScreenHaveAccount":
             MessageLookupByLibrary.simpleMessage("Already have an account"),
         "sign": MessageLookupByLibrary.simpleMessage("Sign"),
