@@ -27,17 +27,30 @@ class MessageLookup extends MessageLookupByLibrary {
         "appName": MessageLookupByLibrary.simpleMessage("Nike"),
         "back": MessageLookupByLibrary.simpleMessage("Back"),
         "cart": MessageLookupByLibrary.simpleMessage("My Cart"),
+        "cartScreen": MessageLookupByLibrary.simpleMessage("Cart Screen"),
+        "cartScreenTitle": MessageLookupByLibrary.simpleMessage("Cart Screen"),
         "cash": MessageLookupByLibrary.simpleMessage("Cash"),
         "choosePayment":
             MessageLookupByLibrary.simpleMessage("Choose Pay Method"),
         "contactUs": MessageLookupByLibrary.simpleMessage("Contact Us"),
+        "contactUsScreen":
+            MessageLookupByLibrary.simpleMessage("Contact Us Screen"),
+        "contactUsScreenTitle":
+            MessageLookupByLibrary.simpleMessage("Contact Us Screen"),
         "download": MessageLookupByLibrary.simpleMessage("Download"),
         "email": MessageLookupByLibrary.simpleMessage("Email Address"),
         "explore": MessageLookupByLibrary.simpleMessage("Explore"),
         "favorite": MessageLookupByLibrary.simpleMessage("Favorite"),
+        "favoriteScreen":
+            MessageLookupByLibrary.simpleMessage("Favorite Screen"),
+        "favoriteScreenTitle":
+            MessageLookupByLibrary.simpleMessage("Favorite Screen"),
         "files": MessageLookupByLibrary.simpleMessage("Files"),
         "home": MessageLookupByLibrary.simpleMessage("Home"),
+        "homeScreen": MessageLookupByLibrary.simpleMessage("Home Screen"),
+        "homeScreenTitle": MessageLookupByLibrary.simpleMessage("Home Screen"),
         "lecture": MessageLookupByLibrary.simpleMessage("Lecture"),
+        "location": MessageLookupByLibrary.simpleMessage("Location"),
         "loginDesc": MessageLookupByLibrary.simpleMessage(
             "Fill your details or continue with\nsocial media"),
         "loginScreenButton": MessageLookupByLibrary.simpleMessage("Sign i"),
@@ -56,6 +69,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "logout": MessageLookupByLibrary.simpleMessage("Logout"),
         "lookingFor": MessageLookupByLibrary.simpleMessage("Looking for shoes"),
         "notification": MessageLookupByLibrary.simpleMessage("Notification"),
+        "notificationScreen":
+            MessageLookupByLibrary.simpleMessage("Notification Screen"),
+        "notificationScreenTitle":
+            MessageLookupByLibrary.simpleMessage("Notification Screen"),
         "onBoardingButtonText": MessageLookupByLibrary.simpleMessage("Next"),
         "onBoardingDescription1": MessageLookupByLibrary.simpleMessage(
             "Discover a world of knowledge and learning at your fingertips with 3almni. We\'re here to guide you through an enriching educational journey"),
@@ -74,8 +91,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "otpCodeCode": MessageLookupByLibrary.simpleMessage(" OTP"),
         "otpCodeEnter": MessageLookupByLibrary.simpleMessage("Enter"),
         "password": MessageLookupByLibrary.simpleMessage("Password"),
+        "phone": MessageLookupByLibrary.simpleMessage("Phone"),
         "popularShoes": MessageLookupByLibrary.simpleMessage("Popular Shoes"),
         "profile": MessageLookupByLibrary.simpleMessage("Profile"),
+        "profileScreen": MessageLookupByLibrary.simpleMessage("Profile Screen"),
+        "profileScreenTitle":
+            MessageLookupByLibrary.simpleMessage("Profile Screen"),
         "rating": MessageLookupByLibrary.simpleMessage("Rating"),
         "registerFullName": MessageLookupByLibrary.simpleMessage("Full name"),
         "registerScreenDescription": MessageLookupByLibrary.simpleMessage(
@@ -85,6 +106,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "selectCategory":
             MessageLookupByLibrary.simpleMessage("Select Category"),
         "settings": MessageLookupByLibrary.simpleMessage("Settings"),
+        "settingsScreen":
+            MessageLookupByLibrary.simpleMessage("Settings Screen"),
+        "settingsScreenTitle":
+            MessageLookupByLibrary.simpleMessage("Settings Screen"),
+        "shoes": MessageLookupByLibrary.simpleMessage("Shoes"),
         "sign": MessageLookupByLibrary.simpleMessage("Sign"),
         "signInWithGoogle":
             MessageLookupByLibrary.simpleMessage("Sign in with Google "),

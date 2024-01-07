@@ -32,7 +32,10 @@ class ProductItem extends StatelessWidget {
             alignment: Alignment.topLeft,
             child: IconButton(
               onPressed: () {},
-              icon: const Icon(Iconsax.heart_outline),
+              icon: const Icon(
+                Iconsax.heart_outline,
+                color: Colors.red,
+              ),
             ),
           ),
           const Gap(5),

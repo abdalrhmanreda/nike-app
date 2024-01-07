@@ -37,6 +37,8 @@ class AppCubit extends Cubit<AppState> {
     NotificationScreen(),
     ProfileScreen(),
   ];
+
+  List<String> titles = ['Explore', 'Favourite', 'Notification', 'Profile'];
   int currentIndex = 0;
 
   void chageBottomNavBar(int index) {

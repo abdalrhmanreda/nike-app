@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_advanced_drawer/flutter_advanced_drawer.dart';
 import 'package:icons_plus/icons_plus.dart';
+import 'package:nike/ui/cubit/app_cubit.dart';
 
 import '../../../../config/colors/app_colors.dart';
-import '../../../../generated/l10n.dart';
 
 class LayoutAppBar extends StatelessWidget implements PreferredSizeWidget {
   const LayoutAppBar({
@@ -22,7 +22,7 @@ class LayoutAppBar extends StatelessWidget implements PreferredSizeWidget {
       ),
       centerTitle: true,
       title: Text(
-        S.of(context).explore,
+        AppCubit.get(context).titles[AppCubit.get(context).currentIndex],
         style: Theme.of(context).textTheme.titleLarge!.copyWith(
               fontWeight: FontWeight.w500,
             ),

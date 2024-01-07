@@ -619,6 +619,176 @@ class S {
       args: [],
     );
   }
+
+  /// `Phone`
+  String get phone {
+    return Intl.message(
+      'Phone',
+      name: 'phone',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Home Screen`
+  String get homeScreen {
+    return Intl.message(
+      'Home Screen',
+      name: 'homeScreen',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Favorite Screen`
+  String get favoriteScreen {
+    return Intl.message(
+      'Favorite Screen',
+      name: 'favoriteScreen',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Cart Screen`
+  String get cartScreen {
+    return Intl.message(
+      'Cart Screen',
+      name: 'cartScreen',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Profile Screen`
+  String get profileScreen {
+    return Intl.message(
+      'Profile Screen',
+      name: 'profileScreen',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Notification Screen`
+  String get notificationScreen {
+    return Intl.message(
+      'Notification Screen',
+      name: 'notificationScreen',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Settings Screen`
+  String get settingsScreen {
+    return Intl.message(
+      'Settings Screen',
+      name: 'settingsScreen',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Contact Us Screen`
+  String get contactUsScreen {
+    return Intl.message(
+      'Contact Us Screen',
+      name: 'contactUsScreen',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Location`
+  String get location {
+    return Intl.message(
+      'Location',
+      name: 'location',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Home Screen`
+  String get homeScreenTitle {
+    return Intl.message(
+      'Home Screen',
+      name: 'homeScreenTitle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Favorite Screen`
+  String get favoriteScreenTitle {
+    return Intl.message(
+      'Favorite Screen',
+      name: 'favoriteScreenTitle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Cart Screen`
+  String get cartScreenTitle {
+    return Intl.message(
+      'Cart Screen',
+      name: 'cartScreenTitle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Profile Screen`
+  String get profileScreenTitle {
+    return Intl.message(
+      'Profile Screen',
+      name: 'profileScreenTitle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Notification Screen`
+  String get notificationScreenTitle {
+    return Intl.message(
+      'Notification Screen',
+      name: 'notificationScreenTitle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Settings Screen`
+  String get settingsScreenTitle {
+    return Intl.message(
+      'Settings Screen',
+      name: 'settingsScreenTitle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Contact Us Screen`
+  String get contactUsScreenTitle {
+    return Intl.message(
+      'Contact Us Screen',
+      name: 'contactUsScreenTitle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Shoes`
+  String get shoes {
+    return Intl.message(
+      'Shoes',
+      name: 'shoes',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

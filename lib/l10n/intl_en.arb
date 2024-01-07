@@ -55,7 +55,24 @@
   "explore": "Explore" ,
   "lookingFor": "Looking for shoes" ,
   "selectCategory": "Select Category" ,
-  "popularShoes": "Popular Shoes"
+  "popularShoes": "Popular Shoes" ,
+  "phone": "Phone" ,
+  "homeScreen": "Home Screen" ,
+  "favoriteScreen": "Favorite Screen" ,
+  "cartScreen": "Cart Screen" ,
+  "profileScreen": "Profile Screen" ,
+  "notificationScreen": "Notification Screen" ,
+  "settingsScreen": "Settings Screen" ,
+  "contactUsScreen": "Contact Us Screen",
+  "location": "Location" ,
+  "homeScreenTitle": "Home Screen" ,
+  "favoriteScreenTitle": "Favorite Screen" ,
+  "cartScreenTitle": "Cart Screen" ,
+  "profileScreenTitle": "Profile Screen" ,
+  "notificationScreenTitle": "Notification Screen" ,
+  "settingsScreenTitle": "Settings Screen" ,
+  "contactUsScreenTitle": "Contact Us Screen" ,
+  "shoes": "Shoes"
 
 
 
