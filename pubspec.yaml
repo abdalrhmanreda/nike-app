@@ -127,5 +127,7 @@ flutter:
     - assets/images/on_boarding/on_boarding3/
     - assets/images/icons/
     - assets/images/profile/
+    - assets/images/details/
+    - assets/data/
 flutter_intl:
   enabled: true

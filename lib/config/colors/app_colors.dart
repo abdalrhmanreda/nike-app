@@ -13,4 +13,5 @@ class AppColors {
   static const int kScaffoldBackGroundColor = 0xfff7f7f9;
   static const int kLabelOfSearchTextFromFeildColor = 0xffb2dbf5;
   static const int kOnBoardingDesc = 0xffD8D8D8;
+  static const int kPriceColor = 0xff6A6A6A;
 }

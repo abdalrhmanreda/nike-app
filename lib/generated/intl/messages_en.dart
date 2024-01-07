@@ -74,6 +74,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "otpCodeCode": MessageLookupByLibrary.simpleMessage(" OTP"),
         "otpCodeEnter": MessageLookupByLibrary.simpleMessage("Enter"),
         "password": MessageLookupByLibrary.simpleMessage("Password"),
+        "popularShoes": MessageLookupByLibrary.simpleMessage("Popular Shoes"),
         "profile": MessageLookupByLibrary.simpleMessage("Profile"),
         "rating": MessageLookupByLibrary.simpleMessage("Rating"),
         "registerFullName": MessageLookupByLibrary.simpleMessage("Full name"),

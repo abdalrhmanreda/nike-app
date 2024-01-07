@@ -44,7 +44,7 @@ class NikeApp extends StatelessWidget {
               create: (context) => AppCubit(),
             ),
             BlocProvider(
-              create: (context) => ProductCubit(),
+              create: (context) => ProductCubit()..getAllData(),
             ),
           ],
           child: MaterialApp(

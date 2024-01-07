@@ -24,4 +24,7 @@ class CustomNavigation {
   static void navigateAndReplacement(context, widget) =>
       Navigator.pushReplacement(
           context, MaterialPageRoute(builder: (context) => widget));
+
+  static void navigateByNamedToWithArguments(context, widget, arguments) =>
+      Navigator.pushNamed(context, widget);
 }
