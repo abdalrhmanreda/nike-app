@@ -8,6 +8,7 @@ import 'package:nike/core/observer/blocObserver.dart';
 import 'package:nike/ui/cubit/app_cubit.dart';
 import 'package:nike/ui/feature/authentication/controller/auth_cubit.dart';
 import 'package:nike/ui/feature/home/controllers/product_cubit.dart';
+import 'package:nike/ui/feature/product_details/controller/product_details_cubit.dart';
 
 import 'config/routes/router.dart';
 import 'config/routes/routes_path.dart';
@@ -17,11 +18,10 @@ import 'generated/l10n.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await HiveCache.openHive();
-  String token = HiveCache.getData(key: 'token') ?? '';
+  String token = HiveCache.getData(key: 'userId') ?? '';
   bool onBoarding = HiveCache.getData(key: 'onBoarding') ?? false;
   DioHelper.init();
   Bloc.observer = MyBlocObserver();
-  print(token);
   runApp(const NikeApp());
 }
 
@@ -46,6 +46,7 @@ class NikeApp extends StatelessWidget {
             BlocProvider(
               create: (context) => ProductCubit()..getAllData(),
             ),
+            BlocProvider(create: (context) => ProductDetailsCubit())
           ],
           child: MaterialApp(
             onGenerateRoute: generateRoute,

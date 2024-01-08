@@ -26,7 +26,9 @@ class ProductCubit extends Cubit<ProductState> {
   ];
 
   List<ProductModel> products = [];
+  List<ProductModel> specificProducts = [];
   void getAllData() {
+    products = [];
     emit(LoadingState());
     rootBundle.loadString(Assets.dataProducts).then((value) {
       jsonDecode(value)['data'].forEach((element) {
@@ -35,6 +37,20 @@ class ProductCubit extends Cubit<ProductState> {
       emit(SuccessState());
     }).catchError((error) {
       print(error.toString());
+      emit(FailureState(error: error.toString()));
+    });
+  }
+
+  void getSpecificProducts({required String brand}) {
+    specificProducts = [];
+    emit(LoadingState());
+    rootBundle.loadString(Assets.dataBrands).then((value) {
+      jsonDecode(value)[brand].forEach((element) {
+        specificProducts.add(ProductModel.fromJson(element));
+      });
+
+      emit(SuccessState());
+    }).catchError((error) {
       emit(FailureState(error: error.toString()));
     });
   }

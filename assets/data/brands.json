@@ -1,4 +1,5 @@
 {
+
     "Nike": [
         {
             "id": "8b1d31d2-6e7b-4e0a-85c5-d3dd769237f7",
@@ -38,7 +39,7 @@
             "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-flex-supreme-tr-5-wolf-grey-ghost-green-w.webp",
             "releasedAt": null,
             "sizing": "woman",
-            "initialPrice": null,
+            "initialPrice": 75,
             "colorway": "Wolf Grey/Ghost Green",
             "sku": "852467-005",
             "createdAt": "2023-04-03T21:01:06.821722+00:00",
@@ -118,7 +119,7 @@
             "image": "https://retailed.fra1.digitaloceanspaces.com/p/air-max-uptempo-97-cranberry.webp",
             "releasedAt": null,
             "sizing": "man",
-            "initialPrice": null,
+            "initialPrice": 55,
             "colorway": "Varsity Red/Black-Varsity Red",
             "sku": "399207-600",
             "createdAt": "2023-04-08T21:39:39.937049+00:00",
@@ -150,7 +151,7 @@
             "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-air-max-tavas-black-persian-voliet-white.webp",
             "releasedAt": null,
             "sizing": "man",
-            "initialPrice": null,
+            "initialPrice": 74,
             "colorway": "Black/Persian Voliet-White",
             "sku": "705149-025",
             "createdAt": "2023-04-11T20:59:01.068944+00:00",
@@ -356,38 +357,7 @@
                 "name": "Converse"
             }
         },
-        {
-            "id": "75d8b444-cce8-42ca-bbd4-199655d755d5",
-            "name": "Converse Aeon Active CX Ox Pale Bone",
-            "image": "None",
-            "releasedAt": null,
-            "sizing": "converse",
-            "initialPrice": 100,
-            "colorway": "Egret/Pale Bone",
-            "sku": "171558C",
-            "createdAt": "2023-03-05T22:05:17.301127+00:00",
-            "updatedAt": "2023-11-15T06:57:00.658272+00:00",
-            "brand": {
-                "id": "71f7f85d-e21f-4dbe-a6d5-7f3dcf094d5e",
-                "name": "Converse"
-            }
-        },
-        {
-            "id": "0b363a00-b92b-4aa7-85c4-0b6fb2f4066b",
-            "name": "Converse Chuck Taylor All Star Hi Logo Play Rush Blue",
-            "image": "None",
-            "releasedAt": null,
-            "sizing": "converse",
-            "initialPrice": 70,
-            "colorway": "White/Rush Blue/Rose Maroon",
-            "sku": "166735C",
-            "createdAt": "2023-04-27T14:06:16.575057+00:00",
-            "updatedAt": "2023-11-15T07:03:00.655649+00:00",
-            "brand": {
-                "id": "71f7f85d-e21f-4dbe-a6d5-7f3dcf094d5e",
-                "name": "Converse"
-            }
-        },
+
         {
             "id": "5bf65b3d-a548-4880-ae38-906e4e63589b",
             "name": "Converse Chuck Taylor All Star Hi Total Orange",
@@ -670,7 +640,7 @@
             "image": "https://retailed.fra1.digitaloceanspaces.com/p/puma-speed-cat-bmw-motorsport-triple-white.webp",
             "releasedAt": null,
             "sizing": "puma",
-            "initialPrice": null,
+            "initialPrice": 95,
             "colorway": "White/White/White",
             "sku": "306639-02",
             "createdAt": "2023-04-09T17:19:03.917074+00:00",
@@ -766,7 +736,7 @@
             "image": "https://retailed.fra1.digitaloceanspaces.com/p/puma-ignite-disc-black-green-gecko.webp",
             "releasedAt": null,
             "sizing": "puma",
-            "initialPrice": null,
+            "initialPrice": 150,
             "colorway": "Black/Green Gecko",
             "sku": "188616-03",
             "createdAt": "2023-03-03T14:41:36.848679+00:00",
@@ -782,7 +752,7 @@
             "image": "https://retailed.fra1.digitaloceanspaces.com/p/puma-mayze-white-black-pink-w.webp",
             "releasedAt": null,
             "sizing": "puma",
-            "initialPrice": null,
+            "initialPrice": 125,
             "colorway": "White/Black/Pink/Yellow",
             "sku": "381983-11",
             "createdAt": "2023-03-12T17:54:33.846573+00:00",
@@ -971,7 +941,7 @@
             }
         }
     ],
-    "Crocs": [
+    "Cross": [
         {
             "id": "58ade3a6-8533-4d23-9b13-8fa9c5234ac2",
             "name": "Crocs Classic Clog Elf",
@@ -1174,7 +1144,7 @@
             "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-flex-supreme-tr-5-wolf-grey-ghost-green-w.webp",
             "releasedAt": null,
             "sizing": "woman",
-            "initialPrice": null,
+            "initialPrice": 200,
             "colorway": "Wolf Grey/Ghost Green",
             "sku": "852467-005",
             "createdAt": "2023-04-03T21:01:06.821722+00:00",

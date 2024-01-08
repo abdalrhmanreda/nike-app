@@ -190,10 +190,10 @@ class S {
     );
   }
 
-  /// `Sign i`
+  /// `Sign in`
   String get loginScreenButton {
     return Intl.message(
-      'Sign i',
+      'Sign in',
       name: 'loginScreenButton',
       desc: '',
       args: [],
@@ -785,6 +785,16 @@ class S {
     return Intl.message(
       'Shoes',
       name: 'shoes',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sneaker Shop`
+  String get sneakerShop {
+    return Intl.message(
+      'Sneaker Shop',
+      name: 'sneakerShop',
       desc: '',
       args: [],
     );

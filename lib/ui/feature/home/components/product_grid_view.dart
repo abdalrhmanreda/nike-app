@@ -3,14 +3,17 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:nike/core/components/custom_navigatation.dart';
 import 'package:nike/ui/feature/home/components/product_item.dart';
+import 'package:nike/ui/feature/product_details/controller/product_details_cubit.dart';
 import 'package:nike/ui/feature/product_details/screens/product_details.dart';
 
 import '../controllers/product_cubit.dart';
 
 class ProductsGridView extends StatelessWidget {
   const ProductsGridView({
-    Key? key, // Fix the typo here
+    Key? key,
+    required this.products, // Fix the typo here
   }) : super(key: key);
+  final List products;
 
   @override
   Widget build(BuildContext context) {
@@ -29,24 +32,23 @@ class ProductsGridView extends StatelessWidget {
             crossAxisSpacing: 15,
             childAspectRatio: 0.72,
           ),
-          itemBuilder: (BuildContext context, int index) => Hero(
-            tag: index.toString(),
-            child: InkWell(
-              onTap: () {
-                CustomNavigation.navigateTo(
-                  context,
-                  ProductDetailsScreen(
-                    productModel: ProductCubit.get(context).products[index],
-                    index: '$index',
-                  ),
-                );
-              },
-              child: ProductItem(
-                productModel: ProductCubit.get(context).products[index],
-              ),
+          itemBuilder: (BuildContext context, int index) => InkWell(
+            onTap: () {
+              CustomNavigation.navigateTo(
+                context,
+                ProductDetailsScreen(
+                  productModel: products[index],
+                  index: '$index',
+                ),
+              );
+              ProductDetailsCubit.get(context)
+                  .getMoreLikeThis(brand: products[index].brand!.name!);
+            },
+            child: ProductItem(
+              productModel: products[index],
             ),
           ),
-          itemCount: ProductCubit.get(context).products.length,
+          itemCount: products.length,
         );
       },
     );

@@ -53,7 +53,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "location": MessageLookupByLibrary.simpleMessage("Location"),
         "loginDesc": MessageLookupByLibrary.simpleMessage(
             "Fill your details or continue with\nsocial media"),
-        "loginScreenButton": MessageLookupByLibrary.simpleMessage("Sign i"),
+        "loginScreenButton": MessageLookupByLibrary.simpleMessage("Sign in"),
         "loginScreenCreateAccount":
             MessageLookupByLibrary.simpleMessage("create account"),
         "loginScreenEmail":
@@ -118,6 +118,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "signUp": MessageLookupByLibrary.simpleMessage("Sign up"),
         "signUpWithGoogle":
             MessageLookupByLibrary.simpleMessage("Sign up with Google "),
+        "sneakerShop": MessageLookupByLibrary.simpleMessage("Sneaker Shop"),
         "subjects": MessageLookupByLibrary.simpleMessage("Subjects"),
         "submit": MessageLookupByLibrary.simpleMessage("Verify OTP"),
         "up": MessageLookupByLibrary.simpleMessage("up"),

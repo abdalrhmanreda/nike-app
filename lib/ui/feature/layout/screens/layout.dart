@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_advanced_drawer/flutter_advanced_drawer.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:icons_plus/icons_plus.dart';
 import 'package:nike/config/colors/app_colors.dart';
 import 'package:nike/ui/cubit/app_cubit.dart';
 
@@ -37,6 +38,28 @@ class LayoutScreen extends StatelessWidget {
         builder: (context, state) {
           return Scaffold(
             appBar: LayoutAppBar(
+              color: AppColors.kScaffoldBackGroundColor,
+              title: AppCubit.get(context)
+                  .titles[AppCubit.get(context).currentIndex],
+              onTap: () {
+                advancedDrawerController.showDrawer();
+              },
+              leading: const Icon(Iconsax.textalign_left_outline),
+              actions: [
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: CircleAvatar(
+                    backgroundColor: const Color(AppColors.kWhiteColor),
+                    child: IconButton(
+                      onPressed: () {},
+                      icon: const Icon(
+                        Iconsax.bag_2_outline,
+                        size: 25,
+                      ),
+                    ),
+                  ),
+                ),
+              ],
               advancedDrawerController: advancedDrawerController,
             ),
             body: AppCubit.get(context)

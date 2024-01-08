@@ -13,7 +13,7 @@
   "loginScreenEmail" : "example@gmail.com" ,
   "email": "Email Address" ,
   "loginScreenPass" : "********" ,
-  "loginScreenButton" : "Sign i" ,
+  "loginScreenButton" : "Sign in" ,
   "loginScreenHaveNotAccount" : "New User?" ,
   "loginScreenCreateAccount" : "create account" ,
   "loginScreenForgetPass" : "Recovery Password" ,
@@ -72,7 +72,8 @@
   "notificationScreenTitle": "Notification Screen" ,
   "settingsScreenTitle": "Settings Screen" ,
   "contactUsScreenTitle": "Contact Us Screen" ,
-  "shoes": "Shoes"
+  "shoes": "Shoes" ,
+  "sneakerShop": "Sneaker Shop"
 
 
 

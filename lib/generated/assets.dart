@@ -7,6 +7,7 @@ class Assets {
   static const String dataNike = 'assets/data/nike.json';
   static const String dataProducts = 'assets/data/products.json';
   static const String detailsEllipse = 'assets/images/details/Ellipse.png';
+  static const String detailsShoes = 'assets/images/details/shoes.png';
   static const String iconsGoogle = 'assets/images/icons/google.png';
   static const String logoLogo = 'assets/images/logo/logo.png';
   static const String onBoarding1Nike =
