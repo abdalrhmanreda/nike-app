@@ -2,9 +2,11 @@
   "data": [
     {
       "id": "8b1d31d2-6e7b-4e0a-85c5-d3dd769237f7",
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
       "name": "Nike SB Dunk Low Gibson Guitar Case",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-dunk-sb-low-gibson-guitar-case.webp",
       "releasedAt": "2007-01-01",
+
       "sizing": "man",
       "initialPrice": 100,
       "colorway": "Light British Tan/Metallic Gold",
@@ -32,6 +34,8 @@
       "name": "Nike Air More Uptempo Rayguns (PS)",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-air-more-uptempo-rayguns-ps.webp",
       "releasedAt": "2021-01-15",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "primary school",
       "initialPrice": 95,
       "colorway": "White/Multi-Color",
@@ -59,6 +63,8 @@
       "name": "Nike Flex Supreme Tr 5 Wolf Grey Ghost Green (Women's)",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-flex-supreme-tr-5-wolf-grey-ghost-green-w.webp",
       "releasedAt": null,
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "woman",
       "initialPrice": 150,
       "colorway": "Wolf Grey/Ghost Green",
@@ -86,6 +92,8 @@
       "name": "Nike Air Max 97 Tie Dye Chicago",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-air-max-97-tie-dye-chicago.webp",
       "releasedAt": "2019-07-08",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "man",
       "initialPrice": 175,
       "colorway": "Multi-Color/White",
@@ -113,6 +121,8 @@
       "name": "Nike Air Force 1 Mid Legion Green",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-air-force-1-mid-legion-green.webp",
       "releasedAt": "2017-01-29",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "man",
       "initialPrice": 95,
       "colorway": "Legion Green/White-Legion Green",
@@ -140,6 +150,8 @@
       "name": "Nike Air Max 90 Nylon Royal",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-air-max-90-nylon-royal.webp",
       "releasedAt": "2018-05-01",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "man",
       "initialPrice": 120,
       "colorway": "Deep Royal Blue/Deep Royal Blue",
@@ -167,6 +179,8 @@
       "name": "Nike Air Footscape Woven Chukka Birch Varsity Maize",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-air-footscape-woven-chukka-birch-varsity-maize.webp",
       "releasedAt": null,
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "man",
       "initialPrice": 180,
       "colorway": "Birch/Birch/Varsity Maize",
@@ -194,6 +208,8 @@
       "name": "Nike Hakata Just Do It Pack Black",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-hakata-just-do-it-pack-black.webp",
       "releasedAt": "2018-08-02",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "man",
       "initialPrice": 80,
       "colorway": "Black/White-Total Orange",
@@ -221,6 +237,8 @@
       "name": "Nike Air Max Tavas Black Persian Voliet-White",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-air-max-tavas-black-persian-voliet-white.webp",
       "releasedAt": null,
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "man",
       "initialPrice": 215,
       "colorway": "Black/Persian Voliet-White",
@@ -248,6 +266,8 @@
       "name": "adidas Yeezy Boost 350 V2 Fade",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/adidas-yeezy-boost-350-v2-yecher.webp",
       "releasedAt": "2020-11-11",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "adidas",
       "initialPrice": 220,
       "colorway": "Yecher/Yecher/Yecher",
@@ -275,6 +295,8 @@
       "name": "adidas Yeezy Boost 380 Alien Blue",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/adidas-yeezy-boost-380-alien-blue.webp",
       "releasedAt": "2021-05-31",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "adidas",
       "initialPrice": 230,
       "colorway": "Alien Blue RF/Alien Blue RF/Alien Blue RF",
@@ -302,6 +324,8 @@
       "name": "adidas Yeezy Foam RNNR Mist (Infants)",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/adidas-yeezy-foam-rnnr-mist-infants.webp",
       "releasedAt": "2022-03-11",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "yeezy infant",
       "initialPrice": 40,
       "colorway": "Mist/Mist/Mist",
@@ -329,6 +353,8 @@
       "name": "adidas Yeezy Boost 380 Blue Oat (Infants)",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/adidas-yeezy-boost-380-blue-oat-infants.webp",
       "releasedAt": "2020-07-25",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "yeezy infant",
       "initialPrice": 150,
       "colorway": "Blue Oat/Blue Oat/Blue Oat",
@@ -356,6 +382,8 @@
       "name": "adidas Yeezy 700 V3 Safflower (Kids)",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/adidas-yeezy-700-v3-safflower-kids.webp",
       "releasedAt": "2020-11-14",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "yeezy kids",
       "initialPrice": 160,
       "colorway": "Safflower/Safflower/Safflower",
@@ -383,6 +411,8 @@
       "name": "adidas Yeezy Boost 350 V2 Beluga 2.0",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/adidas-yeezy-boost-350-v2-beluga-2-0.webp",
       "releasedAt": "2017-11-25",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "adidas",
       "initialPrice": 220,
       "colorway": "Grey/Bold Orange/Dark Solid Grey",
@@ -410,6 +440,8 @@
       "name": "Yeezy Combat Boot Season 4 Sand",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/yeezy-combat-boot-season-4-sand.webp",
       "releasedAt": "2017-04-24",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "man",
       "initialPrice": 445,
       "colorway": "Sand",
@@ -437,6 +469,8 @@
       "name": "adidas Yeezy Desert Boot Rock",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/adidas-yeezy-desert-boot-rock.webp",
       "releasedAt": "2019-04-13",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "adidas",
       "initialPrice": 200,
       "colorway": "Rock/Rock/Rock",
@@ -464,6 +498,8 @@
       "name": "adidas Yeezy Foam RNR Stone Taupe",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/adidas-yeezy-foam-rnr-stone-taupe.webp",
       "releasedAt": "2023-08-30",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "yeezy",
       "initialPrice": 90,
       "colorway": "Stone Taupe/Stone Taupe/Stone Taupe",
@@ -491,6 +527,8 @@
       "name": "adidas Yeezy Boost 350 V2 Synth (Reflective)",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/adidas-yeezy-boost-350-v2-synth-reflective.webp",
       "releasedAt": "2019-06-21",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "adidas",
       "initialPrice": 220,
       "colorway": "Synth/Synth/Synth",
@@ -518,6 +556,8 @@
       "name": "Converse Chuck Taylor All Star 70 Hi Dark Burgundy",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/converse-chuck-taylor-all-star-70-hi-dark-burgundy.webp",
       "releasedAt": "2018-05-07",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "converse",
       "initialPrice": 90,
       "colorway": "Dark Burgundy/Black",
@@ -545,6 +585,8 @@
       "name": "Converse Chuck Taylor All Star 70 Hi Kith x Coca Cola White",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/converse-chuck-taylor-all-star-70s-hi-kith-russia.webp",
       "releasedAt": "2018-08-18",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "converse",
       "initialPrice": 150,
       "colorway": "White/Lapis Blue-Egret",
@@ -572,6 +614,8 @@
       "name": "Converse Chuck Taylor All Star Hi Total Orange",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/converse-chuck-taylor-all-star-hi-total-orange.webp",
       "releasedAt": "2020-04-26",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "converse",
       "initialPrice": 85,
       "colorway": "Total Orange/Egret/Black",
@@ -599,6 +643,8 @@
       "name": "Converse Chuck Taylor All Star Ox Keith Haring",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/converse-chuck-taylor-all-star-ox-keith-haring.webp",
       "releasedAt": "2021-05-13",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "converse",
       "initialPrice": 60,
       "colorway": "White/Black/Red",
@@ -626,6 +672,8 @@
       "name": "Converse One Star Pro Ox Awake NY White Sand",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/converse-one-star-pro-ox-awake-ny-white-sand.webp",
       "releasedAt": "2023-10-12",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "converse",
       "initialPrice": 95,
       "colorway": "White Sand/Black/ White",
@@ -653,6 +701,8 @@
       "name": "Converse Chuck Taylor All Star Pokemon Poke Ball",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/converse-chuck-taylor-all-star-pokemon-poke-ball.webp",
       "releasedAt": "2022-12-07",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "converse",
       "initialPrice": 70,
       "colorway": "White/Black",
@@ -680,6 +730,8 @@
       "name": "Converse One Star Ox Tyler the Creator Golf le Fleur Mono Red",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/converse-one-star-ox-tyler-the-creator-golf-le-fleur-mono-red.webp",
       "releasedAt": "2018-04-26",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "converse",
       "initialPrice": 100,
       "colorway": "Rhubarb/White",
@@ -707,6 +759,8 @@
       "name": "Converse Fastbreak Mid White Black",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/converse-fastbreak-mid-white-black.webp",
       "releasedAt": "2017-08-01",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "converse",
       "initialPrice": 80,
       "colorway": "White/Black",
@@ -734,6 +788,8 @@
       "name": "Jordan 1 Retro High Phantom Gym Red",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/air-jordan-1-retro-high-phantom-gym-red.webp",
       "releasedAt": "2019-03-30",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "man",
       "initialPrice": 160,
       "colorway": "Sail/Black-Phantom-Gym Red-University Red",
@@ -761,6 +817,8 @@
       "name": "Jordan 15 Retro Kubo (Signed) Tinker Hatfield",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/air-jordan-15-retro-kubo-signed-th.webp",
       "releasedAt": "2016-08-08",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "man",
       "initialPrice": 210,
       "colorway": "Black/Black-Royal Blue-Varsity Red",
@@ -788,6 +846,8 @@
       "name": "Jordan 1 Low Concord",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/air-jordan-1-low-concord.webp",
       "releasedAt": "2018-11-01",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "man",
       "initialPrice": 100,
       "colorway": "White/Black-Dark Concord",
@@ -815,6 +875,8 @@
       "name": "Jordan 1 High Zoom Air CMFT 2 Teyana Taylor A Rose From Harlem (Women's)",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/air-jordan-1-high-zoom-air-cmft-2-teyana-taylor-a-rose-from-harlem-womens.webp",
       "releasedAt": "2023-06-01",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "woman",
       "initialPrice": 150,
       "colorway": "Gym Red/Black-Summit White-Earth-Coconut Milk",
@@ -842,6 +904,8 @@
       "name": "Jordan 1 Low SE Paint Splatter (GS)",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/air-jordan-1-low-se-paint-splatter-gs.webp",
       "releasedAt": "2021-10-01",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "grade school",
       "initialPrice": 85,
       "colorway": "Sail/Black/Total Orange",
@@ -869,6 +933,8 @@
       "name": "Jordan 1 Retro High Turbo Green",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/air-jordan-1-retro-high-turbo-green.webp",
       "releasedAt": "2019-02-15",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "man",
       "initialPrice": 160,
       "colorway": "Turbo Green/Sail-White-Light Smoke Grey",
@@ -896,6 +962,8 @@
       "name": "Jordan 5 Retro WNBA Pinksicle Safety Orange (PS)",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/air-jordan-5-retro-wnba-pinksicle-safety-orange-ps.webp",
       "releasedAt": "2022-07-01",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "primary school",
       "initialPrice": 90,
       "colorway": "White/Pinksicle/Safety Orange",
@@ -923,6 +991,8 @@
       "name": "Jordan 19 OG SE Olympic",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/jordan-19-og-se-olympic.webp",
       "releasedAt": "2004-09-04",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "man",
       "initialPrice": 165,
       "colorway": "White/Metallic Gold-Midnight Navy",
@@ -950,6 +1020,8 @@
       "name": "Jordan 1 Elevate Low Onyx (Women's)",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/air-jordan-1-low-lv8d-elevated-onyx-w.webp",
       "releasedAt": "2022-03-23",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "woman",
       "initialPrice": 135,
       "colorway": "White/White/White Onyx",
@@ -977,6 +1049,8 @@
       "name": "Jordan 1 Retro '97 Black Toe",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/air-jordan-1-retro-97-black-toe.webp",
       "releasedAt": "2013-03-01",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "man",
       "initialPrice": 130,
       "colorway": "White/Black/Gym Red",
@@ -1004,6 +1078,8 @@
       "name": "Puma RS-Dreamer J. Cole Purple Heart (GS)",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/puma-rs-dreamer-j-cole-purple-heart-gs.webp",
       "releasedAt": "2020-08-21",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "puma",
       "initialPrice": 95,
       "colorway": "Prism Violet/Blazing Yellow",
@@ -1031,6 +1107,8 @@
       "name": "Puma RS-XL LaMelo Ball LaFrancé FOREVER.RARE",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/puma-rs-xl-lamelo-ball-lafrance-foreverrare.webp",
       "releasedAt": "2023-10-06",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "puma",
       "initialPrice": 140,
       "colorway": "Green/Spring Fern/Black",
@@ -1058,6 +1136,8 @@
       "name": "Puma Clyde Court Disrupt Summertime",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/puma-clyde-court-disrupt-summertime.webp",
       "releasedAt": "2019-05-25",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "puma",
       "initialPrice": 120,
       "colorway": "Fluorescent Green",
@@ -1085,6 +1165,8 @@
       "name": "Puma TRC Blaze Court Pokémon Gengar",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/puma-trc-blaze-court-pokemon-gengar.webp",
       "releasedAt": "2022-11-12",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "puma",
       "initialPrice": 130,
       "colorway": "Electric Purple/Fiery Red",
@@ -1112,6 +1194,8 @@
       "name": "Puma LaMelo Ball MB.02 Lunar New Year Jade (GS)",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/puma-lamelo-ball-mb02-lunar-new-year-jade-gs.webp",
       "releasedAt": "2023-02-03",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "puma",
       "initialPrice": 110,
       "colorway": "Jade/Jade/Gold",
@@ -1139,6 +1223,8 @@
       "name": "Puma Cell Dome Sock KidSuper Studios",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/puma-cell-dome-sock-kidsuper-studios.webp",
       "releasedAt": "2020-09-17",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "puma",
       "initialPrice": 140,
       "colorway": "Whisper White/Silver Gray",
@@ -1166,6 +1252,8 @@
       "name": "Puma Ignite Disc Black Green Gecko",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/puma-ignite-disc-black-green-gecko.webp",
       "releasedAt": null,
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "puma",
       "initialPrice": 110,
       "colorway": "Black/Green Gecko",
@@ -1193,6 +1281,8 @@
       "name": "Puma Mayze White Black Pink (Women's)",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/puma-mayze-white-black-pink-w.webp",
       "releasedAt": null,
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "puma",
       "initialPrice": 125,
       "colorway": "White/Black/Pink/Yellow",
@@ -1220,6 +1310,8 @@
       "name": "Puma RS-X Knit JAHNKOY",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/puma-rs-knit-jahnkoy.webp",
       "releasedAt": null,
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "puma",
       "initialPrice": 170,
       "colorway": "Black/Multi",
@@ -1247,6 +1339,8 @@
       "name": "Vans Chauffeur SF C&L",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/vans-chauffeur-sf-c-l.webp",
       "releasedAt": null,
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "man",
       "initialPrice": 65,
       "colorway": "Khaki/Chambray",
@@ -1274,6 +1368,8 @@
       "name": "Vans Authentic Nintendo Super Mario Bros Tie-Dye",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/vans-authentic-nintendo-super-mario-bros-tie-dye.webp",
       "releasedAt": "2016-06-03",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "man",
       "initialPrice": 70,
       "colorway": "Super Mario Bros",
@@ -1301,6 +1397,8 @@
       "name": "Vans Vault OG Lampin LX Geoff McFetridge Hallucinaut",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/vans-vault-og-lampin-lx-geoff-mcfetridge-hallucinaut.webp",
       "releasedAt": "2021-12-02",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "man",
       "initialPrice": 90,
       "colorway": "Beige/Multi-Color",
@@ -1328,6 +1426,8 @@
       "name": "Vans Classic Slip-On 98 DX Anaheim Factory Tile Checkerboard Blue",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/vans-classic-slip-on-98-dx-anaheim-factory-tile-checkerboard-blue.webp",
       "releasedAt": "2022-04-02",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "man",
       "initialPrice": 85,
       "colorway": "Tile Checkerboard/Limoges",
@@ -1355,6 +1455,8 @@
       "name": "Vans Slip-On Checkerboard",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/vans-slip-on-checkerboard-2019.webp",
       "releasedAt": "2021-05-18",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "man",
       "initialPrice": 65,
       "colorway": "Black/Off White",
@@ -1382,6 +1484,8 @@
       "name": "Vans Era 59 C & L Tibetian Red",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/vans-era-59-c-l-tibetian-red.webp",
       "releasedAt": null,
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "man",
       "initialPrice": 60,
       "colorway": "Tibetian Red/Geo Wave",
@@ -1409,6 +1513,8 @@
       "name": "Vans Old Skool White Flame",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/vans-old-skool-white-flame.webp",
       "releasedAt": null,
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "man",
       "initialPrice": 75,
       "colorway": "Black/White",
@@ -1436,6 +1542,8 @@
       "name": "Vans Old Skool Lite Black White",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/vans-old-skool-lite-black-white.webp",
       "releasedAt": "2017-01-01",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "man",
       "initialPrice": 65,
       "colorway": "Black/White",
@@ -1463,6 +1571,8 @@
       "name": "Vans Era Disney Mickey & Friends",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/vans-era-disney-mickey-friends.webp",
       "releasedAt": null,
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "man",
       "initialPrice": 60,
       "colorway": "Black/Multi-Color",
@@ -1490,6 +1600,8 @@
       "name": "Cross Classic Clog Elf",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/crocs-classic-clog-elf.webp",
       "releasedAt": "2023-10-30",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "cross",
       "initialPrice": 75,
       "colorway": "Hunter Green/Yellow",
@@ -1517,6 +1629,8 @@
       "name": "Crocs Classic Clog Demon Slayer Nezuko",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/crocs-classic-clog-demon-slayer-nezuko.webp",
       "releasedAt": "2023-10-18",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "cross",
       "initialPrice": 65,
       "colorway": "Pink",
@@ -1544,6 +1658,8 @@
       "name": "Crocs Classic All-Terrain Clog Demon Slayer Zenitsu",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/crocs-classic-all-terrain-clog-demon-slayer-zenitsu.webp",
       "releasedAt": "2023-10-18",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "cross",
       "initialPrice": 70,
       "colorway": "Orange",
@@ -1571,6 +1687,8 @@
       "name": "Crocs Pollex Clog by Salehe Bembury Urchin",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/crocs-pollex-clog-by-salehe-bembury-urchin.webp",
       "releasedAt": "2022-05-24",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "cross",
       "initialPrice": 85,
       "colorway": "Mauve Mist",
@@ -1598,6 +1716,8 @@
       "name": "Crocs Classic Clog Mater (Kids)",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/crocs-classic-clog-mater-kids.webp",
       "releasedAt": "2023-10-17",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "cross",
       "initialPrice": 50,
       "colorway": "Slate Grey",
@@ -1625,6 +1745,8 @@
       "name": "Crocs Classic Clog Christian Cowan",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/crocs-classic-clog-christian-cowan.webp",
       "releasedAt": "2022-09-29",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "cross",
       "initialPrice": 70,
       "colorway": "White/Black",
@@ -1652,6 +1774,8 @@
       "name": "Crocs Classic Clog Create Your Peace Black",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/crocs-classic-create-your-peace-clog-black.webp",
       "releasedAt": "2022-02-10",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "cross",
       "initialPrice": 60,
       "colorway": "Black/Silver",
@@ -1679,6 +1803,8 @@
       "name": "Crocs Classic Clog Trix (TD)",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/crocs-classic-clog-trix-td.webp",
       "releasedAt": "2022-06-17",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "toddler",
       "initialPrice": 45,
       "colorway": "White/Multi",
@@ -1706,6 +1832,8 @@
       "name": "Crocs Mega Crush Clog 7-Eleven Orange",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/crocs-mega-crush-clog-7-eleven-orange.webp",
       "releasedAt": "2022-09-22",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "cross",
       "initialPrice": 110,
       "colorway": "Orange",
@@ -1733,6 +1861,8 @@
       "name": "Crocs Pollex Clog by Salehe Bembury Kuwata",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/crocs-pollex-clog-by-salehe-bembury-kuwata.webp",
       "releasedAt": "2022-10-22",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "cross",
       "initialPrice": 85,
       "colorway": "Salmon Pink/Red",
@@ -1760,6 +1890,8 @@
       "name": "Adidas NMD S1 Edition 1",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/adidas-nmd-s1-edition-1.webp",
       "releasedAt": "2021-09-22",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "adidas",
       "initialPrice": 180,
       "colorway": "Cloud White",
@@ -1787,6 +1919,8 @@
       "name": "Adidas Pw Tennis HU Night Indigo Legend Ink White",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/adidas-pw-tennis-hu-night-indigo-legend-ink-white.webp",
       "releasedAt": null,
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "adidas",
       "initialPrice": 100,
       "colorway": "Night Indigo/Legend Ink/White",
@@ -1814,6 +1948,8 @@
       "name": "Nike Flex Supreme Tr 5 Wolf Grey Ghost Green (Women's)",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-flex-supreme-tr-5-wolf-grey-ghost-green-w.webp",
       "releasedAt": null,
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "woman",
       "initialPrice": 145,
       "colorway": "Wolf Grey/Ghost Green",
@@ -1841,6 +1977,8 @@
       "name": "Nike Air Max 98 TL Supreme Pink",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-air-max-98-tl-supreme-pink.webp",
       "releasedAt": "2022-11-03",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "man",
       "initialPrice": 168,
       "colorway": "Pink/Pink",
@@ -1868,6 +2006,8 @@
       "name": "Vans Era Supreme Power Corruption Lies",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/vans-era-supreme-power-corruption-lies.webp",
       "releasedAt": "2013-03-07",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "man",
       "initialPrice": 80,
       "colorway": "Black",
@@ -1895,6 +2035,8 @@
       "name": "Nike Vandal High Supreme Doc Brown",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-vandal-high-supreme-doc-brown.webp",
       "releasedAt": "2017-10-26",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "man",
       "initialPrice": 90,
       "colorway": "Bright Ceramic/White-White",
@@ -1922,6 +2064,8 @@
       "name": "Nike Air Zoom Courtposite Supreme Metallic Gold",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-air-zoom-courtposite-supreme-metallic-gold.webp",
       "releasedAt": "2023-10-19",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "man",
       "initialPrice": 150,
       "colorway": "Metallic Gold/Black/Metallic Gold",
@@ -1949,6 +2093,8 @@
       "name": "Vans Old Skool Supreme Grid White",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/vans-old-skool-supreme-grid-white.webp",
       "releasedAt": "2020-09-10",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "man",
       "initialPrice": 98,
       "colorway": "White/Black",
@@ -1976,6 +2122,8 @@
       "name": "Nike Shox Ride 2 SP Supreme Black",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-shox-ride-2-supreme-black.webp",
       "releasedAt": "2022-06-23",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "man",
       "initialPrice": 188,
       "colorway": "Black/Black-Dark Ash-White",
@@ -2003,6 +2151,8 @@
       "name": "Nike Air Max 98 Supreme Varsity Red",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/air-max-98-supreme-varsity-red.webp",
       "releasedAt": "2016-04-28",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "man",
       "initialPrice": 175,
       "colorway": "Varsity Red/Metallic Silver-Black-White",
@@ -2030,6 +2180,8 @@
       "name": "Nike Air Force 1 High Supreme World Famous Red",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/air-force-1-high-supreme-world-famous-red.webp",
       "releasedAt": "2014-10-23",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "man",
       "initialPrice": 150,
       "colorway": "Red/White",
@@ -2057,6 +2209,8 @@
       "name": "Nike Air Max 95 Lux Supreme Red",
       "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-air-max-95-lux-supreme-red.webp",
       "releasedAt": "2019-11-07",
+            "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+
       "sizing": "man",
       "initialPrice": 500,
       "colorway": "University Red/University Red-Black",

@@ -799,6 +799,56 @@ class S {
       args: [],
     );
   }
+
+  /// `Add To Cart`
+  String get addToCart {
+    return Intl.message(
+      'Add To Cart',
+      name: 'addToCart',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Add To Favorite`
+  String get addToFavorite {
+    return Intl.message(
+      'Add To Favorite',
+      name: 'addToFavorite',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Add To WishList`
+  String get addToWishList {
+    return Intl.message(
+      'Add To WishList',
+      name: 'addToWishList',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Add`
+  String get add {
+    return Intl.message(
+      'Add',
+      name: 'add',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Add Product`
+  String get addProduct {
+    return Intl.message(
+      'Add Product',
+      name: 'addProduct',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

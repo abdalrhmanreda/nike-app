@@ -1,4 +1,3 @@
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:conditional_builder_null_safety/conditional_builder_null_safety.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -6,13 +5,14 @@ import 'package:gap/gap.dart';
 import 'package:icons_plus/icons_plus.dart';
 import 'package:nike/config/colors/app_colors.dart';
 import 'package:nike/core/components/progress_indector.dart';
-import 'package:nike/core/constant/app_constant.dart';
-import 'package:nike/generated/assets.dart';
 import 'package:nike/ui/feature/home/models/ProductModel.dart';
 import 'package:nike/ui/feature/layout/components/app_bar.dart';
+import 'package:nike/ui/feature/product_details/components/images_part.dart';
 import 'package:nike/ui/feature/product_details/controller/product_details_cubit.dart';
+import 'package:readmore/readmore.dart';
 
 import '../../../../generated/l10n.dart';
+import '../components/add_to_cart_and_fav.dart';
 import '../components/name_and_price_part.dart';
 import '../components/show_more_like_this.dart';
 
@@ -60,6 +60,8 @@ class ProductDetailsScreen extends StatelessWidget {
           // TODO: implement listener
         },
         builder: (context, state) {
+          final ScrollController _controller = ScrollController();
+
           return ConditionalBuilder(
             builder: (context) => Padding(
               padding: const EdgeInsets.all(12.0),
@@ -68,25 +70,22 @@ class ProductDetailsScreen extends StatelessWidget {
                 children: <Widget>[
                   NameAndPricePart(productModel: productModel),
                   const Gap(30),
-                  Stack(
-                    alignment: Alignment.bottomCenter,
-                    children: [
-                      Transform(
-                        alignment: Alignment.center,
-                        transform: Matrix4.skewY(0.2),
-                        child: CachedNetworkImage(
-                          imageUrl: productModel.image!,
-                          width: AppConstant.deviceWidth(context) / 1.5,
-                        ),
-                      ),
-                      Image.asset(
-                        Assets.detailsEllipse,
-                        width: AppConstant.deviceWidth(context),
-                      ),
-                    ],
-                  ),
+                  ImagesPartDetails(productModel: productModel),
                   const Gap(25),
                   ShowMoreLikeThis(productModel: productModel),
+                  const Gap(15),
+                  ReadMoreText(
+                    productModel.description!,
+                    trimLines: 2,
+                    colorClickableText: const Color(AppColors.kPrimaryColor),
+                    trimMode: TrimMode.Line,
+                    trimCollapsedText: 'Show more',
+                    trimExpandedText: 'Show less',
+                    moreStyle: const TextStyle(
+                        fontSize: 14, fontWeight: FontWeight.bold),
+                  ),
+                  const Spacer(),
+                  const AddToCartAndFav()
                 ],
               ),
             ),

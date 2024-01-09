@@ -24,6 +24,13 @@ class MessageLookup extends MessageLookupByLibrary {
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "accountDetails":
             MessageLookupByLibrary.simpleMessage("Account Details"),
+        "add": MessageLookupByLibrary.simpleMessage("Add"),
+        "addProduct": MessageLookupByLibrary.simpleMessage("Add Product"),
+        "addToCart": MessageLookupByLibrary.simpleMessage("Add To Cart"),
+        "addToFavorite":
+            MessageLookupByLibrary.simpleMessage("Add To Favorite"),
+        "addToWishList":
+            MessageLookupByLibrary.simpleMessage("Add To WishList"),
         "appName": MessageLookupByLibrary.simpleMessage("Nike"),
         "back": MessageLookupByLibrary.simpleMessage("Back"),
         "cart": MessageLookupByLibrary.simpleMessage("My Cart"),

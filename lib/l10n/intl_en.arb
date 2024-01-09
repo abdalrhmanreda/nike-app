@@ -73,7 +73,12 @@
   "settingsScreenTitle": "Settings Screen" ,
   "contactUsScreenTitle": "Contact Us Screen" ,
   "shoes": "Shoes" ,
-  "sneakerShop": "Sneaker Shop"
+  "sneakerShop": "Sneaker Shop",
+  "addToCart": "Add To Cart" ,
+  "addToFavorite": "Add To Favorite" ,
+  "addToWishList": "Add To WishList" ,
+  "add": "Add" ,
+  "addProduct": "Add Product"
 
 
 
