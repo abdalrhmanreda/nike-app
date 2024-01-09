@@ -1,6 +1,7 @@
 import 'package:conditional_builder_null_safety/conditional_builder_null_safety.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:gap/gap.dart';
 import 'package:icons_plus/icons_plus.dart';
 import 'package:nike/config/colors/app_colors.dart';
@@ -74,15 +75,36 @@ class ProductDetailsScreen extends StatelessWidget {
                   const Gap(25),
                   ShowMoreLikeThis(productModel: productModel),
                   const Gap(15),
-                  ReadMoreText(
-                    productModel.description!,
-                    trimLines: 2,
-                    colorClickableText: const Color(AppColors.kPrimaryColor),
-                    trimMode: TrimMode.Line,
-                    trimCollapsedText: 'Show more',
-                    trimExpandedText: 'Show less',
-                    moreStyle: const TextStyle(
-                        fontSize: 14, fontWeight: FontWeight.bold),
+                  Expanded(
+                    flex: 6,
+                    child: SingleChildScrollView(
+                      physics: const BouncingScrollPhysics(),
+                      scrollDirection: Axis.vertical,
+                      child: ReadMoreText(
+                        productModel.description!,
+                        trimLines: 4,
+                        colorClickableText:
+                            const Color(AppColors.kPrimaryColor),
+                        trimMode: TrimMode.Line,
+                        style: TextStyle(
+                          fontSize: 15.sp,
+                          fontWeight: FontWeight.bold,
+                          color: const Color(AppColors.kGreyColor),
+                        ),
+                        trimCollapsedText: 'Show more',
+                        trimExpandedText: 'Show less',
+                        lessStyle: TextStyle(
+                          fontSize: 14.sp,
+                          fontWeight: FontWeight.bold,
+                          color: const Color(AppColors.kPrimaryColor),
+                        ),
+                        moreStyle: TextStyle(
+                          fontSize: 14.sp,
+                          fontWeight: FontWeight.bold,
+                          color: const Color(AppColors.kPrimaryColor),
+                        ),
+                      ),
+                    ),
                   ),
                   const Spacer(),
                   const AddToCartAndFav()

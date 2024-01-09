@@ -30,7 +30,7 @@ class RegisterScreenBody extends StatelessWidget {
     return BlocConsumer<AuthCubit, AuthState>(
       listener: (context, state) {
         // TODO: implement listener
-        if (state is RegisterSuccessState) {
+        if (state is GetUserDataSuccessState) {
           // showToast(
           //   message: 'Created account successfully',
           //   state: ToastState.SUCCESS,

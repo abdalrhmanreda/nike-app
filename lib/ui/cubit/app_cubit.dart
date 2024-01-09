@@ -10,7 +10,7 @@ import 'package:nike/ui/feature/profile/screens/profile_screen.dart';
 
 part 'app_state.dart';
 
-class AppCubit extends Cubit<AppState> {
+class AppCubit extends Cubit<AppStates> {
   AppCubit() : super(AppInitial());
   static AppCubit get(context) => BlocProvider.of(context);
   List<BottomNavigationBarItem> items = [
@@ -41,7 +41,7 @@ class AppCubit extends Cubit<AppState> {
   List<String> titles = ['Explore', 'Favourite', 'Notification', 'Profile'];
   int currentIndex = 0;
 
-  void chageBottomNavBar(int index) {
+  void changeBottomNavBar(int index) {
     currentIndex = index;
     emit(ChangeBottomNavBar());
   }

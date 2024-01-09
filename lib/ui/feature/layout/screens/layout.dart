@@ -34,7 +34,7 @@ class LayoutScreen extends StatelessWidget {
         borderRadius: BorderRadius.all(Radius.circular(16)),
       ),
       drawer: const CustomDrawer(),
-      child: BlocBuilder<AppCubit, AppState>(
+      child: BlocBuilder<AppCubit, AppStates>(
         builder: (context, state) {
           return Scaffold(
             appBar: LayoutAppBar(
@@ -68,7 +68,7 @@ class LayoutScreen extends StatelessWidget {
               items: AppCubit.get(context).items,
               currentIndex: AppCubit.get(context).currentIndex,
               onTap: (index) {
-                AppCubit.get(context).chageBottomNavBar(index);
+                AppCubit.get(context).changeBottomNavBar(index);
               },
             ),
           );

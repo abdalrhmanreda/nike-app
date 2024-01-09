@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:gap/gap.dart';
 import 'package:nike/generated/assets.dart';
 
@@ -22,7 +23,7 @@ class SignWithGoogle extends StatelessWidget {
           style: Theme.of(context)
               .textTheme
               .bodyMedium!
-              .copyWith(fontSize: 17, fontWeight: FontWeight.w500),
+              .copyWith(fontSize: 17.sp, fontWeight: FontWeight.w500),
         ),
       ],
     );

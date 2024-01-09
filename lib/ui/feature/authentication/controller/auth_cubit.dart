@@ -25,7 +25,7 @@ class AuthCubit extends Cubit<AuthState> {
     FirebaseAuth.instance
         .signInWithEmailAndPassword(email: email, password: password)
         .then((value) {
-      HiveCache.saveData(key: 'userId', value: value.user!.uid);
+      getUserData(userId: HiveCache.getData(key: 'userId'));
       emit(LoginSuccessState());
     }).catchError((error) {
       print(error.toString());

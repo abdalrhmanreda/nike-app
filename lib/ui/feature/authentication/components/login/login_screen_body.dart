@@ -25,7 +25,7 @@ class LoginScreenBody extends StatelessWidget {
     var passController = TextEditingController();
     return BlocConsumer<AuthCubit, AuthState>(
       listener: (context, state) {
-        if (state is LoginSuccessState) {
+        if (state is GetUserDataSuccessState) {
           // showToast(message: 'Login successfully', state: ToastState.SUCCESS);
           CustomNavigation.navigateByNamedTo(context, RoutePath.layout);
         } else if (state is FailureState) {
@@ -66,7 +66,7 @@ class LoginScreenBody extends StatelessWidget {
                         hint1: S.of(context).loginScreenEmail,
                         hint2: S.of(context).loginScreenPass,
                       ),
-                      const Gap(10),
+                      const Gap(15),
                       Align(
                         alignment: Alignment.centerRight,
                         child: Text(
@@ -74,6 +74,7 @@ class LoginScreenBody extends StatelessWidget {
                           style:
                               Theme.of(context).textTheme.bodySmall!.copyWith(
                                     color: const Color(AppColors.kGreyColor),
+                                    fontSize: 14.sp,
                                   ),
                         ),
                       ),
@@ -101,7 +102,7 @@ class LoginScreenBody extends StatelessWidget {
                           fallback: (context) =>
                               const CustomLoadingIndicator()),
                       const Gap(25),
-                      const SignWithGoogle(text: "Sign in with Google "),
+                      SignWithGoogle(text: S.of(context).signInWithGoogle),
                       const Gap(20),
                       customTextNextToTextButton(
                         context: context,

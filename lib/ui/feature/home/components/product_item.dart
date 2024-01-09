@@ -34,7 +34,7 @@ class ProductItem extends StatelessWidget {
               onPressed: () {},
               icon: const Icon(
                 Iconsax.heart_outline,
-                color: Colors.red,
+                color: Colors.grey,
               ),
             ),
           ),

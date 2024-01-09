@@ -35,9 +35,13 @@ class ContainerTextFormFeild extends StatelessWidget {
         obscureText: isPass,
         decoration: InputDecoration(
           contentPadding:
-              const EdgeInsets.symmetric(horizontal: 16.0, vertical: 15),
+              const EdgeInsets.symmetric(horizontal: 16.0, vertical: 16),
           border: InputBorder.none,
           hintText: hint,
+          hintStyle: Theme.of(context).textTheme.bodySmall!.copyWith(
+                fontSize: 14.sp,
+                color: const Color(AppColors.kGreyColor),
+              ),
           suffixIcon: suffixIcon != null
               ? IconButton(
                   onPressed: () {
