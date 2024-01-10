@@ -11,6 +11,7 @@ part 'product_state.dart';
 
 class ProductCubit extends Cubit<ProductState> {
   ProductCubit() : super(ProductInitial());
+
   static ProductCubit get(context) => BlocProvider.of(context);
   List<String> options = [
     'Best Selling',
@@ -27,6 +28,7 @@ class ProductCubit extends Cubit<ProductState> {
 
   List<ProductModel> products = [];
   List<ProductModel> specificProducts = [];
+
   void getAllData() {
     products = [];
     emit(LoadingState());

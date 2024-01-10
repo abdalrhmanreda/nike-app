@@ -9,6 +9,7 @@ import 'package:nike/core/constant/strings.dart';
 import 'package:nike/core/observer/blocObserver.dart';
 import 'package:nike/ui/cubit/app_cubit.dart';
 import 'package:nike/ui/feature/authentication/controller/auth_cubit.dart';
+import 'package:nike/ui/feature/fav/controllers/fav_cubit.dart';
 import 'package:nike/ui/feature/home/controllers/product_cubit.dart';
 import 'package:nike/ui/feature/product_details/controller/product_details_cubit.dart';
 
@@ -52,12 +53,13 @@ class NikeApp extends StatelessWidget {
             BlocProvider(
               create: (context) => ProductCubit()..getAllData(),
             ),
-            BlocProvider(create: (context) => ProductDetailsCubit())
+            BlocProvider(create: (context) => ProductDetailsCubit()),
+            BlocProvider(create: (context) => FavCubit()..getFav())
           ],
           child: MaterialApp(
             onGenerateRoute: generateRoute,
             // home: startWidget,
-            initialRoute: RoutePath.login,
+            initialRoute: RoutePath.layout,
             locale: const Locale('en', 'US'),
             localizationsDelegates: const [
               S.delegate,

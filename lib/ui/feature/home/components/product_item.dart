@@ -5,6 +5,7 @@ import 'package:gap/gap.dart';
 import 'package:icons_plus/icons_plus.dart';
 import 'package:nike/config/colors/app_colors.dart';
 import 'package:nike/core/constant/app_constant.dart';
+import 'package:nike/ui/feature/fav/controllers/fav_cubit.dart';
 import 'package:nike/ui/feature/home/controllers/product_cubit.dart';
 import 'package:nike/ui/feature/home/models/ProductModel.dart';
 
@@ -31,11 +32,18 @@ class ProductItem extends StatelessWidget {
           Align(
             alignment: Alignment.topLeft,
             child: IconButton(
-              onPressed: () {},
-              icon: const Icon(
-                Iconsax.heart_outline,
-                color: Colors.grey,
-              ),
+              onPressed: () async {
+                FavCubit.get(context).addToFav(productModel: productModel);
+              },
+              icon: true
+                  ? const Icon(
+                      Iconsax.heart_bold,
+                      color: Colors.red,
+                    )
+                  : const Icon(
+                      Iconsax.heart_outline,
+                      color: Colors.grey,
+                    ),
             ),
           ),
           const Gap(5),

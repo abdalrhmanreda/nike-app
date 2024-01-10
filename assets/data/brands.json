@@ -1,1302 +1,1460 @@
 {
-
-    "Nike": [
-        {
-            "id": "8b1d31d2-6e7b-4e0a-85c5-d3dd769237f7",
-            "name": "Nike SB Dunk Low Gibson Guitar Case",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-dunk-sb-low-gibson-guitar-case.webp",
-            "releasedAt": "2007-01-01",
-            "sizing": "man",
-            "initialPrice": 100,
-            "colorway": "Light British Tan/Metallic Gold",
-            "sku": "313170-271",
-            "createdAt": "2022-12-24T11:28:29.519416+00:00",
-            "updatedAt": "2023-11-20T19:48:00.754955+00:00",
-            "brand": {
-                "id": "2bd9a45a-683b-11ed-9022-0242ac120002",
-                "name": "Nike"
-            }
-        },
-        {
-            "id": "d886474d-0cf4-4ed9-89ce-f473d7d743ba",
-            "name": "Nike Air More Uptempo Rayguns (PS)",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-air-more-uptempo-rayguns-ps.webp",
-            "releasedAt": "2021-01-15",
-            "sizing": "primaryschool",
-            "initialPrice": 95,
-            "colorway": "White/Multi-Color",
-            "sku": "DD9286-100",
-            "createdAt": "2023-03-05T17:57:42.968679+00:00",
-            "updatedAt": "2023-11-18T22:33:00.654634+00:00",
-            "brand": {
-                "id": "2bd9a45a-683b-11ed-9022-0242ac120002",
-                "name": "Nike"
-            }
-        },
-        {
-            "id": "905095a4-8771-4fa8-a921-ad1f0319e8d7",
-            "name": "Nike Flex Supreme Tr 5 Wolf Grey Ghost Green (Women's)",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-flex-supreme-tr-5-wolf-grey-ghost-green-w.webp",
-            "releasedAt": null,
-            "sizing": "woman",
-            "initialPrice": 75,
-            "colorway": "Wolf Grey/Ghost Green",
-            "sku": "852467-005",
-            "createdAt": "2023-04-03T21:01:06.821722+00:00",
-            "updatedAt": "2023-11-20T19:45:00.737678+00:00",
-            "brand": {
-                "id": "2bd9a45a-683b-11ed-9022-0242ac120002",
-                "name": "Nike"
-            }
-        },
-        {
-            "id": "ded358c6-fa7c-4c64-a32d-25a095d8841e",
-            "name": "Nike Air Max 97 Tie Dye Chicago",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-air-max-97-tie-dye-chicago.webp",
-            "releasedAt": "2019-07-08",
-            "sizing": "man",
-            "initialPrice": 175,
-            "colorway": "Multi-Color/White",
-            "sku": "CK0839-100",
-            "createdAt": "2023-03-02T20:56:03.083131+00:00",
-            "updatedAt": "2023-11-23T20:27:00.67162+00:00",
-            "brand": {
-                "id": "2bd9a45a-683b-11ed-9022-0242ac120002",
-                "name": "Nike"
-            }
-        },
-        {
-            "id": "69d45815-aa0f-4ed5-8740-979b890a7abd",
-            "name": "Nike Air Force 1 Mid Legion Green",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-air-force-1-mid-legion-green.webp",
-            "releasedAt": "2017-01-29",
-            "sizing": "man",
-            "initialPrice": 95,
-            "colorway": "Legion Green/White-Legion Green",
-            "sku": "315123-302",
-            "createdAt": "2023-05-01T18:05:42.298449+00:00",
-            "updatedAt": "2023-11-24T16:42:00.697212+00:00",
-            "brand": {
-                "id": "2bd9a45a-683b-11ed-9022-0242ac120002",
-                "name": "Nike"
-            }
-        },
-        {
-            "id": "b81bc62e-785d-4f7a-b91a-9f639a198610",
-            "name": "Nike Air Max 90 Nylon Royal",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-air-max-90-nylon-royal.webp",
-            "releasedAt": "2018-05-01",
-            "sizing": "man",
-            "initialPrice": 120,
-            "colorway": "Deep Royal Blue/Deep Royal Blue",
-            "sku": "AO1063-400",
-            "createdAt": "2023-03-11T12:51:17.840426+00:00",
-            "updatedAt": "2023-11-15T13:36:00.701831+00:00",
-            "brand": {
-                "id": "2bd9a45a-683b-11ed-9022-0242ac120002",
-                "name": "Nike"
-            }
-        },
-        {
-            "id": "68e2d3a0-4844-4765-b9af-7ac88c9f5fff",
-            "name": "Nike Air Footscape Woven Chukka Birch Varsity Maize",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-air-footscape-woven-chukka-birch-varsity-maize.webp",
-            "releasedAt": null,
-            "sizing": "man",
-            "initialPrice": 180,
-            "colorway": "Birch/Birch/Varsity Maize",
-            "sku": "315097-223",
-            "createdAt": "2023-03-07T21:24:43.668101+00:00",
-            "updatedAt": "2023-11-18T04:09:00.670709+00:00",
-            "brand": {
-                "id": "2bd9a45a-683b-11ed-9022-0242ac120002",
-                "name": "Nike"
-            }
-        },
-        {
-            "id": "b9ab3bc1-d787-4961-9adc-ccb757e44c88",
-            "name": "Nike Air Max Uptempo 97 Cranberry",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/air-max-uptempo-97-cranberry.webp",
-            "releasedAt": null,
-            "sizing": "man",
-            "initialPrice": 55,
-            "colorway": "Varsity Red/Black-Varsity Red",
-            "sku": "399207-600",
-            "createdAt": "2023-04-08T21:39:39.937049+00:00",
-            "updatedAt": "2023-11-20T08:48:00.76089+00:00",
-            "brand": {
-                "id": "2bd9a45a-683b-11ed-9022-0242ac120002",
-                "name": "Nike"
-            }
-        },
-        {
-            "id": "c789f68f-fbdd-453e-b938-d5b8872bba80",
-            "name": "Nike Hakata Just Do It Pack Black",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-hakata-just-do-it-pack-black.webp",
-            "releasedAt": "2018-08-02",
-            "sizing": "man",
-            "initialPrice": 80,
-            "colorway": "Black/White-Total Orange",
-            "sku": "AQ9336-001",
-            "createdAt": "2023-04-18T14:13:29.968479+00:00",
-            "updatedAt": "2023-11-20T19:54:00.7338+00:00",
-            "brand": {
-                "id": "2bd9a45a-683b-11ed-9022-0242ac120002",
-                "name": "Nike"
-            }
-        },
-        {
-            "id": "0d5d1438-4101-4b18-bb53-e1f005ff7605",
-            "name": "Nike Air Max Tavas Black Persian Voliet-White",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-air-max-tavas-black-persian-voliet-white.webp",
-            "releasedAt": null,
-            "sizing": "man",
-            "initialPrice": 74,
-            "colorway": "Black/Persian Voliet-White",
-            "sku": "705149-025",
-            "createdAt": "2023-04-11T20:59:01.068944+00:00",
-            "updatedAt": "2023-11-23T18:15:00.735417+00:00",
-            "brand": {
-                "id": "2bd9a45a-683b-11ed-9022-0242ac120002",
-                "name": "Nike"
-            }
-        }
-    ] , 
-    "Yeezy": [
-        {
-            "id": "5365972e-86d6-47a7-a97f-3e0ba408c035",
-            "name": "adidas Yeezy Boost 350 V2 Fade",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/adidas-yeezy-boost-350-v2-yecher.webp",
-            "releasedAt": "2020-11-11",
-            "sizing": "adidas",
-            "initialPrice": 220,
-            "colorway": "Yecher/Yecher/Yecher",
-            "sku": "H02795",
-            "createdAt": "2022-12-23T22:47:56.578744+00:00",
-            "updatedAt": "2023-11-24T19:36:00.689388+00:00",
-            "brand": {
-                "id": "fc646ebb-9357-4b3f-ba0e-595db1b808ed",
-                "name": "Adidas"
-            }
-        },
-        {
-            "id": "b5cf4abe-2bcf-4b49-864c-5875443c857d",
-            "name": "adidas Yeezy Boost 380 Alien Blue",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/adidas-yeezy-boost-380-alien-blue.webp",
-            "releasedAt": "2021-05-31",
-            "sizing": "adidas",
-            "initialPrice": 230,
-            "colorway": "Alien Blue RF/Alien Blue RF/Alien Blue RF",
-            "sku": "GW0304",
-            "createdAt": "2023-02-02T16:02:37.75574+00:00",
-            "updatedAt": "2023-11-23T07:45:00.799972+00:00",
-            "brand": {
-                "id": "fc646ebb-9357-4b3f-ba0e-595db1b808ed",
-                "name": "Adidas"
-            }
-        },
-        {
-            "id": "160f8660-c391-4889-9d67-150e96ab3bd6",
-            "name": "adidas Yeezy Foam RNNR Mist (Infants)",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/adidas-yeezy-foam-rnnr-mist-infants.webp",
-            "releasedAt": "2022-03-11",
-            "sizing": "yeezyinfant",
-            "initialPrice": 40,
-            "colorway": "Mist/Mist/Mist",
-            "sku": "GW1971",
-            "createdAt": "2023-02-21T17:36:30.473554+00:00",
-            "updatedAt": "2023-11-19T00:00:01.178836+00:00",
-            "brand": {
-                "id": "fc646ebb-9357-4b3f-ba0e-595db1b808ed",
-                "name": "Adidas"
-            }
-        },
-        {
-            "id": "06c93924-b9d3-4343-ad59-ba6de3c6598d",
-            "name": "adidas Yeezy Boost 380 Blue Oat (Infants)",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/adidas-yeezy-boost-380-blue-oat-infants.webp",
-            "releasedAt": "2020-07-25",
-            "sizing": "yeezyinfant",
-            "initialPrice": 150,
-            "colorway": "Blue Oat/Blue Oat/Blue Oat",
-            "sku": "Q47396",
-            "createdAt": "2023-02-21T18:29:14.726655+00:00",
-            "updatedAt": "2023-11-21T03:33:00.728541+00:00",
-            "brand": {
-                "id": "fc646ebb-9357-4b3f-ba0e-595db1b808ed",
-                "name": "Adidas"
-            }
-        },
-        {
-            "id": "3df5cca2-33d4-402d-a3b7-2aed39c76370",
-            "name": "adidas Yeezy 700 V3 Safflower (Kids)",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/adidas-yeezy-700-v3-safflower-kids.webp",
-            "releasedAt": "2020-11-14",
-            "sizing": "yeezykids",
-            "initialPrice": 160,
-            "colorway": "Safflower/Safflower/Safflower",
-            "sku": "G54854",
-            "createdAt": "2023-02-03T14:16:12.107099+00:00",
-            "updatedAt": "2023-11-17T01:42:00.655534+00:00",
-            "brand": {
-                "id": "fc646ebb-9357-4b3f-ba0e-595db1b808ed",
-                "name": "Adidas"
-            }
-        },
-        {
-            "id": "a1a07940-f39e-437f-a569-e4c7b595ae30",
-            "name": "adidas Yeezy Boost 350 V2 Beluga 2.0",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/adidas-yeezy-boost-350-v2-beluga-2-0.webp",
-            "releasedAt": "2017-11-25",
-            "sizing": "adidas",
-            "initialPrice": 220,
-            "colorway": "Grey/Bold Orange/Dark Solid Grey",
-            "sku": "AH2203",
-            "createdAt": "2022-12-23T22:26:32.105223+00:00",
-            "updatedAt": "2023-11-17T17:15:00.733319+00:00",
-            "brand": {
-                "id": "fc646ebb-9357-4b3f-ba0e-595db1b808ed",
-                "name": "Adidas"
-            }
-        },
-        {
-            "id": "db12e56c-64e6-4c9b-9bec-7622cf306134",
-            "name": "Yeezy Combat Boot Season 4 Sand",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/yeezy-combat-boot-season-4-sand.webp",
-            "releasedAt": "2017-04-24",
-            "sizing": "man",
-            "initialPrice": 445,
-            "colorway": "Sand",
-            "sku": "KM3605-115",
-            "createdAt": "2023-02-21T18:52:10.094735+00:00",
-            "updatedAt": "2023-11-21T20:18:00.737597+00:00",
-            "brand": {
-                "id": "42539f64-a434-419b-b7e1-41b81c20d45b",
-                "name": "Yeezy"
-            }
-        },
-        {
-            "id": "1d0ff0f5-fb9d-42e5-867c-720547867a0b",
-            "name": "adidas Yeezy Desert Boot Rock",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/adidas-yeezy-desert-boot-rock.webp",
-            "releasedAt": "2019-04-13",
-            "sizing": "adidas",
-            "initialPrice": 200,
-            "colorway": "Rock/Rock/Rock",
-            "sku": "EG6462",
-            "createdAt": "2022-12-09T19:04:08.090726+00:00",
-            "updatedAt": "2023-11-21T04:54:00.71615+00:00",
-            "brand": {
-                "id": "fc646ebb-9357-4b3f-ba0e-595db1b808ed",
-                "name": "Adidas"
-            }
-        },
-        {
-            "id": "037ab05d-053b-4923-9be9-ec9b0374aa3d",
-            "name": "adidas Yeezy Foam RNR Stone Taupe",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/adidas-yeezy-foam-rnr-stone-taupe.webp",
-            "releasedAt": "2023-08-30",
-            "sizing": "yeezy",
-            "initialPrice": 90,
-            "colorway": "Stone Taupe/Stone Taupe/Stone Taupe",
-            "sku": "ID4752",
-            "createdAt": "2023-08-15T10:40:44.103999+00:00",
-            "updatedAt": "2023-11-15T09:06:00.664678+00:00",
-            "brand": {
-                "id": "fc646ebb-9357-4b3f-ba0e-595db1b808ed",
-                "name": "Adidas"
-            }
-        },
-        {
-            "id": "3fe955ca-5942-4355-9fc3-3a3cbc6f7ffe",
-            "name": "adidas Yeezy Boost 350 V2 Synth (Reflective)",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/adidas-yeezy-boost-350-v2-synth-reflective.webp",
-            "releasedAt": "2019-06-21",
-            "sizing": "adidas",
-            "initialPrice": 220,
-            "colorway": "Synth/Synth/Synth",
-            "sku": "FV5666",
-            "createdAt": "2022-12-19T19:41:16.299759+00:00",
-            "updatedAt": "2023-11-17T18:00:00.90392+00:00",
-            "brand": {
-                "id": "fc646ebb-9357-4b3f-ba0e-595db1b808ed",
-                "name": "Adidas"
-            }
-        }
-    ],
-    "Converse": [
-        {
-            "id": "d823111c-0000-4440-810b-f296cebbd315",
-            "name": "Converse Chuck Taylor All Star 70 Hi Dark Burgundy",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/converse-chuck-taylor-all-star-70-hi-dark-burgundy.webp",
-            "releasedAt": "2018-05-07",
-            "sizing": "converse",
-            "initialPrice": 90,
-            "colorway": "Dark Burgundy/Black",
-            "sku": "162051C",
-            "createdAt": "2023-03-05T12:53:39.713934+00:00",
-            "updatedAt": "2023-11-15T14:18:00.695482+00:00",
-            "brand": {
-                "id": "71f7f85d-e21f-4dbe-a6d5-7f3dcf094d5e",
-                "name": "Converse"
-            }
-        },
-        {
-            "id": "f2b90b1a-329d-45c7-9fd6-22a75a5b7b45",
-            "name": "Converse Chuck Taylor All Star 70 Hi Kith x Coca Cola White",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/converse-chuck-taylor-all-star-70s-hi-kith-russia.webp",
-            "releasedAt": "2018-08-18",
-            "sizing": "converse",
-            "initialPrice": 150,
-            "colorway": "White/Lapis Blue-Egret",
-            "sku": "162986C",
-            "createdAt": "2023-04-02T20:00:22.858249+00:00",
-            "updatedAt": "2023-11-24T19:27:00.667588+00:00",
-            "brand": {
-                "id": "71f7f85d-e21f-4dbe-a6d5-7f3dcf094d5e",
-                "name": "Converse"
-            }
-        },
-
-        {
-            "id": "5bf65b3d-a548-4880-ae38-906e4e63589b",
-            "name": "Converse Chuck Taylor All Star Hi Total Orange",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/converse-chuck-taylor-all-star-hi-total-orange.webp",
-            "releasedAt": "2020-04-26",
-            "sizing": "converse",
-            "initialPrice": 85,
-            "colorway": "Total Orange/Egret/Black",
-            "sku": "167700C",
-            "createdAt": "2023-03-04T18:14:25.541718+00:00",
-            "updatedAt": "2023-11-17T00:45:00.698995+00:00",
-            "brand": {
-                "id": "71f7f85d-e21f-4dbe-a6d5-7f3dcf094d5e",
-                "name": "Converse"
-            }
-        },
-        {
-            "id": "9c109007-1fc4-4515-aec8-84dad14f0bcb",
-            "name": "Converse Chuck Taylor All Star Ox Keith Haring",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/converse-chuck-taylor-all-star-ox-keith-haring.webp",
-            "releasedAt": "2021-05-13",
-            "sizing": "converse",
-            "initialPrice": 60,
-            "colorway": "White/Black/Red",
-            "sku": "171860C",
-            "createdAt": "2023-03-04T23:59:42.386303+00:00",
-            "updatedAt": "2023-11-19T11:51:00.845462+00:00",
-            "brand": {
-                "id": "71f7f85d-e21f-4dbe-a6d5-7f3dcf094d5e",
-                "name": "Converse"
-            }
-        },
-        {
-            "id": "af5f6a3a-4a88-4614-9474-c028d972fd2d",
-            "name": "Converse One Star Pro Ox Awake NY White Sand",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/converse-one-star-pro-ox-awake-ny-white-sand.webp",
-            "releasedAt": "2023-10-12",
-            "sizing": "converse",
-            "initialPrice": 95,
-            "colorway": "White Sand/Black/ White",
-            "sku": "A07144C",
-            "createdAt": "2023-10-22T17:56:06.905965+00:00",
-            "updatedAt": "2023-11-16T10:54:00.644512+00:00",
-            "brand": {
-                "id": "71f7f85d-e21f-4dbe-a6d5-7f3dcf094d5e",
-                "name": "Converse"
-            }
-        },
-        {
-            "id": "22ed2a76-977f-4894-b022-218b308f58ff",
-            "name": "Converse Chuck Taylor All Star Pokemon Poke Ball",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/converse-chuck-taylor-all-star-pokemon-poke-ball.webp",
-            "releasedAt": "2022-12-07",
-            "sizing": "converse",
-            "initialPrice": 70,
-            "colorway": "White/Black",
-            "sku": "A01651C",
-            "createdAt": "2023-03-04T15:43:24.317681+00:00",
-            "updatedAt": "2023-11-17T17:12:00.693183+00:00",
-            "brand": {
-                "id": "71f7f85d-e21f-4dbe-a6d5-7f3dcf094d5e",
-                "name": "Converse"
-            }
-        },
-        {
-            "id": "42000961-9133-4d58-b408-98bb903ef09e",
-            "name": "Converse One Star Ox Tyler the Creator Golf le Fleur Mono Red",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/converse-one-star-ox-tyler-the-creator-golf-le-fleur-mono-red.webp",
-            "releasedAt": "2018-04-26",
-            "sizing": "converse",
-            "initialPrice": 100,
-            "colorway": "Rhubarb/White",
-            "sku": "162132C",
-            "createdAt": "2023-04-17T10:25:33.540231+00:00",
-            "updatedAt": "2023-11-22T12:30:00.749148+00:00",
-            "brand": {
-                "id": "71f7f85d-e21f-4dbe-a6d5-7f3dcf094d5e",
-                "name": "Converse"
-            }
-        },
-        {
-            "id": "1a32b454-a4f7-4792-8509-4843c35bb82c",
-            "name": "Converse Fastbreak Mid White Black",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/converse-fastbreak-mid-white-black.webp",
-            "releasedAt": "2017-08-01",
-            "sizing": "converse",
-            "initialPrice": 80,
-            "colorway": "White/Black",
-            "sku": "157720C",
-            "createdAt": "2023-03-02T21:36:37.886867+00:00",
-            "updatedAt": "2023-11-23T02:12:00.710273+00:00",
-            "brand": {
-                "id": "71f7f85d-e21f-4dbe-a6d5-7f3dcf094d5e",
-                "name": "Converse"
-            }
-        }
-    ],
-    "Jordan": [
-        {
-            "id": "451f8dfa-af05-4d93-99b9-775d460a584a",
-            "name": "Jordan 1 Retro High Phantom Gym Red",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/air-jordan-1-retro-high-phantom-gym-red.webp",
-            "releasedAt": "2019-03-30",
-            "sizing": "man",
-            "initialPrice": 160,
-            "colorway": "Sail/Black-Phantom-Gym Red-University Red",
-            "sku": "555088-160",
-            "createdAt": "2022-12-23T16:01:40.481617+00:00",
-            "updatedAt": "2023-11-17T16:00:00.890093+00:00",
-            "brand": {
-                "id": "8560ea3d-0d41-4e9e-ba8f-6b19022841da",
-                "name": "Jordan"
-            }
-        },
-        {
-            "id": "c438141b-c2ab-4274-b263-818210061004",
-            "name": "Jordan 15 Retro Kubo (Signed) Tinker Hatfield",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/air-jordan-15-retro-kubo-signed-th.webp",
-            "releasedAt": "2016-08-08",
-            "sizing": "man",
-            "initialPrice": 210,
-            "colorway": "Black/Black-Royal Blue-Varsity Red",
-            "sku": "SU17MNJDLS000TH",
-            "createdAt": "2023-04-27T20:00:33.431806+00:00",
-            "updatedAt": "2023-11-21T03:57:00.692292+00:00",
-            "brand": {
-                "id": "8560ea3d-0d41-4e9e-ba8f-6b19022841da",
-                "name": "Jordan"
-            }
-        },
-        {
-            "id": "a15e27cc-d5bd-48e2-818c-bfe3faedb88e",
-            "name": "Jordan 1 Low Concord",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/air-jordan-1-low-concord.webp",
-            "releasedAt": "2018-11-01",
-            "sizing": "man",
-            "initialPrice": 100,
-            "colorway": "White/Black-Dark Concord",
-            "sku": "553558-108",
-            "createdAt": "2022-12-23T20:16:31.55792+00:00",
-            "updatedAt": "2023-11-20T08:36:00.910122+00:00",
-            "brand": {
-                "id": "8560ea3d-0d41-4e9e-ba8f-6b19022841da",
-                "name": "Jordan"
-            }
-        },
-        {
-            "id": "1df84aaf-dea4-470c-bdf0-5c7259982e73",
-            "name": "Jordan 1 High Zoom Air CMFT 2 Teyana Taylor A Rose From Harlem (Women's)",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/air-jordan-1-high-zoom-air-cmft-2-teyana-taylor-a-rose-from-harlem-womens.webp",
-            "releasedAt": "2023-06-01",
-            "sizing": "woman",
-            "initialPrice": 150,
-            "colorway": "Gym Red/Black-Summit White-Earth-Coconut Milk",
-            "sku": "FJ0604-601",
-            "createdAt": "2023-06-12T23:12:40.635392+00:00",
-            "updatedAt": "2023-11-24T19:12:00.73937+00:00",
-            "brand": {
-                "id": "8560ea3d-0d41-4e9e-ba8f-6b19022841da",
-                "name": "Jordan"
-            }
-        },
-        {
-            "id": "9ed82135-7207-4998-8674-c865ce13050d",
-            "name": "Jordan 1 Low SE Paint Splatter (GS)",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/air-jordan-1-low-se-paint-splatter-gs.webp",
-            "releasedAt": "2021-10-01",
-            "sizing": "gradeschool",
-            "initialPrice": 85,
-            "colorway": "Sail/Black/Total Orange",
-            "sku": "DH3295-100",
-            "createdAt": "2022-12-23T20:42:12.241888+00:00",
-            "updatedAt": "2023-11-21T03:30:00.779879+00:00",
-            "brand": {
-                "id": "8560ea3d-0d41-4e9e-ba8f-6b19022841da",
-                "name": "Jordan"
-            }
-        },
-        {
-            "id": "ca7ab947-6e2a-4c34-a098-7acf736e6798",
-            "name": "Jordan 1 Retro High Turbo Green",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/air-jordan-1-retro-high-turbo-green.webp",
-            "releasedAt": "2019-02-15",
-            "sizing": "man",
-            "initialPrice": 160,
-            "colorway": "Turbo Green/Sail-White-Light Smoke Grey",
-            "sku": "555088-311",
-            "createdAt": "2022-12-23T15:31:39.407534+00:00",
-            "updatedAt": "2023-11-21T02:09:00.72026+00:00",
-            "brand": {
-                "id": "8560ea3d-0d41-4e9e-ba8f-6b19022841da",
-                "name": "Jordan"
-            }
-        },
-        {
-            "id": "f9183d5d-61f1-4664-8a73-86e1811acfa6",
-            "name": "Jordan 5 Retro WNBA Pinksicle Safety Orange (PS)",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/air-jordan-5-retro-wnba-pinksicle-safety-orange-ps.webp",
-            "releasedAt": "2022-07-01",
-            "sizing": "primaryschool",
-            "initialPrice": 90,
-            "colorway": "White/Pinksicle/Safety Orange",
-            "sku": "440893-168",
-            "createdAt": "2023-03-05T16:21:36.447086+00:00",
-            "updatedAt": "2023-11-15T13:45:00.77922+00:00",
-            "brand": {
-                "id": "8560ea3d-0d41-4e9e-ba8f-6b19022841da",
-                "name": "Jordan"
-            }
-        },
-        {
-            "id": "0a8773fc-463b-4dff-815b-2a59a33f6bb0",
-            "name": "Jordan 19 OG SE Olympic",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/jordan-19-og-se-olympic.webp",
-            "releasedAt": "2004-09-04",
-            "sizing": "man",
-            "initialPrice": 165,
-            "colorway": "White/Metallic Gold-Midnight Navy",
-            "sku": "308492-171",
-            "createdAt": "2023-04-27T09:27:23.359285+00:00",
-            "updatedAt": "2023-11-24T16:54:00.689988+00:00",
-            "brand": {
-                "id": "8560ea3d-0d41-4e9e-ba8f-6b19022841da",
-                "name": "Jordan"
-            }
-        },
-        {
-            "id": "022c8f03-5fbb-429c-ad16-3799205452f6",
-            "name": "Jordan 1 Elevate Low Onyx (Women's)",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/air-jordan-1-low-lv8d-elevated-onyx-w.webp",
-            "releasedAt": "2022-03-23",
-            "sizing": "woman",
-            "initialPrice": 135,
-            "colorway": "White/White/White Onyx",
-            "sku": "DH7004-102",
-            "createdAt": "2022-12-19T21:30:03.867855+00:00",
-            "updatedAt": "2023-11-23T07:45:00.799972+00:00",
-            "brand": {
-                "id": "8560ea3d-0d41-4e9e-ba8f-6b19022841da",
-                "name": "Jordan"
-            }
-        },
-        {
-            "id": "6495ca82-3e63-4c13-9370-17fddc15cf13",
-            "name": "Jordan 1 Retro '97 Black Toe",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/air-jordan-1-retro-97-black-toe.webp",
-            "releasedAt": "2013-03-01",
-            "sizing": "man",
-            "initialPrice": 130,
-            "colorway": "White/Black/Gym Red",
-            "sku": "555069-101",
-            "createdAt": "2023-03-12T13:31:43.344006+00:00",
-            "updatedAt": "2023-11-20T09:00:01.018215+00:00",
-            "brand": {
-                "id": "8560ea3d-0d41-4e9e-ba8f-6b19022841da",
-                "name": "Jordan"
-            }
-        }
-    ],
-    "Puma": [
-        {
-            "id": "9a5b04f0-ad2b-4d8c-a5f1-7e6da6a85570",
-            "name": "Puma RS-Dreamer J. Cole Purple Heart (GS)",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/puma-rs-dreamer-j-cole-purple-heart-gs.webp",
-            "releasedAt": "2020-08-21",
-            "sizing": "puma",
-            "initialPrice": 95,
-            "colorway": "Prism Violet/Blazing Yellow",
-            "sku": "194166-04",
-            "createdAt": "2023-02-24T20:27:41.962645+00:00",
-            "updatedAt": "2023-11-18T11:15:00.694873+00:00",
-            "brand": {
-                "id": "5536a588-b9eb-4b3d-95cc-d5d6cbd6f95a",
-                "name": "Puma"
-            }
-        },
-        {
-            "id": "8dceb094-f591-46a1-9ddd-4879188d8cf3",
-            "name": "Puma Speed Cat BMW Motorsport Triple White",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/puma-speed-cat-bmw-motorsport-triple-white.webp",
-            "releasedAt": null,
-            "sizing": "puma",
-            "initialPrice": 95,
-            "colorway": "White/White/White",
-            "sku": "306639-02",
-            "createdAt": "2023-04-09T17:19:03.917074+00:00",
-            "updatedAt": "2023-11-21T04:09:00.649432+00:00",
-            "brand": {
-                "id": "5536a588-b9eb-4b3d-95cc-d5d6cbd6f95a",
-                "name": "Puma"
-            }
-        },
-        {
-            "id": "470db5d8-fbe8-47d7-9aa1-8e26e5b26aa6",
-            "name": "Puma RS-XL LaMelo Ball LaFrancé FOREVER.RARE",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/puma-rs-xl-lamelo-ball-lafrance-foreverrare.webp",
-            "releasedAt": "2023-10-06",
-            "sizing": "puma",
-            "initialPrice": 140,
-            "colorway": "Green/Spring Fern/Black",
-            "sku": "395032-01",
-            "createdAt": "2023-10-04T20:16:05.418076+00:00",
-            "updatedAt": "2023-11-24T00:57:00.673882+00:00",
-            "brand": {
-                "id": "5536a588-b9eb-4b3d-95cc-d5d6cbd6f95a",
-                "name": "Puma"
-            }
-        },
-        {
-            "id": "a34d3039-59d6-4fac-ad91-55a211436a39",
-            "name": "Puma Clyde Court Disrupt Summertime",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/puma-clyde-court-disrupt-summertime.webp",
-            "releasedAt": "2019-05-25",
-            "sizing": "puma",
-            "initialPrice": 120,
-            "colorway": "Fluorescent Green",
-            "sku": "192893-01",
-            "createdAt": "2023-02-24T18:58:31.397414+00:00",
-            "updatedAt": "2023-11-23T20:42:00.689178+00:00",
-            "brand": {
-                "id": "5536a588-b9eb-4b3d-95cc-d5d6cbd6f95a",
-                "name": "Puma"
-            }
-        },
-        {
-            "id": "9a7852d7-09cc-44dc-b68c-dddda0594f4a",
-            "name": "Puma TRC Blaze Court Pokémon Gengar",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/puma-trc-blaze-court-pokemon-gengar.webp",
-            "releasedAt": "2022-11-12",
-            "sizing": "puma",
-            "initialPrice": 130,
-            "colorway": "Electric Purple/Fiery Red",
-            "sku": "377652-01",
-            "createdAt": "2023-02-23T23:13:01.036163+00:00",
-            "updatedAt": "2023-11-16T23:36:00.65126+00:00",
-            "brand": {
-                "id": "5536a588-b9eb-4b3d-95cc-d5d6cbd6f95a",
-                "name": "Puma"
-            }
-        },
-        {
-            "id": "ed67b0e5-f20d-4481-82d1-105c612c6398",
-            "name": "Puma LaMelo Ball MB.02 Lunar New Year Jade (GS)",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/puma-lamelo-ball-mb02-lunar-new-year-jade-gs.webp",
-            "releasedAt": "2023-02-03",
-            "sizing": "puma",
-            "initialPrice": 110,
-            "colorway": "Jade/Jade/Gold",
-            "sku": "378284-02",
-            "createdAt": "2023-02-23T22:34:42.6861+00:00",
-            "updatedAt": "2023-11-20T20:21:00.746426+00:00",
-            "brand": {
-                "id": "5536a588-b9eb-4b3d-95cc-d5d6cbd6f95a",
-                "name": "Puma"
-            }
-        },
-        {
-            "id": "dee055cc-c6c4-4094-bc58-4c428bddc0a4",
-            "name": "Puma Cell Dome Sock KidSuper Studios",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/puma-cell-dome-sock-kidsuper-studios.webp",
-            "releasedAt": "2020-09-17",
-            "sizing": "puma",
-            "initialPrice": 140,
-            "colorway": "Whisper White/Silver Gray",
-            "sku": "373515-01",
-            "createdAt": "2023-02-24T20:08:46.77469+00:00",
-            "updatedAt": "2023-11-17T12:18:00.669375+00:00",
-            "brand": {
-                "id": "5536a588-b9eb-4b3d-95cc-d5d6cbd6f95a",
-                "name": "Puma"
-            }
-        },
-        {
-            "id": "afd47647-350d-4cff-90f9-42de7742ee6d",
-            "name": "Puma Ignite Disc Black Green Gecko",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/puma-ignite-disc-black-green-gecko.webp",
-            "releasedAt": null,
-            "sizing": "puma",
-            "initialPrice": 150,
-            "colorway": "Black/Green Gecko",
-            "sku": "188616-03",
-            "createdAt": "2023-03-03T14:41:36.848679+00:00",
-            "updatedAt": "2023-11-23T04:54:00.653854+00:00",
-            "brand": {
-                "id": "5536a588-b9eb-4b3d-95cc-d5d6cbd6f95a",
-                "name": "Puma"
-            }
-        },
-        {
-            "id": "65fd546a-8484-4d16-8f56-356db2b1a7da",
-            "name": "Puma Mayze White Black Pink (Women's)",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/puma-mayze-white-black-pink-w.webp",
-            "releasedAt": null,
-            "sizing": "puma",
-            "initialPrice": 125,
-            "colorway": "White/Black/Pink/Yellow",
-            "sku": "381983-11",
-            "createdAt": "2023-03-12T17:54:33.846573+00:00",
-            "updatedAt": "2023-11-17T00:42:00.652189+00:00",
-            "brand": {
-                "id": "5536a588-b9eb-4b3d-95cc-d5d6cbd6f95a",
-                "name": "Puma"
-            }
-        },
-        {
-            "id": "8ea6749a-c15f-4323-b854-6ae7c5bbd402",
-            "name": "Puma RS-X Knit JAHNKOY",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/puma-rs-knit-jahnkoy.webp",
-            "releasedAt": null,
-            "sizing": "puma",
-            "initialPrice": 170,
-            "colorway": "Black/Multi",
-            "sku": "370077-01",
-            "createdAt": "2023-02-26T13:07:19.734473+00:00",
-            "updatedAt": "2023-11-17T00:39:00.651713+00:00",
-            "brand": {
-                "id": "5536a588-b9eb-4b3d-95cc-d5d6cbd6f95a",
-                "name": "Puma"
-            }
-        }
-    ],
-    "Vans": [
-        {
-            "id": "eab8aa01-cc7c-46ce-9600-8d5e7519958c",
-            "name": "Vans Chauffeur SF C&L",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/vans-chauffeur-sf-c-l.webp",
-            "releasedAt": null,
-            "sizing": "man",
-            "initialPrice": 65,
-            "colorway": "Khaki/Chambray",
-            "sku": "VN00019CIO5",
-            "createdAt": "2023-03-16T16:55:11.152331+00:00",
-            "updatedAt": "2023-11-20T08:39:00.759849+00:00",
-            "brand": {
-                "id": "473b90f7-203a-46ac-9e68-3b43fd0466ac",
-                "name": "Vans"
-            }
-        },
-        {
-            "id": "35c32a75-73c4-4bda-8648-ee27a0d52d85",
-            "name": "Vans Authentic Nintendo Super Mario Bros Tie-Dye",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/vans-authentic-nintendo-super-mario-bros-tie-dye.webp",
-            "releasedAt": "2016-06-03",
-            "sizing": "man",
-            "initialPrice": 70,
-            "colorway": "Super Mario Bros",
-            "sku": "VN0004MLJPA",
-            "createdAt": "2023-03-02T20:16:40.53313+00:00",
-            "updatedAt": "2023-11-21T18:42:00.780236+00:00",
-            "brand": {
-                "id": "473b90f7-203a-46ac-9e68-3b43fd0466ac",
-                "name": "Vans"
-            }
-        },
-        {
-            "id": "29881583-e3e9-4e0c-9114-93f7ddb1eb78",
-            "name": "Vans Vault OG Lampin LX Geoff McFetridge Hallucinaut",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/vans-vault-og-lampin-lx-geoff-mcfetridge-hallucinaut.webp",
-            "releasedAt": "2021-12-02",
-            "sizing": "man",
-            "initialPrice": 90,
-            "colorway": "Beige/Multi-Color",
-            "sku": "VN0A7Q4U92C",
-            "createdAt": "2023-02-25T09:13:31.651479+00:00",
-            "updatedAt": "2023-11-16T02:33:00.712232+00:00",
-            "brand": {
-                "id": "473b90f7-203a-46ac-9e68-3b43fd0466ac",
-                "name": "Vans"
-            }
-        },
-        {
-            "id": "edfa5241-0728-4c76-b50a-ec5941ef2592",
-            "name": "Vans Classic Slip-On 98 DX Anaheim Factory Tile Checkerboard Blue",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/vans-classic-slip-on-98-dx-anaheim-factory-tile-checkerboard-blue.webp",
-            "releasedAt": "2022-04-02",
-            "sizing": "man",
-            "initialPrice": 85,
-            "colorway": "Tile Checkerboard/Limoges",
-            "sku": "VN0A5KX8B0S",
-            "createdAt": "2023-04-09T19:29:00.116817+00:00",
-            "updatedAt": "2023-11-17T13:12:00.718996+00:00",
-            "brand": {
-                "id": "473b90f7-203a-46ac-9e68-3b43fd0466ac",
-                "name": "Vans"
-            }
-        },
-        {
-            "id": "a6276686-ddcc-4a57-a992-4da5fd14077d",
-            "name": "Vans Slip-On Checkerboard",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/vans-slip-on-checkerboard-2019.webp",
-            "releasedAt": "2021-05-18",
-            "sizing": "man",
-            "initialPrice": 65,
-            "colorway": "Black/Off White",
-            "sku": "VN000EYEBWW",
-            "createdAt": "2023-03-11T17:30:45.844798+00:00",
-            "updatedAt": "2023-11-17T16:33:00.6764+00:00",
-            "brand": {
-                "id": "473b90f7-203a-46ac-9e68-3b43fd0466ac",
-                "name": "Vans"
-            }
-        },
-        {
-            "id": "7ee33654-20fa-489c-9f24-c15cbd572eca",
-            "name": "Vans Era 59 C & L Tibetian Red",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/vans-era-59-c-l-tibetian-red.webp",
-            "releasedAt": null,
-            "sizing": "man",
-            "initialPrice": 60,
-            "colorway": "Tibetian Red/Geo Wave",
-            "sku": "VN0003S4HQT",
-            "createdAt": "2023-03-03T21:23:00.36659+00:00",
-            "updatedAt": "2023-11-17T16:57:00.670928+00:00",
-            "brand": {
-                "id": "473b90f7-203a-46ac-9e68-3b43fd0466ac",
-                "name": "Vans"
-            }
-        },
-        {
-            "id": "1d2ecd6f-46c7-454a-86dc-c508b6172b08",
-            "name": "Vans Old Skool White Flame",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/vans-old-skool-white-flame.webp",
-            "releasedAt": null,
-            "sizing": "man",
-            "initialPrice": 75,
-            "colorway": "Black/White",
-            "sku": "VN0A38G1K681",
-            "createdAt": "2023-03-08T14:25:24.179905+00:00",
-            "updatedAt": "2023-11-17T01:36:00.660264+00:00",
-            "brand": {
-                "id": "473b90f7-203a-46ac-9e68-3b43fd0466ac",
-                "name": "Vans"
-            }
-        },
-        {
-            "id": "f18b29c7-1c2b-4965-897d-c1e04051a8d9",
-            "name": "Vans Era Free & Easy",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/vans-era-free-easy.webp",
-            "releasedAt": "2020-09-04",
-            "sizing": "man",
-            "initialPrice": 90,
-            "colorway": "Yin Yang/Marshmallow",
-            "sku": "VN0A4BVA0BG",
-            "createdAt": "2023-03-13T21:26:26.431312+00:00",
-            "updatedAt": "2023-11-22T01:51:00.732937+00:00",
-            "brand": {
-                "id": "473b90f7-203a-46ac-9e68-3b43fd0466ac",
-                "name": "Vans"
-            }
-        },
-        {
-            "id": "f286a925-d724-4a02-867b-9c3fe54e8afe",
-            "name": "Vans Old Skool Lite Black White",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/vans-old-skool-lite-black-white.webp",
-            "releasedAt": "2017-01-01",
-            "sizing": "man",
-            "initialPrice": 65,
-            "colorway": "Black/White",
-            "sku": "VA2Z5WIJU",
-            "createdAt": "2023-02-25T22:38:41.908519+00:00",
-            "updatedAt": "2023-11-19T01:18:00.651584+00:00",
-            "brand": {
-                "id": "473b90f7-203a-46ac-9e68-3b43fd0466ac",
-                "name": "Vans"
-            }
-        },
-        {
-            "id": "db7e42f7-1e68-4340-bdeb-a8ce6251eb3a",
-            "name": "Vans Era Disney Mickey & Friends",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/vans-era-disney-mickey-friends.webp",
-            "releasedAt": null,
-            "sizing": "man",
-            "initialPrice": 60,
-            "colorway": "Black/Multi-Color",
-            "sku": "VN0ZULGHF",
-            "createdAt": "2023-03-26T15:30:58.582321+00:00",
-            "updatedAt": "2023-11-22T03:33:00.72452+00:00",
-            "brand": {
-                "id": "473b90f7-203a-46ac-9e68-3b43fd0466ac",
-                "name": "Vans"
-            }
-        }
-    ],
-    "Cross": [
-        {
-            "id": "58ade3a6-8533-4d23-9b13-8fa9c5234ac2",
-            "name": "Crocs Classic Clog Elf",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/crocs-classic-clog-elf.webp",
-            "releasedAt": "2023-10-30",
-            "sizing": "crocs",
-            "initialPrice": 75,
-            "colorway": "Hunter Green/Yellow",
-            "sku": "209377P-761",
-            "createdAt": "2023-10-22T17:40:36.584715+00:00",
-            "updatedAt": "2023-11-16T10:24:00.685306+00:00",
-            "brand": {
-                "id": "77d3f4d8-4d29-45a5-812c-1597a337a2c4",
-                "name": "Crocs"
-            }
-        },
-        {
-            "id": "71fe82ba-6404-4c8c-a42f-1713b04c076f",
-            "name": "Crocs Classic Clog Demon Slayer Nezuko",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/crocs-classic-clog-demon-slayer-nezuko.webp",
-            "releasedAt": "2023-10-18",
-            "sizing": "crocs",
-            "initialPrice": 65,
-            "colorway": "Pink",
-            "sku": "209320-206",
-            "createdAt": "2023-10-22T19:20:58.520016+00:00",
-            "updatedAt": "2023-11-16T13:09:00.745585+00:00",
-            "brand": {
-                "id": "77d3f4d8-4d29-45a5-812c-1597a337a2c4",
-                "name": "Crocs"
-            }
-        },
-        {
-            "id": "653c447e-909f-4ec4-8d56-d43d75bf2a2e",
-            "name": "Crocs Classic All-Terrain Clog Demon Slayer Zenitsu",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/crocs-classic-all-terrain-clog-demon-slayer-zenitsu.webp",
-            "releasedAt": "2023-10-18",
-            "sizing": "crocs",
-            "initialPrice": 70,
-            "colorway": "Orange",
-            "sku": "209318-206",
-            "createdAt": "2023-10-22T19:25:50.58977+00:00",
-            "updatedAt": "2023-11-16T13:15:00.771656+00:00",
-            "brand": {
-                "id": "77d3f4d8-4d29-45a5-812c-1597a337a2c4",
-                "name": "Crocs"
-            }
-        },
-        {
-            "id": "c23c58ea-56bf-4724-b3dc-c07b4590ccdc",
-            "name": "Crocs Pollex Clog by Salehe Bembury Urchin",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/crocs-pollex-clog-by-salehe-bembury-urchin.webp",
-            "releasedAt": "2022-05-24",
-            "sizing": "crocs",
-            "initialPrice": 85,
-            "colorway": "Mauve Mist",
-            "sku": "207393-5PS",
-            "createdAt": "2023-03-04T11:43:00.180437+00:00",
-            "updatedAt": "2023-11-15T09:42:00.748449+00:00",
-            "brand": {
-                "id": "77d3f4d8-4d29-45a5-812c-1597a337a2c4",
-                "name": "Crocs"
-            }
-        },
-        {
-            "id": "a9cf1701-964e-4a9c-94e6-71883b0670b1",
-            "name": "Crocs Classic Clog Mater (Kids)",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/crocs-classic-clog-mater-kids.webp",
-            "releasedAt": "2023-10-17",
-            "sizing": "crocs",
-            "initialPrice": 50,
-            "colorway": "Slate Grey",
-            "sku": "209376-0DA",
-            "createdAt": "2023-10-22T19:31:39.406678+00:00",
-            "updatedAt": "2023-11-16T13:27:00.675986+00:00",
-            "brand": {
-                "id": "77d3f4d8-4d29-45a5-812c-1597a337a2c4",
-                "name": "Crocs"
-            }
-        },
-        {
-            "id": "380cb2c3-acbd-481e-bed3-760acf61246f",
-            "name": "Crocs Classic Clog Christian Cowan",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/crocs-classic-clog-christian-cowan.webp",
-            "releasedAt": "2022-09-29",
-            "sizing": "crocs",
-            "initialPrice": 70,
-            "colorway": "White/Black",
-            "sku": "208224_103",
-            "createdAt": "2023-02-25T19:47:32.259963+00:00",
-            "updatedAt": "2023-11-22T03:33:00.72452+00:00",
-            "brand": {
-                "id": "77d3f4d8-4d29-45a5-812c-1597a337a2c4",
-                "name": "Crocs"
-            }
-        },
-        {
-            "id": "d0a994fe-ccc8-427a-8629-89553cb811a3",
-            "name": "Crocs Classic Clog Create Your Peace Black",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/crocs-classic-create-your-peace-clog-black.webp",
-            "releasedAt": "2022-02-10",
-            "sizing": "crocs",
-            "initialPrice": 60,
-            "colorway": "Black/Silver",
-            "sku": "207571BLK",
-            "createdAt": "2023-02-28T22:29:38.575301+00:00",
-            "updatedAt": "2023-11-19T05:45:00.757825+00:00",
-            "brand": {
-                "id": "77d3f4d8-4d29-45a5-812c-1597a337a2c4",
-                "name": "Crocs"
-            }
-        },
-        {
-            "id": "397161bb-9e8e-4b1a-8c7e-b21ab7986b54",
-            "name": "Crocs Classic Clog Trix (TD)",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/crocs-classic-clog-trix-td.webp",
-            "releasedAt": "2022-06-17",
-            "sizing": "toddler",
-            "initialPrice": 45,
-            "colorway": "White/Multi",
-            "sku": "207927-94S",
-            "createdAt": "2023-03-09T17:56:31.69743+00:00",
-            "updatedAt": "2023-11-19T08:48:00.680277+00:00",
-            "brand": {
-                "id": "77d3f4d8-4d29-45a5-812c-1597a337a2c4",
-                "name": "Crocs"
-            }
-        },
-        {
-            "id": "1c4fe7c0-7ebe-4f7c-ad5c-ed2ffbd23476",
-            "name": "Crocs Mega Crush Clog 7-Eleven Orange",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/crocs-mega-crush-clog-7-eleven-orange.webp",
-            "releasedAt": "2022-09-22",
-            "sizing": "crocs",
-            "initialPrice": 110,
-            "colorway": "Orange",
-            "sku": "208273-810",
-            "createdAt": "2023-03-04T16:31:34.793907+00:00",
-            "updatedAt": "2023-11-23T04:06:00.694366+00:00",
-            "brand": {
-                "id": "77d3f4d8-4d29-45a5-812c-1597a337a2c4",
-                "name": "Crocs"
-            }
-        },
-        {
-            "id": "d729c697-2f82-4940-a9a5-45959999c026",
-            "name": "Crocs Pollex Clog by Salehe Bembury Kuwata",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/crocs-pollex-clog-by-salehe-bembury-kuwata.webp",
-            "releasedAt": "2022-10-22",
-            "sizing": "crocs",
-            "initialPrice": 85,
-            "colorway": "Salmon Pink/Red",
-            "sku": "207393-6RL",
-            "createdAt": "2022-12-08T21:49:02.956952+00:00",
-            "updatedAt": "2023-11-25T09:36:00.694265+00:00",
-            "brand": {
-                "id": "77d3f4d8-4d29-45a5-812c-1597a337a2c4",
-                "name": "Crocs"
-            }
-        }
-    ],
-    "Adidas": [
-        {
-            "id": "bbdab66d-a54d-443d-8aa4-1a5ba9d482cc",
-            "name": "Adidas NMD S1 Edition 1",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/adidas-nmd-s1-edition-1.webp",
-            "releasedAt": "2021-09-22",
-            "sizing": "adidas",
-            "initialPrice": 180,
-            "colorway": "Cloud White",
-            "sku": "GZ7900",
-            "createdAt": "2023-02-22T09:04:30.10279+00:00",
-            "updatedAt": "2023-11-18T11:03:00.669951+00:00",
-            "brand": {
-                "id": "fc646ebb-9357-4b3f-ba0e-595db1b808ed",
-                "name": "Adidas"
-            }
-        },
-        {
-            "id": "f9784913-0edb-4ff7-a58a-64e862cc38b8",
-            "name": "Adidas Pw Tennis HU Night Indigo Legend Ink White",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/adidas-pw-tennis-hu-night-indigo-legend-ink-white.webp",
-            "releasedAt": null,
-            "sizing": "adidas",
-            "initialPrice": 100,
-            "colorway": "Night Indigo/Legend Ink/White",
-            "sku": "GZ9530",
-            "createdAt": "2023-02-26T14:37:32.603247+00:00",
-            "updatedAt": "2023-11-25T10:15:00.764503+00:00",
-            "brand": {
-                "id": "fc646ebb-9357-4b3f-ba0e-595db1b808ed",
-                "name": "Adidas"
-            }
-        }
-    ] , 
-    "Supreme": [
-        {
-            "id": "905095a4-8771-4fa8-a921-ad1f0319e8d7",
-            "name": "Nike Flex Supreme Tr 5 Wolf Grey Ghost Green (Women's)",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-flex-supreme-tr-5-wolf-grey-ghost-green-w.webp",
-            "releasedAt": null,
-            "sizing": "woman",
-            "initialPrice": 200,
-            "colorway": "Wolf Grey/Ghost Green",
-            "sku": "852467-005",
-            "createdAt": "2023-04-03T21:01:06.821722+00:00",
-            "updatedAt": "2023-11-20T19:45:00.737678+00:00",
-            "brand": {
-                "id": "2bd9a45a-683b-11ed-9022-0242ac120002",
-                "name": "Nike"
-            }
-        },
-        {
-            "id": "061e24e0-380b-46f5-8c7c-bbb5d5d82dcd",
-            "name": "Nike Air Max 98 TL Supreme Pink",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-air-max-98-tl-supreme-pink.webp",
-            "releasedAt": "2022-11-03",
-            "sizing": "man",
-            "initialPrice": 168,
-            "colorway": "Pink/Pink",
-            "sku": "DR1033-600",
-            "createdAt": "2023-02-22T08:32:24.176346+00:00",
-            "updatedAt": "2023-11-15T08:54:00.672899+00:00",
-            "brand": {
-                "id": "2bd9a45a-683b-11ed-9022-0242ac120002",
-                "name": "Nike"
-            }
-        },
-        {
-            "id": "c6b92ec1-8159-419f-9e61-0b495683e3e5",
-            "name": "Vans Era Supreme Power Corruption Lies",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/vans-era-supreme-power-corruption-lies.webp",
-            "releasedAt": "2013-03-07",
-            "sizing": "man",
-            "initialPrice": 80,
-            "colorway": "Black",
-            "sku": "VN-097L8FF",
-            "createdAt": "2023-04-09T18:21:46.91317+00:00",
-            "updatedAt": "2023-11-22T04:48:00.697079+00:00",
-            "brand": {
-                "id": "473b90f7-203a-46ac-9e68-3b43fd0466ac",
-                "name": "Vans"
-            }
-        },
-        {
-            "id": "cee3bad8-f8da-4e63-9bfc-1f8fd8033f9e",
-            "name": "Nike Vandal High Supreme Doc Brown",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-vandal-high-supreme-doc-brown.webp",
-            "releasedAt": "2017-10-26",
-            "sizing": "man",
-            "initialPrice": 90,
-            "colorway": "Bright Ceramic/White-White",
-            "sku": "AH8605-800",
-            "createdAt": "2023-02-25T14:41:50.851196+00:00",
-            "updatedAt": "2023-11-16T16:18:00.678726+00:00",
-            "brand": {
-                "id": "2bd9a45a-683b-11ed-9022-0242ac120002",
-                "name": "Nike"
-            }
-        },
-        {
-            "id": "44184db3-f994-49b9-b6c8-629b4b19635d",
-            "name": "Nike Air Zoom Courtposite Supreme Metallic Gold",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-air-zoom-courtposite-supreme-metallic-gold.webp",
-            "releasedAt": "2023-10-19",
-            "sizing": "man",
-            "initialPrice": 150,
-            "colorway": "Metallic Gold/Black/Metallic Gold",
-            "sku": "FB8934-700",
-            "createdAt": "2023-10-22T19:05:49.493027+00:00",
-            "updatedAt": "2023-11-16T12:42:00.674894+00:00",
-            "brand": {
-                "id": "2bd9a45a-683b-11ed-9022-0242ac120002",
-                "name": "Nike"
-            }
-        },
-        {
-            "id": "b0d44933-4796-4702-b501-57d9b932a909",
-            "name": "Vans Old Skool Supreme Grid White",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/vans-old-skool-supreme-grid-white.webp",
-            "releasedAt": "2020-09-10",
-            "sizing": "man",
-            "initialPrice": 98,
-            "colorway": "White/Black",
-            "sku": "VN0A45JC2YV",
-            "createdAt": "2023-03-08T16:14:02.79987+00:00",
-            "updatedAt": "2023-11-15T09:36:00.758275+00:00",
-            "brand": {
-                "id": "473b90f7-203a-46ac-9e68-3b43fd0466ac",
-                "name": "Vans"
-            }
-        },
-        {
-            "id": "c6454197-9651-4eb5-88e7-aa477ad0a4ef",
-            "name": "Nike Shox Ride 2 SP Supreme Black",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-shox-ride-2-supreme-black.webp",
-            "releasedAt": "2022-06-23",
-            "sizing": "man",
-            "initialPrice": 188,
-            "colorway": "Black/Black-Dark Ash-White",
-            "sku": "DN1615-001",
-            "createdAt": "2023-02-16T21:22:42.057122+00:00",
-            "updatedAt": "2023-11-25T00:39:00.873981+00:00",
-            "brand": {
-                "id": "2bd9a45a-683b-11ed-9022-0242ac120002",
-                "name": "Nike"
-            }
-        },
-        {
-            "id": "f49e862c-1c0b-4318-b591-0284d5a536b4",
-            "name": "Nike Air Max 98 Supreme Varsity Red",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/air-max-98-supreme-varsity-red.webp",
-            "releasedAt": "2016-04-28",
-            "sizing": "man",
-            "initialPrice": 175,
-            "colorway": "Varsity Red/Metallic Silver-Black-White",
-            "sku": "844694-600",
-            "createdAt": "2023-04-09T21:01:57.838567+00:00",
-            "updatedAt": "2023-11-22T12:00:00.85928+00:00",
-            "brand": {
-                "id": "2bd9a45a-683b-11ed-9022-0242ac120002",
-                "name": "Nike"
-            }
-        },
-        {
-            "id": "3a24079e-4310-4c86-a021-d5e907cc8018",
-            "name": "Nike Air Force 1 High Supreme World Famous Red",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/air-force-1-high-supreme-world-famous-red.webp",
-            "releasedAt": "2014-10-23",
-            "sizing": "man",
-            "initialPrice": 150,
-            "colorway": "Red/White",
-            "sku": "698696-610",
-            "createdAt": "2023-04-27T20:06:35.911068+00:00",
-            "updatedAt": "2023-11-21T02:30:00.773602+00:00",
-            "brand": {
-                "id": "2bd9a45a-683b-11ed-9022-0242ac120002",
-                "name": "Nike"
-            }
-        },
-        {
-            "id": "fbbf33ea-61ce-4b1b-98e8-87edc59f4d07",
-            "name": "Nike Air Max 95 Lux Supreme Red",
-            "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-air-max-95-lux-supreme-red.webp",
-            "releasedAt": "2019-11-07",
-            "sizing": "man",
-            "initialPrice": 500,
-            "colorway": "University Red/University Red-Black",
-            "sku": "CI0999-600",
-            "createdAt": "2023-03-08T15:55:33.66848+00:00",
-            "updatedAt": "2023-11-25T09:03:00.677721+00:00",
-            "brand": {
-                "id": "2bd9a45a-683b-11ed-9022-0242ac120002",
-                "name": "Nike"
-            }
-        }
-    ]
+  "Nike": [
+    {
+      "id": "8b1d31d2-6e7b-4e0a-85c5-d3dd769237f7",
+      "name": "Nike SB Dunk Low Gibson Guitar Case",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-dunk-sb-low-gibson-guitar-case.webp",
+      "releasedAt": "2007-01-01",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "man",
+      "initialPrice": 100,
+      "colorway": "Light British Tan/Metallic Gold",
+      "sku": "313170-271",
+      "createdAt": "2022-12-24T11:28:29.519416+00:00",
+      "updatedAt": "2023-11-20T19:48:00.754955+00:00",
+      "brand": {
+        "id": "2bd9a45a-683b-11ed-9022-0242ac120002",
+        "name": "Nike"
+      }
+    },
+    {
+      "id": "d886474d-0cf4-4ed9-89ce-f473d7d743ba",
+      "name": "Nike Air More Uptempo Rayguns (PS)",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-air-more-uptempo-rayguns-ps.webp",
+      "releasedAt": "2021-01-15",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "primaryschool",
+      "initialPrice": 95,
+      "colorway": "White/Multi-Color",
+      "sku": "DD9286-100",
+      "createdAt": "2023-03-05T17:57:42.968679+00:00",
+      "updatedAt": "2023-11-18T22:33:00.654634+00:00",
+      "brand": {
+        "id": "2bd9a45a-683b-11ed-9022-0242ac120002",
+        "name": "Nike"
+      }
+    },
+    {
+      "id": "905095a4-8771-4fa8-a921-ad1f0319e8d7",
+      "name": "Nike Flex Supreme Tr 5 Wolf Grey Ghost Green (Women's)",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-flex-supreme-tr-5-wolf-grey-ghost-green-w.webp",
+      "releasedAt": null,
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "woman",
+      "initialPrice": 75,
+      "colorway": "Wolf Grey/Ghost Green",
+      "sku": "852467-005",
+      "createdAt": "2023-04-03T21:01:06.821722+00:00",
+      "updatedAt": "2023-11-20T19:45:00.737678+00:00",
+      "brand": {
+        "id": "2bd9a45a-683b-11ed-9022-0242ac120002",
+        "name": "Nike"
+      }
+    },
+    {
+      "id": "ded358c6-fa7c-4c64-a32d-25a095d8841e",
+      "name": "Nike Air Max 97 Tie Dye Chicago",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-air-max-97-tie-dye-chicago.webp",
+      "releasedAt": "2019-07-08",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "man",
+      "initialPrice": 175,
+      "colorway": "Multi-Color/White",
+      "sku": "CK0839-100",
+      "createdAt": "2023-03-02T20:56:03.083131+00:00",
+      "updatedAt": "2023-11-23T20:27:00.67162+00:00",
+      "brand": {
+        "id": "2bd9a45a-683b-11ed-9022-0242ac120002",
+        "name": "Nike"
+      }
+    },
+    {
+      "id": "69d45815-aa0f-4ed5-8740-979b890a7abd",
+      "name": "Nike Air Force 1 Mid Legion Green",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-air-force-1-mid-legion-green.webp",
+      "releasedAt": "2017-01-29",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "man",
+      "initialPrice": 95,
+      "colorway": "Legion Green/White-Legion Green",
+      "sku": "315123-302",
+      "createdAt": "2023-05-01T18:05:42.298449+00:00",
+      "updatedAt": "2023-11-24T16:42:00.697212+00:00",
+      "brand": {
+        "id": "2bd9a45a-683b-11ed-9022-0242ac120002",
+        "name": "Nike"
+      }
+    },
+    {
+      "id": "b81bc62e-785d-4f7a-b91a-9f639a198610",
+      "name": "Nike Air Max 90 Nylon Royal",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-air-max-90-nylon-royal.webp",
+      "releasedAt": "2018-05-01",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "man",
+      "initialPrice": 120,
+      "colorway": "Deep Royal Blue/Deep Royal Blue",
+      "sku": "AO1063-400",
+      "createdAt": "2023-03-11T12:51:17.840426+00:00",
+      "updatedAt": "2023-11-15T13:36:00.701831+00:00",
+      "brand": {
+        "id": "2bd9a45a-683b-11ed-9022-0242ac120002",
+        "name": "Nike"
+      }
+    },
+    {
+      "id": "68e2d3a0-4844-4765-b9af-7ac88c9f5fff",
+      "name": "Nike Air Footscape Woven Chukka Birch Varsity Maize",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-air-footscape-woven-chukka-birch-varsity-maize.webp",
+      "releasedAt": null,
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "man",
+      "initialPrice": 180,
+      "colorway": "Birch/Birch/Varsity Maize",
+      "sku": "315097-223",
+      "createdAt": "2023-03-07T21:24:43.668101+00:00",
+      "updatedAt": "2023-11-18T04:09:00.670709+00:00",
+      "brand": {
+        "id": "2bd9a45a-683b-11ed-9022-0242ac120002",
+        "name": "Nike"
+      }
+    },
+    {
+      "id": "b9ab3bc1-d787-4961-9adc-ccb757e44c88",
+      "name": "Nike Air Max Uptempo 97 Cranberry",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/air-max-uptempo-97-cranberry.webp",
+      "releasedAt": null,
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "man",
+      "initialPrice": 55,
+      "colorway": "Varsity Red/Black-Varsity Red",
+      "sku": "399207-600",
+      "createdAt": "2023-04-08T21:39:39.937049+00:00",
+      "updatedAt": "2023-11-20T08:48:00.76089+00:00",
+      "brand": {
+        "id": "2bd9a45a-683b-11ed-9022-0242ac120002",
+        "name": "Nike"
+      }
+    },
+    {
+      "id": "c789f68f-fbdd-453e-b938-d5b8872bba80",
+      "name": "Nike Hakata Just Do It Pack Black",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-hakata-just-do-it-pack-black.webp",
+      "releasedAt": "2018-08-02",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "man",
+      "initialPrice": 80,
+      "colorway": "Black/White-Total Orange",
+      "sku": "AQ9336-001",
+      "createdAt": "2023-04-18T14:13:29.968479+00:00",
+      "updatedAt": "2023-11-20T19:54:00.7338+00:00",
+      "brand": {
+        "id": "2bd9a45a-683b-11ed-9022-0242ac120002",
+        "name": "Nike"
+      }
+    },
+    {
+      "id": "0d5d1438-4101-4b18-bb53-e1f005ff7605",
+      "name": "Nike Air Max Tavas Black Persian Voliet-White",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-air-max-tavas-black-persian-voliet-white.webp",
+      "releasedAt": null,
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "man",
+      "initialPrice": 74,
+      "colorway": "Black/Persian Voliet-White",
+      "sku": "705149-025",
+      "createdAt": "2023-04-11T20:59:01.068944+00:00",
+      "updatedAt": "2023-11-23T18:15:00.735417+00:00",
+      "brand": {
+        "id": "2bd9a45a-683b-11ed-9022-0242ac120002",
+        "name": "Nike"
+      }
+    }
+  ],
+  "Yeezy": [
+    {
+      "id": "5365972e-86d6-47a7-a97f-3e0ba408c035",
+      "name": "adidas Yeezy Boost 350 V2 Fade",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/adidas-yeezy-boost-350-v2-yecher.webp",
+      "releasedAt": "2020-11-11",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "adidas",
+      "initialPrice": 220,
+      "colorway": "Yecher/Yecher/Yecher",
+      "sku": "H02795",
+      "createdAt": "2022-12-23T22:47:56.578744+00:00",
+      "updatedAt": "2023-11-24T19:36:00.689388+00:00",
+      "brand": {
+        "id": "fc646ebb-9357-4b3f-ba0e-595db1b808ed",
+        "name": "Adidas"
+      }
+    },
+    {
+      "id": "b5cf4abe-2bcf-4b49-864c-5875443c857d",
+      "name": "adidas Yeezy Boost 380 Alien Blue",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/adidas-yeezy-boost-380-alien-blue.webp",
+      "releasedAt": "2021-05-31",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "adidas",
+      "initialPrice": 230,
+      "colorway": "Alien Blue RF/Alien Blue RF/Alien Blue RF",
+      "sku": "GW0304",
+      "createdAt": "2023-02-02T16:02:37.75574+00:00",
+      "updatedAt": "2023-11-23T07:45:00.799972+00:00",
+      "brand": {
+        "id": "fc646ebb-9357-4b3f-ba0e-595db1b808ed",
+        "name": "Adidas"
+      }
+    },
+    {
+      "id": "160f8660-c391-4889-9d67-150e96ab3bd6",
+      "name": "adidas Yeezy Foam RNNR Mist (Infants)",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/adidas-yeezy-foam-rnnr-mist-infants.webp",
+      "releasedAt": "2022-03-11",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "yeezyinfant",
+      "initialPrice": 40,
+      "colorway": "Mist/Mist/Mist",
+      "sku": "GW1971",
+      "createdAt": "2023-02-21T17:36:30.473554+00:00",
+      "updatedAt": "2023-11-19T00:00:01.178836+00:00",
+      "brand": {
+        "id": "fc646ebb-9357-4b3f-ba0e-595db1b808ed",
+        "name": "Adidas"
+      }
+    },
+    {
+      "id": "06c93924-b9d3-4343-ad59-ba6de3c6598d",
+      "name": "adidas Yeezy Boost 380 Blue Oat (Infants)",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/adidas-yeezy-boost-380-blue-oat-infants.webp",
+      "releasedAt": "2020-07-25",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "yeezyinfant",
+      "initialPrice": 150,
+      "colorway": "Blue Oat/Blue Oat/Blue Oat",
+      "sku": "Q47396",
+      "createdAt": "2023-02-21T18:29:14.726655+00:00",
+      "updatedAt": "2023-11-21T03:33:00.728541+00:00",
+      "brand": {
+        "id": "fc646ebb-9357-4b3f-ba0e-595db1b808ed",
+        "name": "Adidas"
+      }
+    },
+    {
+      "id": "3df5cca2-33d4-402d-a3b7-2aed39c76370",
+      "name": "adidas Yeezy 700 V3 Safflower (Kids)",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/adidas-yeezy-700-v3-safflower-kids.webp",
+      "releasedAt": "2020-11-14",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "yeezykids",
+      "initialPrice": 160,
+      "colorway": "Safflower/Safflower/Safflower",
+      "sku": "G54854",
+      "createdAt": "2023-02-03T14:16:12.107099+00:00",
+      "updatedAt": "2023-11-17T01:42:00.655534+00:00",
+      "brand": {
+        "id": "fc646ebb-9357-4b3f-ba0e-595db1b808ed",
+        "name": "Adidas"
+      }
+    },
+    {
+      "id": "a1a07940-f39e-437f-a569-e4c7b595ae30",
+      "name": "adidas Yeezy Boost 350 V2 Beluga 2.0",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/adidas-yeezy-boost-350-v2-beluga-2-0.webp",
+      "releasedAt": "2017-11-25",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "adidas",
+      "initialPrice": 220,
+      "colorway": "Grey/Bold Orange/Dark Solid Grey",
+      "sku": "AH2203",
+      "createdAt": "2022-12-23T22:26:32.105223+00:00",
+      "updatedAt": "2023-11-17T17:15:00.733319+00:00",
+      "brand": {
+        "id": "fc646ebb-9357-4b3f-ba0e-595db1b808ed",
+        "name": "Adidas"
+      }
+    },
+    {
+      "id": "db12e56c-64e6-4c9b-9bec-7622cf306134",
+      "name": "Yeezy Combat Boot Season 4 Sand",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/yeezy-combat-boot-season-4-sand.webp",
+      "releasedAt": "2017-04-24",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "man",
+      "initialPrice": 445,
+      "colorway": "Sand",
+      "sku": "KM3605-115",
+      "createdAt": "2023-02-21T18:52:10.094735+00:00",
+      "updatedAt": "2023-11-21T20:18:00.737597+00:00",
+      "brand": {
+        "id": "42539f64-a434-419b-b7e1-41b81c20d45b",
+        "name": "Yeezy"
+      }
+    },
+    {
+      "id": "1d0ff0f5-fb9d-42e5-867c-720547867a0b",
+      "name": "adidas Yeezy Desert Boot Rock",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/adidas-yeezy-desert-boot-rock.webp",
+      "releasedAt": "2019-04-13",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "adidas",
+      "initialPrice": 200,
+      "colorway": "Rock/Rock/Rock",
+      "sku": "EG6462",
+      "createdAt": "2022-12-09T19:04:08.090726+00:00",
+      "updatedAt": "2023-11-21T04:54:00.71615+00:00",
+      "brand": {
+        "id": "fc646ebb-9357-4b3f-ba0e-595db1b808ed",
+        "name": "Adidas"
+      }
+    },
+    {
+      "id": "037ab05d-053b-4923-9be9-ec9b0374aa3d",
+      "name": "adidas Yeezy Foam RNR Stone Taupe",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/adidas-yeezy-foam-rnr-stone-taupe.webp",
+      "releasedAt": "2023-08-30",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "yeezy",
+      "initialPrice": 90,
+      "colorway": "Stone Taupe/Stone Taupe/Stone Taupe",
+      "sku": "ID4752",
+      "createdAt": "2023-08-15T10:40:44.103999+00:00",
+      "updatedAt": "2023-11-15T09:06:00.664678+00:00",
+      "brand": {
+        "id": "fc646ebb-9357-4b3f-ba0e-595db1b808ed",
+        "name": "Adidas"
+      }
+    },
+    {
+      "id": "3fe955ca-5942-4355-9fc3-3a3cbc6f7ffe",
+      "name": "adidas Yeezy Boost 350 V2 Synth (Reflective)",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/adidas-yeezy-boost-350-v2-synth-reflective.webp",
+      "releasedAt": "2019-06-21",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "adidas",
+      "initialPrice": 220,
+      "colorway": "Synth/Synth/Synth",
+      "sku": "FV5666",
+      "createdAt": "2022-12-19T19:41:16.299759+00:00",
+      "updatedAt": "2023-11-17T18:00:00.90392+00:00",
+      "brand": {
+        "id": "fc646ebb-9357-4b3f-ba0e-595db1b808ed",
+        "name": "Adidas"
+      }
+    }
+  ],
+  "Converse": [
+    {
+      "id": "d823111c-0000-4440-810b-f296cebbd315",
+      "name": "Converse Chuck Taylor All Star 70 Hi Dark Burgundy",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/converse-chuck-taylor-all-star-70-hi-dark-burgundy.webp",
+      "releasedAt": "2018-05-07",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "converse",
+      "initialPrice": 90,
+      "colorway": "Dark Burgundy/Black",
+      "sku": "162051C",
+      "createdAt": "2023-03-05T12:53:39.713934+00:00",
+      "updatedAt": "2023-11-15T14:18:00.695482+00:00",
+      "brand": {
+        "id": "71f7f85d-e21f-4dbe-a6d5-7f3dcf094d5e",
+        "name": "Converse"
+      }
+    },
+    {
+      "id": "f2b90b1a-329d-45c7-9fd6-22a75a5b7b45",
+      "name": "Converse Chuck Taylor All Star 70 Hi Kith x Coca Cola White",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/converse-chuck-taylor-all-star-70s-hi-kith-russia.webp",
+      "releasedAt": "2018-08-18",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "converse",
+      "initialPrice": 150,
+      "colorway": "White/Lapis Blue-Egret",
+      "sku": "162986C",
+      "createdAt": "2023-04-02T20:00:22.858249+00:00",
+      "updatedAt": "2023-11-24T19:27:00.667588+00:00",
+      "brand": {
+        "id": "71f7f85d-e21f-4dbe-a6d5-7f3dcf094d5e",
+        "name": "Converse"
+      }
+    },
+    {
+      "id": "5bf65b3d-a548-4880-ae38-906e4e63589b",
+      "name": "Converse Chuck Taylor All Star Hi Total Orange",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/converse-chuck-taylor-all-star-hi-total-orange.webp",
+      "releasedAt": "2020-04-26",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "converse",
+      "initialPrice": 85,
+      "colorway": "Total Orange/Egret/Black",
+      "sku": "167700C",
+      "createdAt": "2023-03-04T18:14:25.541718+00:00",
+      "updatedAt": "2023-11-17T00:45:00.698995+00:00",
+      "brand": {
+        "id": "71f7f85d-e21f-4dbe-a6d5-7f3dcf094d5e",
+        "name": "Converse"
+      }
+    },
+    {
+      "id": "9c109007-1fc4-4515-aec8-84dad14f0bcb",
+      "name": "Converse Chuck Taylor All Star Ox Keith Haring",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/converse-chuck-taylor-all-star-ox-keith-haring.webp",
+      "releasedAt": "2021-05-13",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "converse",
+      "initialPrice": 60,
+      "colorway": "White/Black/Red",
+      "sku": "171860C",
+      "createdAt": "2023-03-04T23:59:42.386303+00:00",
+      "updatedAt": "2023-11-19T11:51:00.845462+00:00",
+      "brand": {
+        "id": "71f7f85d-e21f-4dbe-a6d5-7f3dcf094d5e",
+        "name": "Converse"
+      }
+    },
+    {
+      "id": "af5f6a3a-4a88-4614-9474-c028d972fd2d",
+      "name": "Converse One Star Pro Ox Awake NY White Sand",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/converse-one-star-pro-ox-awake-ny-white-sand.webp",
+      "releasedAt": "2023-10-12",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "converse",
+      "initialPrice": 95,
+      "colorway": "White Sand/Black/ White",
+      "sku": "A07144C",
+      "createdAt": "2023-10-22T17:56:06.905965+00:00",
+      "updatedAt": "2023-11-16T10:54:00.644512+00:00",
+      "brand": {
+        "id": "71f7f85d-e21f-4dbe-a6d5-7f3dcf094d5e",
+        "name": "Converse"
+      }
+    },
+    {
+      "id": "22ed2a76-977f-4894-b022-218b308f58ff",
+      "name": "Converse Chuck Taylor All Star Pokemon Poke Ball",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/converse-chuck-taylor-all-star-pokemon-poke-ball.webp",
+      "releasedAt": "2022-12-07",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "converse",
+      "initialPrice": 70,
+      "colorway": "White/Black",
+      "sku": "A01651C",
+      "createdAt": "2023-03-04T15:43:24.317681+00:00",
+      "updatedAt": "2023-11-17T17:12:00.693183+00:00",
+      "brand": {
+        "id": "71f7f85d-e21f-4dbe-a6d5-7f3dcf094d5e",
+        "name": "Converse"
+      }
+    },
+    {
+      "id": "42000961-9133-4d58-b408-98bb903ef09e",
+      "name": "Converse One Star Ox Tyler the Creator Golf le Fleur Mono Red",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/converse-one-star-ox-tyler-the-creator-golf-le-fleur-mono-red.webp",
+      "releasedAt": "2018-04-26",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "converse",
+      "initialPrice": 100,
+      "colorway": "Rhubarb/White",
+      "sku": "162132C",
+      "createdAt": "2023-04-17T10:25:33.540231+00:00",
+      "updatedAt": "2023-11-22T12:30:00.749148+00:00",
+      "brand": {
+        "id": "71f7f85d-e21f-4dbe-a6d5-7f3dcf094d5e",
+        "name": "Converse"
+      }
+    },
+    {
+      "id": "1a32b454-a4f7-4792-8509-4843c35bb82c",
+      "name": "Converse Fastbreak Mid White Black",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/converse-fastbreak-mid-white-black.webp",
+      "releasedAt": "2017-08-01",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "converse",
+      "initialPrice": 80,
+      "colorway": "White/Black",
+      "sku": "157720C",
+      "createdAt": "2023-03-02T21:36:37.886867+00:00",
+      "updatedAt": "2023-11-23T02:12:00.710273+00:00",
+      "brand": {
+        "id": "71f7f85d-e21f-4dbe-a6d5-7f3dcf094d5e",
+        "name": "Converse"
+      }
+    }
+  ],
+  "Jordan": [
+    {
+      "id": "451f8dfa-af05-4d93-99b9-775d460a584a",
+      "name": "Jordan 1 Retro High Phantom Gym Red",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/air-jordan-1-retro-high-phantom-gym-red.webp",
+      "releasedAt": "2019-03-30",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "man",
+      "initialPrice": 160,
+      "colorway": "Sail/Black-Phantom-Gym Red-University Red",
+      "sku": "555088-160",
+      "createdAt": "2022-12-23T16:01:40.481617+00:00",
+      "updatedAt": "2023-11-17T16:00:00.890093+00:00",
+      "brand": {
+        "id": "8560ea3d-0d41-4e9e-ba8f-6b19022841da",
+        "name": "Jordan"
+      }
+    },
+    {
+      "id": "c438141b-c2ab-4274-b263-818210061004",
+      "name": "Jordan 15 Retro Kubo (Signed) Tinker Hatfield",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/air-jordan-15-retro-kubo-signed-th.webp",
+      "releasedAt": "2016-08-08",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "man",
+      "initialPrice": 210,
+      "colorway": "Black/Black-Royal Blue-Varsity Red",
+      "sku": "SU17MNJDLS000TH",
+      "createdAt": "2023-04-27T20:00:33.431806+00:00",
+      "updatedAt": "2023-11-21T03:57:00.692292+00:00",
+      "brand": {
+        "id": "8560ea3d-0d41-4e9e-ba8f-6b19022841da",
+        "name": "Jordan"
+      }
+    },
+    {
+      "id": "a15e27cc-d5bd-48e2-818c-bfe3faedb88e",
+      "name": "Jordan 1 Low Concord",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/air-jordan-1-low-concord.webp",
+      "releasedAt": "2018-11-01",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "man",
+      "initialPrice": 100,
+      "colorway": "White/Black-Dark Concord",
+      "sku": "553558-108",
+      "createdAt": "2022-12-23T20:16:31.55792+00:00",
+      "updatedAt": "2023-11-20T08:36:00.910122+00:00",
+      "brand": {
+        "id": "8560ea3d-0d41-4e9e-ba8f-6b19022841da",
+        "name": "Jordan"
+      }
+    },
+    {
+      "id": "1df84aaf-dea4-470c-bdf0-5c7259982e73",
+      "name": "Jordan 1 High Zoom Air CMFT 2 Teyana Taylor A Rose From Harlem (Women's)",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/air-jordan-1-high-zoom-air-cmft-2-teyana-taylor-a-rose-from-harlem-womens.webp",
+      "releasedAt": "2023-06-01",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "woman",
+      "initialPrice": 150,
+      "colorway": "Gym Red/Black-Summit White-Earth-Coconut Milk",
+      "sku": "FJ0604-601",
+      "createdAt": "2023-06-12T23:12:40.635392+00:00",
+      "updatedAt": "2023-11-24T19:12:00.73937+00:00",
+      "brand": {
+        "id": "8560ea3d-0d41-4e9e-ba8f-6b19022841da",
+        "name": "Jordan"
+      }
+    },
+    {
+      "id": "9ed82135-7207-4998-8674-c865ce13050d",
+      "name": "Jordan 1 Low SE Paint Splatter (GS)",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/air-jordan-1-low-se-paint-splatter-gs.webp",
+      "releasedAt": "2021-10-01",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "gradeschool",
+      "initialPrice": 85,
+      "colorway": "Sail/Black/Total Orange",
+      "sku": "DH3295-100",
+      "createdAt": "2022-12-23T20:42:12.241888+00:00",
+      "updatedAt": "2023-11-21T03:30:00.779879+00:00",
+      "brand": {
+        "id": "8560ea3d-0d41-4e9e-ba8f-6b19022841da",
+        "name": "Jordan"
+      }
+    },
+    {
+      "id": "ca7ab947-6e2a-4c34-a098-7acf736e6798",
+      "name": "Jordan 1 Retro High Turbo Green",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/air-jordan-1-retro-high-turbo-green.webp",
+      "releasedAt": "2019-02-15",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "man",
+      "initialPrice": 160,
+      "colorway": "Turbo Green/Sail-White-Light Smoke Grey",
+      "sku": "555088-311",
+      "createdAt": "2022-12-23T15:31:39.407534+00:00",
+      "updatedAt": "2023-11-21T02:09:00.72026+00:00",
+      "brand": {
+        "id": "8560ea3d-0d41-4e9e-ba8f-6b19022841da",
+        "name": "Jordan"
+      }
+    },
+    {
+      "id": "f9183d5d-61f1-4664-8a73-86e1811acfa6",
+      "name": "Jordan 5 Retro WNBA Pinksicle Safety Orange (PS)",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/air-jordan-5-retro-wnba-pinksicle-safety-orange-ps.webp",
+      "releasedAt": "2022-07-01",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "primaryschool",
+      "initialPrice": 90,
+      "colorway": "White/Pinksicle/Safety Orange",
+      "sku": "440893-168",
+      "createdAt": "2023-03-05T16:21:36.447086+00:00",
+      "updatedAt": "2023-11-15T13:45:00.77922+00:00",
+      "brand": {
+        "id": "8560ea3d-0d41-4e9e-ba8f-6b19022841da",
+        "name": "Jordan"
+      }
+    },
+    {
+      "id": "0a8773fc-463b-4dff-815b-2a59a33f6bb0",
+      "name": "Jordan 19 OG SE Olympic",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/jordan-19-og-se-olympic.webp",
+      "releasedAt": "2004-09-04",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "man",
+      "initialPrice": 165,
+      "colorway": "White/Metallic Gold-Midnight Navy",
+      "sku": "308492-171",
+      "createdAt": "2023-04-27T09:27:23.359285+00:00",
+      "updatedAt": "2023-11-24T16:54:00.689988+00:00",
+      "brand": {
+        "id": "8560ea3d-0d41-4e9e-ba8f-6b19022841da",
+        "name": "Jordan"
+      }
+    },
+    {
+      "id": "022c8f03-5fbb-429c-ad16-3799205452f6",
+      "name": "Jordan 1 Elevate Low Onyx (Women's)",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/air-jordan-1-low-lv8d-elevated-onyx-w.webp",
+      "releasedAt": "2022-03-23",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "woman",
+      "initialPrice": 135,
+      "colorway": "White/White/White Onyx",
+      "sku": "DH7004-102",
+      "createdAt": "2022-12-19T21:30:03.867855+00:00",
+      "updatedAt": "2023-11-23T07:45:00.799972+00:00",
+      "brand": {
+        "id": "8560ea3d-0d41-4e9e-ba8f-6b19022841da",
+        "name": "Jordan"
+      }
+    },
+    {
+      "id": "6495ca82-3e63-4c13-9370-17fddc15cf13",
+      "name": "Jordan 1 Retro '97 Black Toe",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/air-jordan-1-retro-97-black-toe.webp",
+      "releasedAt": "2013-03-01",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "man",
+      "initialPrice": 130,
+      "colorway": "White/Black/Gym Red",
+      "sku": "555069-101",
+      "createdAt": "2023-03-12T13:31:43.344006+00:00",
+      "updatedAt": "2023-11-20T09:00:01.018215+00:00",
+      "brand": {
+        "id": "8560ea3d-0d41-4e9e-ba8f-6b19022841da",
+        "name": "Jordan"
+      }
+    }
+  ],
+  "Puma": [
+    {
+      "id": "9a5b04f0-ad2b-4d8c-a5f1-7e6da6a85570",
+      "name": "Puma RS-Dreamer J. Cole Purple Heart (GS)",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/puma-rs-dreamer-j-cole-purple-heart-gs.webp",
+      "releasedAt": "2020-08-21",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "puma",
+      "initialPrice": 95,
+      "colorway": "Prism Violet/Blazing Yellow",
+      "sku": "194166-04",
+      "createdAt": "2023-02-24T20:27:41.962645+00:00",
+      "updatedAt": "2023-11-18T11:15:00.694873+00:00",
+      "brand": {
+        "id": "5536a588-b9eb-4b3d-95cc-d5d6cbd6f95a",
+        "name": "Puma"
+      }
+    },
+    {
+      "id": "8dceb094-f591-46a1-9ddd-4879188d8cf3",
+      "name": "Puma Speed Cat BMW Motorsport Triple White",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/puma-speed-cat-bmw-motorsport-triple-white.webp",
+      "releasedAt": null,
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "puma",
+      "initialPrice": 95,
+      "colorway": "White/White/White",
+      "sku": "306639-02",
+      "createdAt": "2023-04-09T17:19:03.917074+00:00",
+      "updatedAt": "2023-11-21T04:09:00.649432+00:00",
+      "brand": {
+        "id": "5536a588-b9eb-4b3d-95cc-d5d6cbd6f95a",
+        "name": "Puma"
+      }
+    },
+    {
+      "id": "470db5d8-fbe8-47d7-9aa1-8e26e5b26aa6",
+      "name": "Puma RS-XL LaMelo Ball LaFrancé FOREVER.RARE",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/puma-rs-xl-lamelo-ball-lafrance-foreverrare.webp",
+      "releasedAt": "2023-10-06",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "puma",
+      "initialPrice": 140,
+      "colorway": "Green/Spring Fern/Black",
+      "sku": "395032-01",
+      "createdAt": "2023-10-04T20:16:05.418076+00:00",
+      "updatedAt": "2023-11-24T00:57:00.673882+00:00",
+      "brand": {
+        "id": "5536a588-b9eb-4b3d-95cc-d5d6cbd6f95a",
+        "name": "Puma"
+      }
+    },
+    {
+      "id": "a34d3039-59d6-4fac-ad91-55a211436a39",
+      "name": "Puma Clyde Court Disrupt Summertime",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/puma-clyde-court-disrupt-summertime.webp",
+      "releasedAt": "2019-05-25",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "puma",
+      "initialPrice": 120,
+      "colorway": "Fluorescent Green",
+      "sku": "192893-01",
+      "createdAt": "2023-02-24T18:58:31.397414+00:00",
+      "updatedAt": "2023-11-23T20:42:00.689178+00:00",
+      "brand": {
+        "id": "5536a588-b9eb-4b3d-95cc-d5d6cbd6f95a",
+        "name": "Puma"
+      }
+    },
+    {
+      "id": "9a7852d7-09cc-44dc-b68c-dddda0594f4a",
+      "name": "Puma TRC Blaze Court Pokémon Gengar",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/puma-trc-blaze-court-pokemon-gengar.webp",
+      "releasedAt": "2022-11-12",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "puma",
+      "initialPrice": 130,
+      "colorway": "Electric Purple/Fiery Red",
+      "sku": "377652-01",
+      "createdAt": "2023-02-23T23:13:01.036163+00:00",
+      "updatedAt": "2023-11-16T23:36:00.65126+00:00",
+      "brand": {
+        "id": "5536a588-b9eb-4b3d-95cc-d5d6cbd6f95a",
+        "name": "Puma"
+      }
+    },
+    {
+      "id": "ed67b0e5-f20d-4481-82d1-105c612c6398",
+      "name": "Puma LaMelo Ball MB.02 Lunar New Year Jade (GS)",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/puma-lamelo-ball-mb02-lunar-new-year-jade-gs.webp",
+      "releasedAt": "2023-02-03",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "puma",
+      "initialPrice": 110,
+      "colorway": "Jade/Jade/Gold",
+      "sku": "378284-02",
+      "createdAt": "2023-02-23T22:34:42.6861+00:00",
+      "updatedAt": "2023-11-20T20:21:00.746426+00:00",
+      "brand": {
+        "id": "5536a588-b9eb-4b3d-95cc-d5d6cbd6f95a",
+        "name": "Puma"
+      }
+    },
+    {
+      "id": "dee055cc-c6c4-4094-bc58-4c428bddc0a4",
+      "name": "Puma Cell Dome Sock KidSuper Studios",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/puma-cell-dome-sock-kidsuper-studios.webp",
+      "releasedAt": "2020-09-17",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "puma",
+      "initialPrice": 140,
+      "colorway": "Whisper White/Silver Gray",
+      "sku": "373515-01",
+      "createdAt": "2023-02-24T20:08:46.77469+00:00",
+      "updatedAt": "2023-11-17T12:18:00.669375+00:00",
+      "brand": {
+        "id": "5536a588-b9eb-4b3d-95cc-d5d6cbd6f95a",
+        "name": "Puma"
+      }
+    },
+    {
+      "id": "afd47647-350d-4cff-90f9-42de7742ee6d",
+      "name": "Puma Ignite Disc Black Green Gecko",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/puma-ignite-disc-black-green-gecko.webp",
+      "releasedAt": null,
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "puma",
+      "initialPrice": 150,
+      "colorway": "Black/Green Gecko",
+      "sku": "188616-03",
+      "createdAt": "2023-03-03T14:41:36.848679+00:00",
+      "updatedAt": "2023-11-23T04:54:00.653854+00:00",
+      "brand": {
+        "id": "5536a588-b9eb-4b3d-95cc-d5d6cbd6f95a",
+        "name": "Puma"
+      }
+    },
+    {
+      "id": "65fd546a-8484-4d16-8f56-356db2b1a7da",
+      "name": "Puma Mayze White Black Pink (Women's)",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/puma-mayze-white-black-pink-w.webp",
+      "releasedAt": null,
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "puma",
+      "initialPrice": 125,
+      "colorway": "White/Black/Pink/Yellow",
+      "sku": "381983-11",
+      "createdAt": "2023-03-12T17:54:33.846573+00:00",
+      "updatedAt": "2023-11-17T00:42:00.652189+00:00",
+      "brand": {
+        "id": "5536a588-b9eb-4b3d-95cc-d5d6cbd6f95a",
+        "name": "Puma"
+      }
+    },
+    {
+      "id": "8ea6749a-c15f-4323-b854-6ae7c5bbd402",
+      "name": "Puma RS-X Knit JAHNKOY",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/puma-rs-knit-jahnkoy.webp",
+      "releasedAt": null,
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "puma",
+      "initialPrice": 170,
+      "colorway": "Black/Multi",
+      "sku": "370077-01",
+      "createdAt": "2023-02-26T13:07:19.734473+00:00",
+      "updatedAt": "2023-11-17T00:39:00.651713+00:00",
+      "brand": {
+        "id": "5536a588-b9eb-4b3d-95cc-d5d6cbd6f95a",
+        "name": "Puma"
+      }
+    }
+  ],
+  "Vans": [
+    {
+      "id": "eab8aa01-cc7c-46ce-9600-8d5e7519958c",
+      "name": "Vans Chauffeur SF C&L",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/vans-chauffeur-sf-c-l.webp",
+      "releasedAt": null,
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "man",
+      "initialPrice": 65,
+      "colorway": "Khaki/Chambray",
+      "sku": "VN00019CIO5",
+      "createdAt": "2023-03-16T16:55:11.152331+00:00",
+      "updatedAt": "2023-11-20T08:39:00.759849+00:00",
+      "brand": {
+        "id": "473b90f7-203a-46ac-9e68-3b43fd0466ac",
+        "name": "Vans"
+      }
+    },
+    {
+      "id": "35c32a75-73c4-4bda-8648-ee27a0d52d85",
+      "name": "Vans Authentic Nintendo Super Mario Bros Tie-Dye",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/vans-authentic-nintendo-super-mario-bros-tie-dye.webp",
+      "releasedAt": "2016-06-03",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "man",
+      "initialPrice": 70,
+      "colorway": "Super Mario Bros",
+      "sku": "VN0004MLJPA",
+      "createdAt": "2023-03-02T20:16:40.53313+00:00",
+      "updatedAt": "2023-11-21T18:42:00.780236+00:00",
+      "brand": {
+        "id": "473b90f7-203a-46ac-9e68-3b43fd0466ac",
+        "name": "Vans"
+      }
+    },
+    {
+      "id": "29881583-e3e9-4e0c-9114-93f7ddb1eb78",
+      "name": "Vans Vault OG Lampin LX Geoff McFetridge Hallucinaut",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/vans-vault-og-lampin-lx-geoff-mcfetridge-hallucinaut.webp",
+      "releasedAt": "2021-12-02",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "man",
+      "initialPrice": 90,
+      "colorway": "Beige/Multi-Color",
+      "sku": "VN0A7Q4U92C",
+      "createdAt": "2023-02-25T09:13:31.651479+00:00",
+      "updatedAt": "2023-11-16T02:33:00.712232+00:00",
+      "brand": {
+        "id": "473b90f7-203a-46ac-9e68-3b43fd0466ac",
+        "name": "Vans"
+      }
+    },
+    {
+      "id": "edfa5241-0728-4c76-b50a-ec5941ef2592",
+      "name": "Vans Classic Slip-On 98 DX Anaheim Factory Tile Checkerboard Blue",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/vans-classic-slip-on-98-dx-anaheim-factory-tile-checkerboard-blue.webp",
+      "releasedAt": "2022-04-02",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "man",
+      "initialPrice": 85,
+      "colorway": "Tile Checkerboard/Limoges",
+      "sku": "VN0A5KX8B0S",
+      "createdAt": "2023-04-09T19:29:00.116817+00:00",
+      "updatedAt": "2023-11-17T13:12:00.718996+00:00",
+      "brand": {
+        "id": "473b90f7-203a-46ac-9e68-3b43fd0466ac",
+        "name": "Vans"
+      }
+    },
+    {
+      "id": "a6276686-ddcc-4a57-a992-4da5fd14077d",
+      "name": "Vans Slip-On Checkerboard",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/vans-slip-on-checkerboard-2019.webp",
+      "releasedAt": "2021-05-18",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "man",
+      "initialPrice": 65,
+      "colorway": "Black/Off White",
+      "sku": "VN000EYEBWW",
+      "createdAt": "2023-03-11T17:30:45.844798+00:00",
+      "updatedAt": "2023-11-17T16:33:00.6764+00:00",
+      "brand": {
+        "id": "473b90f7-203a-46ac-9e68-3b43fd0466ac",
+        "name": "Vans"
+      }
+    },
+    {
+      "id": "7ee33654-20fa-489c-9f24-c15cbd572eca",
+      "name": "Vans Era 59 C & L Tibetian Red",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/vans-era-59-c-l-tibetian-red.webp",
+      "releasedAt": null,
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "man",
+      "initialPrice": 60,
+      "colorway": "Tibetian Red/Geo Wave",
+      "sku": "VN0003S4HQT",
+      "createdAt": "2023-03-03T21:23:00.36659+00:00",
+      "updatedAt": "2023-11-17T16:57:00.670928+00:00",
+      "brand": {
+        "id": "473b90f7-203a-46ac-9e68-3b43fd0466ac",
+        "name": "Vans"
+      }
+    },
+    {
+      "id": "1d2ecd6f-46c7-454a-86dc-c508b6172b08",
+      "name": "Vans Old Skool White Flame",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/vans-old-skool-white-flame.webp",
+      "releasedAt": null,
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "man",
+      "initialPrice": 75,
+      "colorway": "Black/White",
+      "sku": "VN0A38G1K681",
+      "createdAt": "2023-03-08T14:25:24.179905+00:00",
+      "updatedAt": "2023-11-17T01:36:00.660264+00:00",
+      "brand": {
+        "id": "473b90f7-203a-46ac-9e68-3b43fd0466ac",
+        "name": "Vans"
+      }
+    },
+    {
+      "id": "f18b29c7-1c2b-4965-897d-c1e04051a8d9",
+      "name": "Vans Era Free & Easy",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/vans-era-free-easy.webp",
+      "releasedAt": "2020-09-04",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "man",
+      "initialPrice": 90,
+      "colorway": "Yin Yang/Marshmallow",
+      "sku": "VN0A4BVA0BG",
+      "createdAt": "2023-03-13T21:26:26.431312+00:00",
+      "updatedAt": "2023-11-22T01:51:00.732937+00:00",
+      "brand": {
+        "id": "473b90f7-203a-46ac-9e68-3b43fd0466ac",
+        "name": "Vans"
+      }
+    },
+    {
+      "id": "f286a925-d724-4a02-867b-9c3fe54e8afe",
+      "name": "Vans Old Skool Lite Black White",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/vans-old-skool-lite-black-white.webp",
+      "releasedAt": "2017-01-01",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "man",
+      "initialPrice": 65,
+      "colorway": "Black/White",
+      "sku": "VA2Z5WIJU",
+      "createdAt": "2023-02-25T22:38:41.908519+00:00",
+      "updatedAt": "2023-11-19T01:18:00.651584+00:00",
+      "brand": {
+        "id": "473b90f7-203a-46ac-9e68-3b43fd0466ac",
+        "name": "Vans"
+      }
+    },
+    {
+      "id": "db7e42f7-1e68-4340-bdeb-a8ce6251eb3a",
+      "name": "Vans Era Disney Mickey & Friends",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/vans-era-disney-mickey-friends.webp",
+      "releasedAt": null,
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "man",
+      "initialPrice": 60,
+      "colorway": "Black/Multi-Color",
+      "sku": "VN0ZULGHF",
+      "createdAt": "2023-03-26T15:30:58.582321+00:00",
+      "updatedAt": "2023-11-22T03:33:00.72452+00:00",
+      "brand": {
+        "id": "473b90f7-203a-46ac-9e68-3b43fd0466ac",
+        "name": "Vans"
+      }
+    }
+  ],
+  "Cross": [
+    {
+      "id": "58ade3a6-8533-4d23-9b13-8fa9c5234ac2",
+      "name": "Crocs Classic Clog Elf",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/crocs-classic-clog-elf.webp",
+      "releasedAt": "2023-10-30",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "crocs",
+      "initialPrice": 75,
+      "colorway": "Hunter Green/Yellow",
+      "sku": "209377P-761",
+      "createdAt": "2023-10-22T17:40:36.584715+00:00",
+      "updatedAt": "2023-11-16T10:24:00.685306+00:00",
+      "brand": {
+        "id": "77d3f4d8-4d29-45a5-812c-1597a337a2c4",
+        "name": "Crocs"
+      }
+    },
+    {
+      "id": "71fe82ba-6404-4c8c-a42f-1713b04c076f",
+      "name": "Crocs Classic Clog Demon Slayer Nezuko",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/crocs-classic-clog-demon-slayer-nezuko.webp",
+      "releasedAt": "2023-10-18",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "crocs",
+      "initialPrice": 65,
+      "colorway": "Pink",
+      "sku": "209320-206",
+      "createdAt": "2023-10-22T19:20:58.520016+00:00",
+      "updatedAt": "2023-11-16T13:09:00.745585+00:00",
+      "brand": {
+        "id": "77d3f4d8-4d29-45a5-812c-1597a337a2c4",
+        "name": "Crocs"
+      }
+    },
+    {
+      "id": "653c447e-909f-4ec4-8d56-d43d75bf2a2e",
+      "name": "Crocs Classic All-Terrain Clog Demon Slayer Zenitsu",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/crocs-classic-all-terrain-clog-demon-slayer-zenitsu.webp",
+      "releasedAt": "2023-10-18",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "crocs",
+      "initialPrice": 70,
+      "colorway": "Orange",
+      "sku": "209318-206",
+      "createdAt": "2023-10-22T19:25:50.58977+00:00",
+      "updatedAt": "2023-11-16T13:15:00.771656+00:00",
+      "brand": {
+        "id": "77d3f4d8-4d29-45a5-812c-1597a337a2c4",
+        "name": "Crocs"
+      }
+    },
+    {
+      "id": "c23c58ea-56bf-4724-b3dc-c07b4590ccdc",
+      "name": "Crocs Pollex Clog by Salehe Bembury Urchin",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/crocs-pollex-clog-by-salehe-bembury-urchin.webp",
+      "releasedAt": "2022-05-24",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "crocs",
+      "initialPrice": 85,
+      "colorway": "Mauve Mist",
+      "sku": "207393-5PS",
+      "createdAt": "2023-03-04T11:43:00.180437+00:00",
+      "updatedAt": "2023-11-15T09:42:00.748449+00:00",
+      "brand": {
+        "id": "77d3f4d8-4d29-45a5-812c-1597a337a2c4",
+        "name": "Crocs"
+      }
+    },
+    {
+      "id": "a9cf1701-964e-4a9c-94e6-71883b0670b1",
+      "name": "Crocs Classic Clog Mater (Kids)",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/crocs-classic-clog-mater-kids.webp",
+      "releasedAt": "2023-10-17",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "crocs",
+      "initialPrice": 50,
+      "colorway": "Slate Grey",
+      "sku": "209376-0DA",
+      "createdAt": "2023-10-22T19:31:39.406678+00:00",
+      "updatedAt": "2023-11-16T13:27:00.675986+00:00",
+      "brand": {
+        "id": "77d3f4d8-4d29-45a5-812c-1597a337a2c4",
+        "name": "Crocs"
+      }
+    },
+    {
+      "id": "380cb2c3-acbd-481e-bed3-760acf61246f",
+      "name": "Crocs Classic Clog Christian Cowan",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/crocs-classic-clog-christian-cowan.webp",
+      "releasedAt": "2022-09-29",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "crocs",
+      "initialPrice": 70,
+      "colorway": "White/Black",
+      "sku": "208224_103",
+      "createdAt": "2023-02-25T19:47:32.259963+00:00",
+      "updatedAt": "2023-11-22T03:33:00.72452+00:00",
+      "brand": {
+        "id": "77d3f4d8-4d29-45a5-812c-1597a337a2c4",
+        "name": "Crocs"
+      }
+    },
+    {
+      "id": "d0a994fe-ccc8-427a-8629-89553cb811a3",
+      "name": "Crocs Classic Clog Create Your Peace Black",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/crocs-classic-create-your-peace-clog-black.webp",
+      "releasedAt": "2022-02-10",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "crocs",
+      "initialPrice": 60,
+      "colorway": "Black/Silver",
+      "sku": "207571BLK",
+      "createdAt": "2023-02-28T22:29:38.575301+00:00",
+      "updatedAt": "2023-11-19T05:45:00.757825+00:00",
+      "brand": {
+        "id": "77d3f4d8-4d29-45a5-812c-1597a337a2c4",
+        "name": "Crocs"
+      }
+    },
+    {
+      "id": "397161bb-9e8e-4b1a-8c7e-b21ab7986b54",
+      "name": "Crocs Classic Clog Trix (TD)",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/crocs-classic-clog-trix-td.webp",
+      "releasedAt": "2022-06-17",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "toddler",
+      "initialPrice": 45,
+      "colorway": "White/Multi",
+      "sku": "207927-94S",
+      "createdAt": "2023-03-09T17:56:31.69743+00:00",
+      "updatedAt": "2023-11-19T08:48:00.680277+00:00",
+      "brand": {
+        "id": "77d3f4d8-4d29-45a5-812c-1597a337a2c4",
+        "name": "Crocs"
+      }
+    },
+    {
+      "id": "1c4fe7c0-7ebe-4f7c-ad5c-ed2ffbd23476",
+      "name": "Crocs Mega Crush Clog 7-Eleven Orange",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/crocs-mega-crush-clog-7-eleven-orange.webp",
+      "releasedAt": "2022-09-22",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "crocs",
+      "initialPrice": 110,
+      "colorway": "Orange",
+      "sku": "208273-810",
+      "createdAt": "2023-03-04T16:31:34.793907+00:00",
+      "updatedAt": "2023-11-23T04:06:00.694366+00:00",
+      "brand": {
+        "id": "77d3f4d8-4d29-45a5-812c-1597a337a2c4",
+        "name": "Crocs"
+      }
+    },
+    {
+      "id": "d729c697-2f82-4940-a9a5-45959999c026",
+      "name": "Crocs Pollex Clog by Salehe Bembury Kuwata",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/crocs-pollex-clog-by-salehe-bembury-kuwata.webp",
+      "releasedAt": "2022-10-22",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "crocs",
+      "initialPrice": 85,
+      "colorway": "Salmon Pink/Red",
+      "sku": "207393-6RL",
+      "createdAt": "2022-12-08T21:49:02.956952+00:00",
+      "updatedAt": "2023-11-25T09:36:00.694265+00:00",
+      "brand": {
+        "id": "77d3f4d8-4d29-45a5-812c-1597a337a2c4",
+        "name": "Crocs"
+      }
+    }
+  ],
+  "Adidas": [
+    {
+      "id": "bbdab66d-a54d-443d-8aa4-1a5ba9d482cc",
+      "name": "Adidas NMD S1 Edition 1",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/adidas-nmd-s1-edition-1.webp",
+      "releasedAt": "2021-09-22",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "adidas",
+      "initialPrice": 180,
+      "colorway": "Cloud White",
+      "sku": "GZ7900",
+      "createdAt": "2023-02-22T09:04:30.10279+00:00",
+      "updatedAt": "2023-11-18T11:03:00.669951+00:00",
+      "brand": {
+        "id": "fc646ebb-9357-4b3f-ba0e-595db1b808ed",
+        "name": "Adidas"
+      }
+    },
+    {
+      "id": "f9784913-0edb-4ff7-a58a-64e862cc38b8",
+      "name": "Adidas Pw Tennis HU Night Indigo Legend Ink White",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/adidas-pw-tennis-hu-night-indigo-legend-ink-white.webp",
+      "releasedAt": null,
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "adidas",
+      "initialPrice": 100,
+      "colorway": "Night Indigo/Legend Ink/White",
+      "sku": "GZ9530",
+      "createdAt": "2023-02-26T14:37:32.603247+00:00",
+      "updatedAt": "2023-11-25T10:15:00.764503+00:00",
+      "brand": {
+        "id": "fc646ebb-9357-4b3f-ba0e-595db1b808ed",
+        "name": "Adidas"
+      }
+    }
+  ],
+  "Supreme": [
+    {
+      "id": "905095a4-8771-4fa8-a921-ad1f0319e8d7",
+      "name": "Nike Flex Supreme Tr 5 Wolf Grey Ghost Green (Women's)",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-flex-supreme-tr-5-wolf-grey-ghost-green-w.webp",
+      "releasedAt": null,
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "woman",
+      "initialPrice": 200,
+      "colorway": "Wolf Grey/Ghost Green",
+      "sku": "852467-005",
+      "createdAt": "2023-04-03T21:01:06.821722+00:00",
+      "updatedAt": "2023-11-20T19:45:00.737678+00:00",
+      "brand": {
+        "id": "2bd9a45a-683b-11ed-9022-0242ac120002",
+        "name": "Nike"
+      }
+    },
+    {
+      "id": "061e24e0-380b-46f5-8c7c-bbb5d5d82dcd",
+      "name": "Nike Air Max 98 TL Supreme Pink",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-air-max-98-tl-supreme-pink.webp",
+      "releasedAt": "2022-11-03",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "man",
+      "initialPrice": 168,
+      "colorway": "Pink/Pink",
+      "sku": "DR1033-600",
+      "createdAt": "2023-02-22T08:32:24.176346+00:00",
+      "updatedAt": "2023-11-15T08:54:00.672899+00:00",
+      "brand": {
+        "id": "2bd9a45a-683b-11ed-9022-0242ac120002",
+        "name": "Nike"
+      }
+    },
+    {
+      "id": "c6b92ec1-8159-419f-9e61-0b495683e3e5",
+      "name": "Vans Era Supreme Power Corruption Lies",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/vans-era-supreme-power-corruption-lies.webp",
+      "releasedAt": "2013-03-07",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "man",
+      "initialPrice": 80,
+      "colorway": "Black",
+      "sku": "VN-097L8FF",
+      "createdAt": "2023-04-09T18:21:46.91317+00:00",
+      "updatedAt": "2023-11-22T04:48:00.697079+00:00",
+      "brand": {
+        "id": "473b90f7-203a-46ac-9e68-3b43fd0466ac",
+        "name": "Vans"
+      }
+    },
+    {
+      "id": "cee3bad8-f8da-4e63-9bfc-1f8fd8033f9e",
+      "name": "Nike Vandal High Supreme Doc Brown",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-vandal-high-supreme-doc-brown.webp",
+      "releasedAt": "2017-10-26",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "man",
+      "initialPrice": 90,
+      "colorway": "Bright Ceramic/White-White",
+      "sku": "AH8605-800",
+      "createdAt": "2023-02-25T14:41:50.851196+00:00",
+      "updatedAt": "2023-11-16T16:18:00.678726+00:00",
+      "brand": {
+        "id": "2bd9a45a-683b-11ed-9022-0242ac120002",
+        "name": "Nike"
+      }
+    },
+    {
+      "id": "44184db3-f994-49b9-b6c8-629b4b19635d",
+      "name": "Nike Air Zoom Courtposite Supreme Metallic Gold",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-air-zoom-courtposite-supreme-metallic-gold.webp",
+      "releasedAt": "2023-10-19",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "man",
+      "initialPrice": 150,
+      "colorway": "Metallic Gold/Black/Metallic Gold",
+      "sku": "FB8934-700",
+      "createdAt": "2023-10-22T19:05:49.493027+00:00",
+      "updatedAt": "2023-11-16T12:42:00.674894+00:00",
+      "brand": {
+        "id": "2bd9a45a-683b-11ed-9022-0242ac120002",
+        "name": "Nike"
+      }
+    },
+    {
+      "id": "b0d44933-4796-4702-b501-57d9b932a909",
+      "name": "Vans Old Skool Supreme Grid White",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/vans-old-skool-supreme-grid-white.webp",
+      "releasedAt": "2020-09-10",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "man",
+      "initialPrice": 98,
+      "colorway": "White/Black",
+      "sku": "VN0A45JC2YV",
+      "createdAt": "2023-03-08T16:14:02.79987+00:00",
+      "updatedAt": "2023-11-15T09:36:00.758275+00:00",
+      "brand": {
+        "id": "473b90f7-203a-46ac-9e68-3b43fd0466ac",
+        "name": "Vans"
+      }
+    },
+    {
+      "id": "c6454197-9651-4eb5-88e7-aa477ad0a4ef",
+      "name": "Nike Shox Ride 2 SP Supreme Black",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-shox-ride-2-supreme-black.webp",
+      "releasedAt": "2022-06-23",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "man",
+      "initialPrice": 188,
+      "colorway": "Black/Black-Dark Ash-White",
+      "sku": "DN1615-001",
+      "createdAt": "2023-02-16T21:22:42.057122+00:00",
+      "updatedAt": "2023-11-25T00:39:00.873981+00:00",
+      "brand": {
+        "id": "2bd9a45a-683b-11ed-9022-0242ac120002",
+        "name": "Nike"
+      }
+    },
+    {
+      "id": "f49e862c-1c0b-4318-b591-0284d5a536b4",
+      "name": "Nike Air Max 98 Supreme Varsity Red",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/air-max-98-supreme-varsity-red.webp",
+      "releasedAt": "2016-04-28",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "man",
+      "initialPrice": 175,
+      "colorway": "Varsity Red/Metallic Silver-Black-White",
+      "sku": "844694-600",
+      "createdAt": "2023-04-09T21:01:57.838567+00:00",
+      "updatedAt": "2023-11-22T12:00:00.85928+00:00",
+      "brand": {
+        "id": "2bd9a45a-683b-11ed-9022-0242ac120002",
+        "name": "Nike"
+      }
+    },
+    {
+      "id": "3a24079e-4310-4c86-a021-d5e907cc8018",
+      "name": "Nike Air Force 1 High Supreme World Famous Red",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/air-force-1-high-supreme-world-famous-red.webp",
+      "releasedAt": "2014-10-23",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "man",
+      "initialPrice": 150,
+      "colorway": "Red/White",
+      "sku": "698696-610",
+      "createdAt": "2023-04-27T20:06:35.911068+00:00",
+      "updatedAt": "2023-11-21T02:30:00.773602+00:00",
+      "brand": {
+        "id": "2bd9a45a-683b-11ed-9022-0242ac120002",
+        "name": "Nike"
+      }
+    },
+    {
+      "id": "fbbf33ea-61ce-4b1b-98e8-87edc59f4d07",
+      "name": "Nike Air Max 95 Lux Supreme Red",
+      "image": "https://retailed.fra1.digitaloceanspaces.com/p/nike-air-max-95-lux-supreme-red.webp",
+      "releasedAt": "2019-11-07",
+      "isFav": false,
+      "description": "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with ",
+      "sizing": "man",
+      "initialPrice": 500,
+      "colorway": "University Red/University Red-Black",
+      "sku": "CI0999-600",
+      "createdAt": "2023-03-08T15:55:33.66848+00:00",
+      "updatedAt": "2023-11-25T09:03:00.677721+00:00",
+      "brand": {
+        "id": "2bd9a45a-683b-11ed-9022-0242ac120002",
+        "name": "Nike"
+      }
+    }
+  ]
 }

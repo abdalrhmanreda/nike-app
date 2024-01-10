@@ -68,7 +68,7 @@ class LayoutScreen extends StatelessWidget {
               items: AppCubit.get(context).items,
               currentIndex: AppCubit.get(context).currentIndex,
               onTap: (index) {
-                AppCubit.get(context).changeBottomNavBar(index);
+                AppCubit.get(context).changeBottomNavBar(index, context);
               },
             ),
           );
