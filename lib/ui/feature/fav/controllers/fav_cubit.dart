@@ -75,4 +75,21 @@ class FavCubit extends Cubit<FavState> {
 
     return completer.future;
   }
+
+  void removeFromFav({required String productId}) {
+    emit(FavLoading());
+    FirebaseFirestore.instance
+        .collection('users')
+        .doc(userId)
+        .collection('fav')
+        .doc(productId)
+        .delete()
+        .then((value) {
+      getFav();
+      favId.remove(productId);
+      emit(FavRemoved());
+    }).catchError((e) {
+      emit(FavError());
+    });
+  }
 }

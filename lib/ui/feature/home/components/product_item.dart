@@ -10,6 +10,8 @@ import 'package:nike/ui/feature/fav/controllers/fav_cubit.dart';
 import 'package:nike/ui/feature/home/controllers/product_cubit.dart';
 import 'package:nike/ui/feature/home/models/ProductModel.dart';
 
+import '../../../../core/constant/strings.dart';
+
 class ProductItem extends StatelessWidget {
   const ProductItem({
     super.key,
@@ -38,8 +40,15 @@ class ProductItem extends StatelessWidget {
               return Align(
                 alignment: Alignment.topLeft,
                 child: IconButton(
-                  onPressed: () {
-                    FavCubit.get(context).addToFav(productModel: productModel);
+                  onPressed: () async {
+                    if (await FavCubit.get(context)
+                        .isProductInFavorites(userId!, productModel.id!)) {
+                      FavCubit.get(context)
+                          .removeFromFav(productId: productModel.id!);
+                    } else {
+                      FavCubit.get(context)
+                          .addToFav(productModel: productModel);
+                    }
                   },
                   icon: FavCubit.get(context).favId[productModel.id!] != null
                       ? const Icon(
