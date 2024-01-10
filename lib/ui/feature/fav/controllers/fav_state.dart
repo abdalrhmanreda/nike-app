@@ -23,3 +23,5 @@ class FavError extends FavState {}
 class FavLoading extends FavState {}
 
 class GetFavSuccess extends FavState {}
+
+class CheckFavSuccess extends FavState {}

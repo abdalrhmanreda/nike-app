@@ -1,24 +1,26 @@
-/// id : "8b1d31d2-6e7b-4e0a-85c5-d3dd769237f7"
-/// description : "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with Nike."
-/// name : "Nike SB Dunk Low Gibson Guitar Case"
-/// image : "https://retailed.fra1.digitaloceanspaces.com/p/nike-dunk-sb-low-gibson-guitar-case.webp"
-/// releasedAt : "2007-01-01"
-/// sizing : "man"
-/// initialPrice : 100
-/// colorway : "Light British Tan/Metallic Gold"
-/// sku : "313170-271"
-/// createdAt : "2022-12-24T11:28:29.519416+00:00"
-/// updatedAt : "2023-11-20T19:48:00.754955+00:00"
+/// id : "037ab05d-053b-4923-9be9-ec9b0374aa3d"
+/// name : "adidas Yeezy Foam RNR Stone Taupe"
+/// image : "https://retailed.fra1.digitaloceanspaces.com/p/adidas-yeezy-foam-rnr-stone-taupe.webp"
+/// releasedAt : "2023-08-30"
+/// description : "Elevate your style with our chic and versatile shoe collection. From timeless classics to trendy designs, our shoes blend fashion and comfort seamlessly. Crafted with precision and attention to detail, each pair is a statement of sophistication. Step into confidence and make every stride a stylish one with "
+/// isFav : false
+/// sizing : "yeezy"
+/// initialPrice : 90
+/// colorway : "Stone Taupe/Stone Taupe/Stone Taupe"
+/// sku : "ID4752"
+/// createdAt : "2023-08-15T10:40:44.103999+00:00"
+/// updatedAt : "2023-11-15T09:06:00.664678+00:00"
 /// sizes : ["38","39","40","41","42","43","44","45","46"]
-/// brand : {"id":"2bd9a45a-683b-11ed-9022-0242ac120002","name":"Nike"}
+/// brand : {"id":"fc646ebb-9357-4b3f-ba0e-595db1b808ed","name":"Adidas"}
 
 class ProductModel {
   ProductModel({
     String? id,
-    String? description,
     String? name,
     String? image,
     String? releasedAt,
+    String? description,
+    bool? isFav,
     String? sizing,
     num? initialPrice,
     String? colorway,
@@ -29,10 +31,11 @@ class ProductModel {
     Brand? brand,
   }) {
     _id = id;
-    _description = description;
     _name = name;
     _image = image;
     _releasedAt = releasedAt;
+    _description = description;
+    _isFav = isFav;
     _sizing = sizing;
     _initialPrice = initialPrice;
     _colorway = colorway;
@@ -45,10 +48,11 @@ class ProductModel {
 
   ProductModel.fromJson(dynamic json) {
     _id = json['id'];
-    _description = json['description'];
     _name = json['name'];
     _image = json['image'];
     _releasedAt = json['releasedAt'];
+    _description = json['description'];
+    _isFav = json['isFav'];
     _sizing = json['sizing'];
     _initialPrice = json['initialPrice'];
     _colorway = json['colorway'];
@@ -59,10 +63,11 @@ class ProductModel {
     _brand = json['brand'] != null ? Brand.fromJson(json['brand']) : null;
   }
   String? _id;
-  String? _description;
   String? _name;
   String? _image;
   String? _releasedAt;
+  String? _description;
+  bool? _isFav;
   String? _sizing;
   num? _initialPrice;
   String? _colorway;
@@ -73,10 +78,11 @@ class ProductModel {
   Brand? _brand;
   ProductModel copyWith({
     String? id,
-    String? description,
     String? name,
     String? image,
     String? releasedAt,
+    String? description,
+    bool? isFav,
     String? sizing,
     num? initialPrice,
     String? colorway,
@@ -88,10 +94,11 @@ class ProductModel {
   }) =>
       ProductModel(
         id: id ?? _id,
-        description: description ?? _description,
         name: name ?? _name,
         image: image ?? _image,
         releasedAt: releasedAt ?? _releasedAt,
+        description: description ?? _description,
+        isFav: isFav ?? _isFav,
         sizing: sizing ?? _sizing,
         initialPrice: initialPrice ?? _initialPrice,
         colorway: colorway ?? _colorway,
@@ -102,10 +109,11 @@ class ProductModel {
         brand: brand ?? _brand,
       );
   String? get id => _id;
-  String? get description => _description;
   String? get name => _name;
   String? get image => _image;
   String? get releasedAt => _releasedAt;
+  String? get description => _description;
+  bool? get isFav => _isFav;
   String? get sizing => _sizing;
   num? get initialPrice => _initialPrice;
   String? get colorway => _colorway;
@@ -115,13 +123,14 @@ class ProductModel {
   List<String>? get sizes => _sizes;
   Brand? get brand => _brand;
 
-  Map<String, dynamic> toJson() {
+  Map<String, dynamic> toJson(bool? isFav) {
     final map = <String, dynamic>{};
     map['id'] = _id;
-    map['description'] = _description;
     map['name'] = _name;
     map['image'] = _image;
     map['releasedAt'] = _releasedAt;
+    map['description'] = _description;
+    map['isFav'] = isFav;
     map['sizing'] = _sizing;
     map['initialPrice'] = _initialPrice;
     map['colorway'] = _colorway;
@@ -136,8 +145,8 @@ class ProductModel {
   }
 }
 
-/// id : "2bd9a45a-683b-11ed-9022-0242ac120002"
-/// name : "Nike"
+/// id : "fc646ebb-9357-4b3f-ba0e-595db1b808ed"
+/// name : "Adidas"
 
 class Brand {
   Brand({

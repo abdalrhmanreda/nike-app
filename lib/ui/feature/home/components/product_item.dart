@@ -1,5 +1,6 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:gap/gap.dart';
 import 'package:icons_plus/icons_plus.dart';
@@ -29,22 +30,29 @@ class ProductItem extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          Align(
-            alignment: Alignment.topLeft,
-            child: IconButton(
-              onPressed: () async {
-                FavCubit.get(context).addToFav(productModel: productModel);
-              },
-              icon: true
-                  ? const Icon(
-                      Iconsax.heart_bold,
-                      color: Colors.red,
-                    )
-                  : const Icon(
-                      Iconsax.heart_outline,
-                      color: Colors.grey,
-                    ),
-            ),
+          BlocConsumer<FavCubit, FavState>(
+            listener: (context, state) {
+              // TODO: implement listener
+            },
+            builder: (context, state) {
+              return Align(
+                alignment: Alignment.topLeft,
+                child: IconButton(
+                  onPressed: () {
+                    FavCubit.get(context).addToFav(productModel: productModel);
+                  },
+                  icon: FavCubit.get(context).favId[productModel.id!] != null
+                      ? const Icon(
+                          Iconsax.heart_bold,
+                          color: Colors.red,
+                        )
+                      : const Icon(
+                          Iconsax.heart_outline,
+                          color: Colors.grey,
+                        ),
+                ),
+              );
+            },
           ),
           const Gap(5),
           Transform(

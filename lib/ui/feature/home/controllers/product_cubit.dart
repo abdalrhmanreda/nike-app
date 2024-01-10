@@ -35,6 +35,7 @@ class ProductCubit extends Cubit<ProductState> {
     rootBundle.loadString(Assets.dataProducts).then((value) {
       jsonDecode(value)['data'].forEach((element) {
         products.add(ProductModel.fromJson(element));
+        // FirebaseFirestore.instance.collection('products').add(element);
       });
       emit(SuccessState());
     }).catchError((error) {

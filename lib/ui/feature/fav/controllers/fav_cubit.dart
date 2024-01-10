@@ -22,10 +22,9 @@ class FavCubit extends Cubit<FavState> {
           .collection('users')
           .doc(userId)
           .collection('fav')
-          .add(productModel.toJson())
+          .doc(productModel.id!)
+          .set(productModel.toJson(true))
           .then((value) {
-        favId[productModel.id!] = value.id;
-        print(value.id);
         getFav();
         emit(FavAdded());
       }).catchError((e) {
@@ -35,6 +34,7 @@ class FavCubit extends Cubit<FavState> {
   }
 
   List<ProductModel> favProducts = [];
+
   void getFav() {
     favProducts = [];
     emit(FavLoading());
@@ -46,8 +46,9 @@ class FavCubit extends Cubit<FavState> {
         .then((value) {
       for (var element in value.docs) {
         favProducts.add(ProductModel.fromJson(element.data()));
-        favId[element.id] = element.id;
+        favId[element.id] = true;
       }
+      print(favId);
       emit(GetFavSuccess());
     }).catchError((error) {
       debugPrint(error.toString());
@@ -55,7 +56,6 @@ class FavCubit extends Cubit<FavState> {
     });
   }
 
-  bool isFav = false;
   Future<bool> isProductInFavorites(String userId, String productId) async {
     Completer<bool> completer = Completer<bool>();
 
@@ -63,7 +63,7 @@ class FavCubit extends Cubit<FavState> {
         .collection('users')
         .doc(userId)
         .collection('fav')
-        .doc('lKBeOkBWDUUjatCZfYoR')
+        .doc(productId)
         .get()
         .then((value) {
       print(value.data());
