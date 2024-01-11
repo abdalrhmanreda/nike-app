@@ -15,6 +15,9 @@ class FavCubit extends Cubit<FavState> {
   static FavCubit get(context) => BlocProvider.of(context);
   Map<String, dynamic> favId = {};
 
+  final _favController = StreamController<List<ProductModel>>();
+  Stream<List<ProductModel>> get favStream => _favController.stream;
+
   void addToFav({required ProductModel productModel}) async {
     if ((!await isProductInFavorites(userId!, productModel.id!))) {
       emit(FavLoading());
@@ -25,7 +28,7 @@ class FavCubit extends Cubit<FavState> {
           .doc(productModel.id!)
           .set(productModel.toJson(true))
           .then((value) {
-        getFav();
+        getFav(userId!);
         emit(FavAdded());
       }).catchError((e) {
         emit(FavError());
@@ -35,24 +38,25 @@ class FavCubit extends Cubit<FavState> {
 
   List<ProductModel> favProducts = [];
 
-  void getFav() {
+  void getFav(String userId) {
     favProducts = [];
-    emit(FavLoading());
+
     FirebaseFirestore.instance
         .collection('users')
         .doc(userId)
         .collection('fav')
-        .get()
-        .then((value) {
-      for (var element in value.docs) {
-        favProducts.add(ProductModel.fromJson(element.data()));
-        favId[element.id] = true;
+        .snapshots()
+        .listen((querySnapshot) {
+      favProducts = querySnapshot.docs
+          .map((doc) => ProductModel.fromJson(doc.data()))
+          .toList();
+      for (var element in favProducts) {
+        favId[element.id!] = true;
       }
-      print(favId);
-      emit(GetFavSuccess());
-    }).catchError((error) {
+
+      _favController.add(favProducts);
+    }, onError: (error) {
       debugPrint(error.toString());
-      emit(FailureState(error: error.toString()));
     });
   }
 
@@ -66,10 +70,9 @@ class FavCubit extends Cubit<FavState> {
         .doc(productId)
         .get()
         .then((value) {
-      print(value.data());
       completer.complete(value.exists);
     }).catchError((error) {
-      print(error.toString());
+      debugPrint(error.toString());
       completer.completeError(error);
     });
 
@@ -85,11 +88,15 @@ class FavCubit extends Cubit<FavState> {
         .doc(productId)
         .delete()
         .then((value) {
-      getFav();
+      getFav(userId!);
       favId.remove(productId);
       emit(FavRemoved());
     }).catchError((e) {
       emit(FavError());
     });
+  }
+
+  void dispose() {
+    _favController.close();
   }
 }
