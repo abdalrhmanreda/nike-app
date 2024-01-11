@@ -47,13 +47,13 @@ class NikeApp extends StatelessWidget {
             BlocProvider(create: (context) => AppCubit()),
             BlocProvider(create: (context) => ProductCubit()..getAllData()),
             BlocProvider(create: (context) => ProductDetailsCubit()),
-            BlocProvider(create: (context) => FavCubit()..getFav(userId!)),
+            BlocProvider(create: (context) => FavCubit()..getFav()),
             BlocProvider(create: (context) => CartCubit()..getCart()),
           ],
           child: MaterialApp(
             onGenerateRoute: generateRoute,
             // home: startWidget,
-            initialRoute: RoutePath.login,
+            initialRoute: RoutePath.layout,
             locale: const Locale('en', 'US'),
             localizationsDelegates: const [
               S.delegate,

@@ -13,9 +13,6 @@ class CartCubit extends Cubit<CartState> {
   CartCubit() : super(CartInitial());
   static CartCubit get(context) => BlocProvider.of(context);
 
-  final _cartController = StreamController<List<ProductModel>>();
-  Stream<List<ProductModel>> get cartStream => _cartController.stream;
-
   Map<String, dynamic> cartIds = {};
   double totalPrice = 0.0;
 
@@ -39,28 +36,6 @@ class CartCubit extends Cubit<CartState> {
 
   List<ProductModel> cartProducts = [];
 
-  // void getCart() {
-  //   cartProducts = [];
-  //   emit(CartLoadingState());
-  //   FirebaseFirestore.instance
-  //       .collection('users')
-  //       .doc(userId)
-  //       .collection('cart')
-  //       .get()
-  //       .then((value) {
-  //     for (var element in value.docs) {
-  //       cartProducts.add(ProductModel.fromJson(element.data()));
-  //       cartIds[element.id] = true;
-  //       totalPrice += element.data()['initialPrice'];
-  //     }
-  //     print(cartIds);
-  //     emit(GetCartState());
-  //   }).catchError((error) {
-  //     debugPrint(error.toString());
-  //     emit(CartFailureState());
-  //   });
-  // }
-
   void getCart() {
     cartProducts = [];
     emit(CartLoadingState());
@@ -68,18 +43,16 @@ class CartCubit extends Cubit<CartState> {
         .collection('users')
         .doc(userId)
         .collection('cart')
-        .snapshots()
-        .listen((querySnapshot) {
-      cartProducts = querySnapshot.docs
-          .map((doc) => ProductModel.fromJson(doc.data()))
-          .toList();
-      for (var element in cartProducts) {
-        cartIds[element.id!] = true;
-        totalPrice += element.initialPrice!;
+        .get()
+        .then((value) {
+      for (var element in value.docs) {
+        cartProducts.add(ProductModel.fromJson(element.data()));
+        cartIds[element.id] = true;
+        totalPrice += element.data()['initialPrice'];
       }
-      _cartController.add(cartProducts);
+      print(cartIds);
       emit(GetCartState());
-    }, onError: (error) {
+    }).catchError((error) {
       debugPrint(error.toString());
       emit(CartFailureState());
     });
