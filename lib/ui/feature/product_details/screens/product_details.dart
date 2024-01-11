@@ -5,6 +5,8 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:gap/gap.dart';
 import 'package:icons_plus/icons_plus.dart';
 import 'package:nike/config/colors/app_colors.dart';
+import 'package:nike/config/routes/routes_path.dart';
+import 'package:nike/core/components/custom_navigatation.dart';
 import 'package:nike/core/components/progress_indector.dart';
 import 'package:nike/ui/feature/home/models/ProductModel.dart';
 import 'package:nike/ui/feature/layout/components/app_bar.dart';
@@ -33,7 +35,7 @@ class ProductDetailsScreen extends StatelessWidget {
         title: S.of(context).sneakerShop,
         leading: IconButton(
           onPressed: () {
-            Navigator.pop(context);
+            CustomNavigation.navigateByNamedTo(context, RoutePath.layout);
           },
           icon: const Icon(
             Iconsax.arrow_left_2_outline,
@@ -61,8 +63,6 @@ class ProductDetailsScreen extends StatelessWidget {
           // TODO: implement listener
         },
         builder: (context, state) {
-          final ScrollController _controller = ScrollController();
-
           return ConditionalBuilder(
             builder: (context) => Padding(
               padding: const EdgeInsets.all(12.0),

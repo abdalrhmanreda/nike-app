@@ -5,8 +5,9 @@ import 'package:flutter_iconly/flutter_iconly.dart';
 import 'package:icons_plus/icons_plus.dart';
 import 'package:nike/ui/feature/fav/screens/fav.dart';
 import 'package:nike/ui/feature/home/screens/home.dart';
-import 'package:nike/ui/feature/notification/screens/notification.dart';
 import 'package:nike/ui/feature/profile/screens/profile_screen.dart';
+
+import '../feature/notification/screens/notification.dart';
 
 part 'app_state.dart';
 

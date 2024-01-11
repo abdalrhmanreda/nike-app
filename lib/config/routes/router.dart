@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:nike/config/routes/routes_path.dart';
 import 'package:nike/ui/feature/authentication/screens/login_screen/login_screen.dart';
 import 'package:nike/ui/feature/authentication/screens/otp_code_screen/otp_code_screen.dart';
+import 'package:nike/ui/feature/cart/screens/cart.dart';
 import 'package:nike/ui/feature/product_details/screens/product_details.dart';
 import 'package:nike/ui/feature/search/screens/screen.dart';
 import 'package:nike/ui/feature/splash_screen/screens/splash_screen.dart';
@@ -25,14 +26,17 @@ Route? generateRoute(RouteSettings settings) {
       return MaterialPageRoute(builder: (_) => const OtpCodeScreen());
     case RoutePath.layout:
       return MaterialPageRoute(builder: (_) => const LayoutScreen());
+    case RoutePath.cartScreen:
+      return MaterialPageRoute(builder: (_) => const CartScreen());
     case RoutePath.searchScreen:
       return MaterialPageRoute(builder: (_) => const SearchScreen());
     case RoutePath.productDetailsScreen:
       return MaterialPageRoute(
-          builder: (_) => ProductDetailsScreen(
-                productModel: settings.arguments as ProductModel,
-                index: settings.arguments.toString(),
-              ));
+        builder: (_) => ProductDetailsScreen(
+          productModel: settings.arguments as ProductModel,
+          index: settings.arguments.toString(),
+        ),
+      );
     // case RoutePath.lectureDetails:
     //   return MaterialPageRoute(builder: (_) => const LectureDetailsScreen());
     // case RoutePath.profile:

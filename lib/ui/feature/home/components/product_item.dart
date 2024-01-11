@@ -6,6 +6,7 @@ import 'package:gap/gap.dart';
 import 'package:icons_plus/icons_plus.dart';
 import 'package:nike/config/colors/app_colors.dart';
 import 'package:nike/core/constant/app_constant.dart';
+import 'package:nike/ui/feature/cart/controller/cart_cubit.dart';
 import 'package:nike/ui/feature/fav/controllers/fav_cubit.dart';
 import 'package:nike/ui/feature/home/controllers/product_cubit.dart';
 import 'package:nike/ui/feature/home/models/ProductModel.dart';
@@ -107,21 +108,43 @@ class ProductItem extends StatelessWidget {
                       ),
                 ),
               ),
-              InkWell(
-                onTap: () {},
-                child: Container(
-                  height: 30.h,
-                  width: 30.w,
-                  decoration: const BoxDecoration(
-                    color: Color(AppColors.kPrimaryColor),
-                    borderRadius:
-                        BorderRadius.only(topLeft: Radius.circular(15)),
-                  ),
-                  child: const Icon(
-                    Iconsax.add_outline,
-                    color: Color(AppColors.kWhiteColor),
-                  ),
-                ),
+              BlocConsumer<CartCubit, CartState>(
+                listener: (context, state) {
+                  // TODO: implement listener
+                },
+                builder: (context, state) {
+                  return InkWell(
+                    onTap: () async {
+                      if (await CartCubit.get(context)
+                          .isProductInCart(userId!, productModel.id!)) {
+                        CartCubit.get(context)
+                            .removeFromCart(productId: productModel.id!);
+                      } else {
+                        CartCubit.get(context)
+                            .addToCart(productModel: productModel);
+                      }
+                    },
+                    child: Container(
+                      height: 30.h,
+                      width: 30.w,
+                      decoration: const BoxDecoration(
+                        color: Color(AppColors.kPrimaryColor),
+                        borderRadius:
+                            BorderRadius.only(topLeft: Radius.circular(15)),
+                      ),
+                      child: CartCubit.get(context).cartIds[productModel.id!] !=
+                              null
+                          ? const Icon(
+                              Icons.check,
+                              color: Color(AppColors.kWhiteColor),
+                            )
+                          : const Icon(
+                              Iconsax.add_outline,
+                              color: Color(AppColors.kWhiteColor),
+                            ),
+                    ),
+                  );
+                },
               ),
             ],
           ),

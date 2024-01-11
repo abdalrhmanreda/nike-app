@@ -10,6 +10,9 @@ import 'package:nike/core/components/custom_list_tile.dart';
 import 'package:nike/core/components/custom_navigatation.dart';
 import 'package:nike/core/constant/app_constant.dart';
 import 'package:nike/generated/assets.dart';
+import 'package:nike/ui/feature/cart/screens/cart.dart';
+import 'package:nike/ui/feature/fav/screens/fav.dart';
+import 'package:nike/ui/feature/profile/screens/profile_screen.dart';
 
 import '../../../../generated/l10n.dart';
 import '../../authentication/controller/auth_cubit.dart';
@@ -60,15 +63,22 @@ class CustomDrawer extends StatelessWidget {
                 ),
                 const Gap(45),
                 CustomListTile(
-                    onTap: () {},
+                    onTap: () {
+                      CustomNavigation.navigateTo(
+                          context, const ProfileScreen());
+                    },
                     leadingIcon: IconlyBroken.profile,
                     title: S.of(context).profile),
                 CustomListTile(
-                    onTap: () {},
+                    onTap: () {
+                      CustomNavigation.navigateTo(context, const CartScreen());
+                    },
                     leadingIcon: IconlyBroken.bag2,
                     title: S.of(context).cart),
                 CustomListTile(
-                    onTap: () {},
+                    onTap: () {
+                      CustomNavigation.navigateTo(context, const FavScreen());
+                    },
                     leadingIcon: IconlyBroken.heart,
                     title: S.of(context).favorite),
                 CustomListTile(

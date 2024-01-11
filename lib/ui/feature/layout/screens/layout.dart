@@ -3,8 +3,10 @@ import 'package:flutter_advanced_drawer/flutter_advanced_drawer.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:icons_plus/icons_plus.dart';
 import 'package:nike/config/colors/app_colors.dart';
+import 'package:nike/config/routes/routes_path.dart';
 import 'package:nike/ui/cubit/app_cubit.dart';
 
+import '../../../../core/components/custom_navigatation.dart';
 import '../components/app_bar.dart';
 import '../components/drawer.dart';
 
@@ -53,7 +55,7 @@ class LayoutScreen extends StatelessWidget {
                     child: IconButton(
                       onPressed: () {},
                       icon: const Icon(
-                        Iconsax.bag_2_outline,
+                        Iconsax.notification_bing_outline,
                         size: 25,
                       ),
                     ),
@@ -70,6 +72,17 @@ class LayoutScreen extends StatelessWidget {
               onTap: (index) {
                 AppCubit.get(context).changeBottomNavBar(index);
               },
+            ),
+            floatingActionButtonLocation:
+                FloatingActionButtonLocation.centerDocked,
+            floatingActionButton: FloatingActionButton(
+              onPressed: () {
+                CustomNavigation.navigateByNamedTo(
+                    context, RoutePath.cartScreen);
+              },
+              child: const Icon(
+                Iconsax.bag_2_outline,
+              ),
             ),
           );
         },
