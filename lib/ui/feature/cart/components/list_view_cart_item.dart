@@ -6,6 +6,7 @@ import 'package:gap/gap.dart';
 import 'package:icons_plus/icons_plus.dart';
 import 'package:nike/config/colors/app_colors.dart';
 import 'package:nike/core/components/custom_navigatation.dart';
+import 'package:nike/ui/feature/home/models/ProductModel.dart';
 import 'package:nike/ui/feature/product_details/screens/product_details.dart';
 
 import '../controller/cart_cubit.dart';
@@ -13,7 +14,7 @@ import 'cart_item.dart';
 
 class CartListView extends StatelessWidget {
   const CartListView({super.key, required this.cartProducts});
-  final List cartProducts;
+  final List<ProductModel> cartProducts;
 
   @override
   Widget build(BuildContext context) {

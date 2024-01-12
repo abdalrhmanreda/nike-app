@@ -1,7 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/cupertino.dart';
-
-import 'api_constant.dart';
+import 'package:nike/core/paymob/paymob_api.dart';
 
 class DioHelper {
   static late Dio dio;
@@ -9,7 +8,7 @@ class DioHelper {
   static void init() {
     dio = Dio(
       BaseOptions(
-        baseUrl: ApiConstant.baseUrl,
+        baseUrl: PaymobApi.baseUrl,
         receiveDataWhenStatusError: true,
         headers: {
           'Accept': 'application/json',

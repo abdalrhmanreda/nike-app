@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   const CustomAppBar({
@@ -18,6 +19,10 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
       title: Text(title ?? ''),
       actions: actions,
       leading: leading,
+      centerTitle: true,
+      systemOverlayStyle: const SystemUiOverlayStyle(
+        statusBarIconBrightness: Brightness.dark,
+      ),
     );
   }
 

@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:nike/core/api/dio_helper.dart';
 import 'package:nike/core/cache/hive_cache.dart';
 import 'package:nike/core/constant/strings.dart';
 import 'package:nike/core/observer/blocObserver.dart';
@@ -11,7 +12,9 @@ import 'package:nike/ui/feature/authentication/controller/auth_cubit.dart';
 import 'package:nike/ui/feature/cart/controller/cart_cubit.dart';
 import 'package:nike/ui/feature/fav/controllers/fav_cubit.dart';
 import 'package:nike/ui/feature/home/controllers/product_cubit.dart';
+import 'package:nike/ui/feature/payment/controllers/payment_cubit.dart';
 import 'package:nike/ui/feature/product_details/controller/product_details_cubit.dart';
+import 'package:nike/ui/feature/search/controllers/search_cubit.dart';
 
 import 'config/routes/router.dart';
 import 'config/routes/routes_path.dart';
@@ -22,6 +25,7 @@ import 'generated/l10n.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await HiveCache.openHive();
+  DioHelper.init();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
@@ -49,11 +53,13 @@ class NikeApp extends StatelessWidget {
             BlocProvider(create: (context) => ProductDetailsCubit()),
             BlocProvider(create: (context) => FavCubit()..getFav()),
             BlocProvider(create: (context) => CartCubit()..getCart()),
+            BlocProvider(create: (context) => PaymentCubit()),
+            BlocProvider(create: (context) => SearchCubit()),
           ],
           child: MaterialApp(
             onGenerateRoute: generateRoute,
             // home: startWidget,
-            initialRoute: RoutePath.layout,
+            initialRoute: RoutePath.login,
             locale: const Locale('en', 'US'),
             localizationsDelegates: const [
               S.delegate,

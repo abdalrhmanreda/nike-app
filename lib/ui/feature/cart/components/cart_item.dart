@@ -4,6 +4,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:gap/gap.dart';
 import 'package:nike/config/colors/app_colors.dart';
 import 'package:nike/core/constant/app_constant.dart';
+import 'package:nike/ui/feature/home/models/ProductModel.dart';
 
 class CartItem extends StatelessWidget {
   const CartItem({
@@ -12,7 +13,7 @@ class CartItem extends StatelessWidget {
     required this.index,
   });
 
-  final List cartProducts;
+  final List<ProductModel> cartProducts;
   final int index;
 
   @override

@@ -12,13 +12,18 @@ class ContainerTextFormFeild extends StatelessWidget {
     required this.hint,
     required this.keyboardType,
     this.suffixIcon,
+    this.prefixIcon,
     this.suffixPressed,
+    this.onChanged,
   });
   final bool isPass;
   final TextEditingController controller;
   final String hint;
   final TextInputType keyboardType;
   IconData? suffixIcon;
+  IconData? prefixIcon;
+  String? Function(String?)? onChanged;
+
   VoidCallback? suffixPressed;
 
   @override
@@ -33,6 +38,7 @@ class ContainerTextFormFeild extends StatelessWidget {
       child: TextFormField(
         controller: controller,
         obscureText: isPass,
+        onChanged: onChanged,
         decoration: InputDecoration(
           contentPadding:
               const EdgeInsets.symmetric(horizontal: 16.0, vertical: 16),
@@ -42,6 +48,7 @@ class ContainerTextFormFeild extends StatelessWidget {
                 fontSize: 14.sp,
                 color: const Color(AppColors.kGreyColor),
               ),
+          prefixIcon: Icon(prefixIcon),
           suffixIcon: suffixIcon != null
               ? IconButton(
                   onPressed: () {
