@@ -24,13 +24,25 @@ class CartListView extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(
-            '${CartCubit.get(context).cartProducts.length} Items',
-            style: TextStyle(
-              fontSize: 18.sp,
-              fontWeight: FontWeight.w700,
-              height: 0,
-            ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Text(
+                '${CartCubit.get(context).cartProducts.length} Items',
+                style: TextStyle(
+                  fontSize: 18.sp,
+                  fontWeight: FontWeight.w700,
+                  height: 0,
+                ),
+              ),
+              IconButton(
+                onPressed: () => CartCubit.get(context).clearCart(),
+                icon: const Icon(
+                  Iconsax.trash_outline,
+                  color: Color(AppColors.kGreyColor),
+                ),
+              ),
+            ],
           ),
           const Gap(10),
           ListView.separated(

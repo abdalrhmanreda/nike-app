@@ -95,4 +95,25 @@ class CartCubit extends Cubit<CartState> {
       emit(CartFailureState());
     });
   }
+
+  void clearCart() {
+    emit(CartLoadingState());
+    FirebaseFirestore.instance
+        .collection('users')
+        .doc(userId)
+        .collection('cart')
+        .get()
+        .then((value) {
+      for (var element in value.docs) {
+        element.reference.delete();
+      }
+      cartProducts.clear();
+      totalPrice = 0.0;
+      cartIds.clear();
+      emit(ClearCartState());
+    }).catchError((e) {
+      debugPrint(e.toString());
+      emit(CartFailureState());
+    });
+  }
 }

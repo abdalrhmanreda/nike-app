@@ -15,9 +15,6 @@ class FavCubit extends Cubit<FavState> {
   static FavCubit get(context) => BlocProvider.of(context);
   Map<String, dynamic> favId = {};
 
-  // final _favController = StreamController<List<ProductModel>>();
-  // Stream<List<ProductModel>> get favStream => _favController.stream;
-
   void addToFav({required ProductModel productModel}) async {
     if ((!await isProductInFavorites(userId!, productModel.id!))) {
       emit(FavLoading());
@@ -58,27 +55,6 @@ class FavCubit extends Cubit<FavState> {
       emit(FailureState(error: error.toString()));
     });
   }
-  // void getFav(String userId) {
-  //   favProducts = [];
-  //
-  //   FirebaseFirestore.instance
-  //       .collection('users')
-  //       .doc(userId)
-  //       .collection('fav')
-  //       .snapshots()
-  //       .listen((querySnapshot) {
-  //     favProducts = querySnapshot.docs
-  //         .map((doc) => ProductModel.fromJson(doc.data()))
-  //         .toList();
-  //     for (var element in favProducts) {
-  //       favId[element.id!] = true;
-  //     }
-  //
-  //     _favController.add(favProducts);
-  //   }, onError: (error) {
-  //     debugPrint(error.toString());
-  //   });
-  // }
 
   Future<bool> isProductInFavorites(String userId, String productId) async {
     Completer<bool> completer = Completer<bool>();
@@ -90,10 +66,9 @@ class FavCubit extends Cubit<FavState> {
         .doc(productId)
         .get()
         .then((value) {
-      print(value.data());
       completer.complete(value.exists);
     }).catchError((error) {
-      print(error.toString());
+      debugPrint(error.toString());
       completer.completeError(error);
     });
 
@@ -114,6 +89,27 @@ class FavCubit extends Cubit<FavState> {
       emit(FavRemoved());
     }).catchError((e) {
       emit(FavError());
+    });
+  }
+
+  void clearFav() {
+    emit(FavLoading());
+    FirebaseFirestore.instance
+        .collection('users')
+        .doc(userId)
+        .collection('fav')
+        .get()
+        .then((value) {
+      for (var element in value.docs) {
+        element.reference.delete();
+      }
+      favId.clear();
+      favProducts.clear();
+      getFav();
+      emit(FavRemoved());
+    }).catchError((error) {
+      debugPrint(error.toString());
+      emit(FailureState(error: error.toString()));
     });
   }
 }
