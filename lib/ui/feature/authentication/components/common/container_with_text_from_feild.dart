@@ -41,7 +41,7 @@ class ContainerTextFormFeild extends StatelessWidget {
         onChanged: onChanged,
         decoration: InputDecoration(
           contentPadding:
-              const EdgeInsets.symmetric(horizontal: 16.0, vertical: 16),
+              const EdgeInsets.symmetric(horizontal: 12.0, vertical: 16),
           border: InputBorder.none,
           hintText: hint,
           hintStyle: Theme.of(context).textTheme.bodySmall!.copyWith(

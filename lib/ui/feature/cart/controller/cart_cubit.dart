@@ -37,7 +37,6 @@ class CartCubit extends Cubit<CartState> {
   List<ProductModel> cartProducts = [];
 
   void getCart() {
-    cartProducts = [];
     emit(CartLoadingState());
     FirebaseFirestore.instance
         .collection('users')
@@ -45,6 +44,8 @@ class CartCubit extends Cubit<CartState> {
         .collection('cart')
         .get()
         .then((value) {
+      cartProducts = [];
+
       for (var element in value.docs) {
         cartProducts.add(ProductModel.fromJson(element.data()));
         cartIds[element.id] = true;
@@ -68,10 +69,10 @@ class CartCubit extends Cubit<CartState> {
         .doc(productId)
         .get()
         .then((value) {
-      print(value.data());
+      debugPrint(value.data().toString());
       completer.complete(value.exists);
     }).catchError((error) {
-      print(error.toString());
+      debugPrint(error.toString());
       completer.completeError(error);
     });
 

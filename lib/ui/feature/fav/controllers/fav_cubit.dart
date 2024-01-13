@@ -36,7 +36,6 @@ class FavCubit extends Cubit<FavState> {
   List<ProductModel> favProducts = [];
 
   void getFav() {
-    favProducts = [];
     emit(FavLoading());
     FirebaseFirestore.instance
         .collection('users')
@@ -44,6 +43,8 @@ class FavCubit extends Cubit<FavState> {
         .collection('fav')
         .get()
         .then((value) {
+      favProducts = [];
+
       for (var element in value.docs) {
         favProducts.add(ProductModel.fromJson(element.data()));
         favId[element.id] = true;

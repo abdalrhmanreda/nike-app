@@ -31,7 +31,8 @@ class CartScreen extends StatelessWidget {
                 children: [
                   Expanded(
                     child: CartListView(
-                        cartProducts: CartCubit.get(context).cartProducts),
+                      cartProducts: CartCubit.get(context).cartProducts,
+                    ),
                   ),
                   const Gap(25),
                   const PricePart(),
