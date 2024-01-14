@@ -18,34 +18,35 @@ class SearchPart extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: [
-        Container(
-          width: AppConstant.deviceWidth(context) / 1.3,
-          height: 45.h,
-          decoration: BoxDecoration(
-            color: const Color(AppColors.kWhiteColor),
-            borderRadius: BorderRadius.circular(10),
-            boxShadow: const [
-              BoxShadow(
-                color: Color(AppColors.kLoginWithGoogleColor),
-                blurRadius: 10,
-              )
-            ],
-          ),
-          child: TextFormField(
-            enabled: false,
-            onTap: () {
-              CustomNavigation.navigateAndFinish(
-                  context, RoutePath.searchScreen);
-            },
-            decoration: InputDecoration(
-              helperStyle: Theme.of(context).textTheme.bodySmall!.copyWith(
-                    fontSize: 15.sp,
-                  ),
-              hintText: S.of(context).lookingFor,
-              prefixIcon: const Icon(IconlyBroken.search),
-              contentPadding:
-                  const EdgeInsets.symmetric(horizontal: 20.0, vertical: 15),
-              border: InputBorder.none,
+        InkWell(
+          onTap: () {
+            CustomNavigation.navigateByNamedTo(context, RoutePath.searchScreen);
+          },
+          child: Container(
+            width: AppConstant.deviceWidth(context) / 1.3,
+            height: 45.h,
+            decoration: BoxDecoration(
+              color: const Color(AppColors.kWhiteColor),
+              borderRadius: BorderRadius.circular(10),
+              boxShadow: const [
+                BoxShadow(
+                  color: Color(AppColors.kLoginWithGoogleColor),
+                  blurRadius: 10,
+                )
+              ],
+            ),
+            child: TextFormField(
+              enabled: false,
+              decoration: InputDecoration(
+                helperStyle: Theme.of(context).textTheme.bodySmall!.copyWith(
+                      fontSize: 15.sp,
+                    ),
+                hintText: S.of(context).lookingFor,
+                prefixIcon: const Icon(IconlyBroken.search),
+                contentPadding:
+                    const EdgeInsets.symmetric(horizontal: 20.0, vertical: 15),
+                border: InputBorder.none,
+              ),
             ),
           ),
         ),

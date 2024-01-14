@@ -69,7 +69,7 @@ class CheckoutScreen extends StatelessWidget {
                       ),
                 ),
                 Text(
-                  AuthCubit.get(context).userModel!.address!,
+                  'Assuit , Egypt',
                   style: Theme.of(context).textTheme.bodyMedium!.copyWith(
                         color: const Color(AppColors.kGreyColor),
                       ),

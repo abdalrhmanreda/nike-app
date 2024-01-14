@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_advanced_drawer/flutter_advanced_drawer.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:icons_plus/icons_plus.dart';
 import 'package:nike/config/colors/app_colors.dart';
 import 'package:nike/config/routes/routes_path.dart';
 import 'package:nike/ui/cubit/app_cubit.dart';
-import 'package:nike/ui/feature/cart/controller/cart_cubit.dart';
 
 import '../../../../core/components/custom_navigatation.dart';
 import '../components/app_bar.dart';
@@ -58,22 +56,16 @@ class LayoutScreen extends StatelessWidget {
                       CircleAvatar(
                         backgroundColor: const Color(AppColors.kWhiteColor),
                         child: IconButton(
-                          onPressed: () {},
+                          onPressed: () {
+                            CustomNavigation.navigateByNamedTo(
+                                context, RoutePath.searchScreen);
+                          },
                           icon: const Icon(
-                            Iconsax.notification_bing_outline,
+                            Iconsax.search_normal_outline,
                             size: 25,
                           ),
                         ),
                       ),
-                      if (CartCubit.get(context).cartProducts.isNotEmpty)
-                        Text(
-                          '${CartCubit.get(context).cartProducts.length}',
-                          style: TextStyle(
-                            color: Colors.red,
-                            fontSize: 15.sp,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
                     ],
                   ),
                 ),

@@ -126,6 +126,7 @@ class AuthCubit extends Cubit<AuthState> {
     String? phone,
     String? address,
   }) {
+    emit(LoadingState());
     firebase_storage.FirebaseStorage.instance
         .ref()
         .child('users/${Uri.file(profilePhoto!.path).pathSegments.last}')

@@ -6,10 +6,10 @@ import 'package:nike/core/components/custom_app_bar.dart';
 import 'package:nike/ui/feature/cart/components/list_view_cart_item.dart';
 import 'package:nike/ui/feature/cart/controller/cart_cubit.dart';
 
-import '../../../../config/routes/routes_path.dart';
 import '../../../../core/components/custom_navigatation.dart';
 import '../../../../generated/assets.dart';
 import '../components/price_part.dart';
+import 'checkout.dart';
 
 class CartScreen extends StatefulWidget {
   const CartScreen({super.key});
@@ -49,8 +49,8 @@ class _CartScreenState extends State<CartScreen> {
                   const Gap(25),
                   PricePart(
                     onPressed: () {
-                      CustomNavigation.navigateByNamedTo(
-                          context, RoutePath.checkoutScreen);
+                      CustomNavigation.navigateTo(
+                          context, const CheckoutScreen());
                     },
                   ),
                 ],
