@@ -37,6 +37,7 @@ class CartCubit extends Cubit<CartState> {
   List<ProductModel> cartProducts = [];
 
   void getCart() {
+    totalPrice = 0.0;
     emit(CartLoadingState());
     FirebaseFirestore.instance
         .collection('users')
@@ -88,9 +89,8 @@ class CartCubit extends Cubit<CartState> {
         .doc(productId)
         .delete()
         .then((value) {
-      getCart();
       cartIds.remove(productId);
-      totalPrice -= cartIds[productId].initialPrice!;
+      getCart();
       emit(RemoveFromCartState());
     }).catchError((e) {
       emit(CartFailureState());

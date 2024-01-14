@@ -11,6 +11,7 @@ class ItemCountAndClear extends StatelessWidget {
   });
 
   @override
+  @override
   Widget build(BuildContext context) {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,

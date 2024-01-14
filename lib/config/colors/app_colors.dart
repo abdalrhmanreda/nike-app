@@ -14,4 +14,5 @@ class AppColors {
   static const int kLabelOfSearchTextFromFeildColor = 0xffb2dbf5;
   static const int kOnBoardingDesc = 0xffD8D8D8;
   static const int kPriceColor = 0xff6A6A6A;
+  static const int kIconMap = 0xff0070fc;
 }

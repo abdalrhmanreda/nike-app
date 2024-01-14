@@ -9,6 +9,7 @@ class RoutePath {
   static const String cartScreen = '/cartScreen';
   static const String favScreen = '/favScreen';
   static const String paymentScreen = '/paymentScreen';
+  static const String checkoutScreen = '/checkoutScreen';
 
   static const String productDetailsScreen = '/productDetailsScreen';
   static const String lectureDetails = '/lectureDetailsScreen';

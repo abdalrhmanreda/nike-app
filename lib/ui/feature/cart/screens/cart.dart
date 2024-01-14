@@ -6,12 +6,19 @@ import 'package:nike/core/components/custom_app_bar.dart';
 import 'package:nike/ui/feature/cart/components/list_view_cart_item.dart';
 import 'package:nike/ui/feature/cart/controller/cart_cubit.dart';
 
+import '../../../../config/routes/routes_path.dart';
+import '../../../../core/components/custom_navigatation.dart';
 import '../../../../generated/assets.dart';
 import '../components/price_part.dart';
 
-class CartScreen extends StatelessWidget {
+class CartScreen extends StatefulWidget {
   const CartScreen({super.key});
 
+  @override
+  State<CartScreen> createState() => _CartScreenState();
+}
+
+class _CartScreenState extends State<CartScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -21,7 +28,12 @@ class CartScreen extends StatelessWidget {
             onPressed: () => Navigator.pop(context),
             icon: const Icon(IconlyBroken.arrowLeft2)),
       ),
-      body: BlocBuilder<CartCubit, CartState>(
+      body: BlocConsumer<CartCubit, CartState>(
+        listener: (context, state) {
+          if (state is RemoveFromCartState) {
+            setState(() {});
+          }
+        },
         builder: (context, cartProducts) {
           if (CartCubit.get(context).cartProducts.isNotEmpty) {
             return Padding(
@@ -35,7 +47,12 @@ class CartScreen extends StatelessWidget {
                     ),
                   ),
                   const Gap(25),
-                  const PricePart(),
+                  PricePart(
+                    onPressed: () {
+                      CustomNavigation.navigateByNamedTo(
+                          context, RoutePath.checkoutScreen);
+                    },
+                  ),
                 ],
               ),
             );

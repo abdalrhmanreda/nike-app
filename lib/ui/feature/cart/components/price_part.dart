@@ -10,8 +10,11 @@ import 'package:nike/ui/feature/cart/controller/cart_cubit.dart';
 class PricePart extends StatelessWidget {
   const PricePart({
     super.key,
+    required this.onPressed,
   });
+  final VoidCallback onPressed;
 
+  @override
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -85,7 +88,9 @@ class PricePart extends StatelessWidget {
         ),
         const Gap(10),
         CustomButton(
-          onPressed: () {},
+          onPressed: () {
+            onPressed();
+          },
           height: 47.h,
           width: AppConstant.deviceWidth(context),
           radius: 10,

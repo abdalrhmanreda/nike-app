@@ -3,6 +3,7 @@ import 'package:nike/config/routes/routes_path.dart';
 import 'package:nike/ui/feature/authentication/screens/login_screen/login_screen.dart';
 import 'package:nike/ui/feature/authentication/screens/otp_code_screen/otp_code_screen.dart';
 import 'package:nike/ui/feature/cart/screens/cart.dart';
+import 'package:nike/ui/feature/cart/screens/checkout.dart';
 import 'package:nike/ui/feature/fav/screens/fav.dart';
 import 'package:nike/ui/feature/product_details/screens/product_details.dart';
 import 'package:nike/ui/feature/search/screens/search.dart';
@@ -36,6 +37,8 @@ Route? generateRoute(RouteSettings settings) {
       return MaterialPageRoute(builder: (_) => const FavScreen());
     case RoutePath.paymentScreen:
       return MaterialPageRoute(builder: (_) => const PaymentScreen());
+    case RoutePath.checkoutScreen:
+      return MaterialPageRoute(builder: (_) => const CheckoutScreen());
     case RoutePath.productDetailsScreen:
       return MaterialPageRoute(
         builder: (_) => ProductDetailsScreen(

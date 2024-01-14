@@ -26,7 +26,6 @@ class AuthCubit extends Cubit<AuthState> {
         .signInWithEmailAndPassword(email: email, password: password)
         .then((value) {
       getUserData(userId: HiveCache.getData(key: 'userId'));
-      emit(LoginSuccessState());
     }).catchError((error) {
       print(error.toString());
       emit(FailureState(error: error.toString()));
@@ -54,7 +53,6 @@ class AuthCubit extends Cubit<AuthState> {
         .then((value) {
       createUser(email: email, name: name, uId: value.user!.uid, phone: phone);
       HiveCache.saveData(key: 'userId', value: value.user!.uid);
-
       userId = value.user!.uid;
     }).catchError((error) {
       emit(FailureState(error: error.toString()));
@@ -73,7 +71,7 @@ class AuthCubit extends Cubit<AuthState> {
       profileImage:
           'https://cdn1.iconfinder.com/data/icons/user-pictures/100/unknown-512.png',
       phone: phone,
-      address: '',
+      address: 'Assuit , Egypt',
     );
     emit(LoadingState());
 
