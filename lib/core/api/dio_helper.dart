@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:nike/core/paymob/paymob_api.dart';
+import 'package:nike/core/api/api_constant.dart';
 
 class DioHelper {
   static late Dio dio;
@@ -8,7 +8,7 @@ class DioHelper {
   static void init() {
     dio = Dio(
       BaseOptions(
-        baseUrl: PaymobApi.baseUrl,
+        baseUrl: ApiConstant.baseUrl,
         receiveDataWhenStatusError: true,
         headers: {
           'Accept': 'application/json',
@@ -58,7 +58,8 @@ class DioHelper {
   static void setHeaders(String lang, String? token) {
     dio.options.headers = {
       'lang': lang,
-      'Authorization': token != null ? 'Bearer $token' : '',
+      'Authorization':
+          'key=AAAARg-0lEY:APA91bF6UQKFoRkbRBn39zSek6MX77A8XPfiJKgOvNzD0E05_QUkZPJ_tQeEzs90ziHu6xafUKaNROKIZsFh7XCdJ3SbwlKpDXRJvr0gg0wvVOfU50RFJriTQETKCEk370WUNYSOE58g',
     };
   }
 }

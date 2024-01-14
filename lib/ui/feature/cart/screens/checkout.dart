@@ -4,6 +4,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:gap/gap.dart';
 import 'package:nike/config/colors/app_colors.dart';
 import 'package:nike/core/components/custom_app_bar.dart';
+import 'package:nike/ui/feature/authentication/controller/auth_cubit.dart';
 import 'package:nike/ui/feature/cart/components/price_part.dart';
 import 'package:nike/ui/feature/cart/controller/cart_cubit.dart';
 import 'package:paymob_payment/paymob_payment.dart';
@@ -64,6 +65,12 @@ class CheckoutScreen extends StatelessWidget {
                   'Address',
                   style: Theme.of(context).textTheme.bodyMedium!.copyWith(
                         fontSize: 16.sp,
+                      ),
+                ),
+                Text(
+                  AuthCubit.get(context).userModel!.address!,
+                  style: Theme.of(context).textTheme.bodyMedium!.copyWith(
+                        color: const Color(AppColors.kGreyColor),
                       ),
                 ),
                 const Gap(5),

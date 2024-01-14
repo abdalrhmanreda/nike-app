@@ -24,7 +24,7 @@ class CartCubit extends Cubit<CartState> {
           .doc(userId)
           .collection('cart')
           .doc(productModel.id!)
-          .set(productModel.toJson(true))
+          .set(productModel.toJson())
           .then((value) {
         getCart();
         emit(AddToCartState());

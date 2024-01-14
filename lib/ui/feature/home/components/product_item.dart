@@ -12,6 +12,7 @@ import 'package:nike/ui/feature/home/controllers/product_cubit.dart';
 import 'package:nike/ui/feature/home/models/ProductModel.dart';
 
 import '../../../../core/constant/strings.dart';
+import '../../notification/controllers/notification_cubit.dart';
 
 class ProductItem extends StatelessWidget {
   const ProductItem({
@@ -122,6 +123,11 @@ class ProductItem extends StatelessWidget {
                       } else {
                         CartCubit.get(context)
                             .addToCart(productModel: productModel);
+                        Future.delayed(const Duration(seconds: 5), () {
+                          NotificationCubit.get(context).sendNotification(
+                            productModel: productModel,
+                          );
+                        });
                       }
                     },
                     child: Container(

@@ -73,6 +73,7 @@ dependencies:
   paymob_payment: ^0.0.1+1
   google_maps_flutter: ^2.5.3
   geolocator: ^10.1.0
+  firebase_messaging: ^14.7.10
 
 dev_dependencies:
   flutter_test:

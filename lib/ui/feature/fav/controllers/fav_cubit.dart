@@ -23,7 +23,7 @@ class FavCubit extends Cubit<FavState> {
           .doc(userId)
           .collection('fav')
           .doc(productModel.id!)
-          .set(productModel.toJson(true))
+          .set(productModel.toJson())
           .then((value) {
         getFav();
         emit(FavAdded());

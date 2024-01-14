@@ -107,7 +107,9 @@ class ProductDetailsScreen extends StatelessWidget {
                     ),
                   ),
                   const Spacer(),
-                  const AddToCartAndFav()
+                  AddToCartAndFav(
+                    productModel: productModel,
+                  )
                 ],
               ),
             ),

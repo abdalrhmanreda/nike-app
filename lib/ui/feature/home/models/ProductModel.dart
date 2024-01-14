@@ -123,14 +123,14 @@ class ProductModel {
   List<String>? get sizes => _sizes;
   Brand? get brand => _brand;
 
-  Map<String, dynamic> toJson(bool? isFav) {
+  Map<String, dynamic> toJson() {
     final map = <String, dynamic>{};
     map['id'] = _id;
     map['name'] = _name;
     map['image'] = _image;
     map['releasedAt'] = _releasedAt;
     map['description'] = _description;
-    map['isFav'] = isFav;
+    map['isFav'] = _isFav;
     map['sizing'] = _sizing;
     map['initialPrice'] = _initialPrice;
     map['colorway'] = _colorway;
