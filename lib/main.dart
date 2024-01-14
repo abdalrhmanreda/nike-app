@@ -68,8 +68,7 @@ class NikeApp extends StatelessWidget {
           ],
           child: MaterialApp(
             onGenerateRoute: generateRoute,
-            // home: startWidget,
-            initialRoute: RoutePath.login,
+            initialRoute: RoutePath.onBoarding,
             locale: const Locale('en', 'US'),
             localizationsDelegates: const [
               S.delegate,

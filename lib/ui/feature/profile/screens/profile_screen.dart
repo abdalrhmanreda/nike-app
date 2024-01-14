@@ -1,9 +1,10 @@
-import 'package:flutter/cupertino.dart';
+import 'package:conditional_builder_null_safety/conditional_builder_null_safety.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:gap/gap.dart';
 import 'package:lottie/lottie.dart';
+import 'package:nike/core/components/progress_indector.dart';
 import 'package:nike/ui/feature/authentication/components/register/full_name.dart';
 import 'package:nike/ui/feature/authentication/controller/auth_cubit.dart';
 import 'package:nike/ui/feature/authentication/models/user_model.dart';
@@ -30,12 +31,12 @@ class ProfileScreen extends StatelessWidget {
           if (state is GetUserDataSuccessState) {
             showDialog(
               context: context,
-              builder: (context) => CupertinoAlertDialog(
+              builder: (context) => AlertDialog(
                 title: const Text('profile updated successfully'),
                 content: Lottie.network(
                     'https://lottie.host/b26e87d2-a9b0-45cc-9509-64ae5914876c/jrbmCzA1x8.json'),
                 actions: [
-                  CupertinoDialogAction(
+                  TextButton(
                       child: const Text('Ok'),
                       onPressed: () {
                         Navigator.pop(context);
@@ -72,31 +73,35 @@ class ProfileScreen extends StatelessWidget {
                     title: S.of(context).phone,
                     hint: ''),
                 const Gap(25),
-                CustomButton(
-                  onPressed: () {
-                    if (AuthCubit.get(context).profilePhoto == null) {
-                      AuthCubit.get(context).updateUserData(
-                        name: nameController.text,
-                        email: emailController.text,
-                        phone: phoneController.text,
-                      );
-                    } else {
-                      AuthCubit.get(context).uploadImage(
-                        name: nameController.text,
-                        email: emailController.text,
-                        phone: phoneController.text,
-                      );
-                    }
-                  },
-                  height: 45.h,
-                  width: AppConstant.deviceWidth(context),
-                  radius: 10,
-                  color: AppColors.kPrimaryColor,
-                  textColor: AppColors.kWhiteColor,
-                  vertical: 0,
-                  horizontal: 0,
-                  fontSize: 16.sp,
-                  text: 'update profile',
+                ConditionalBuilder(
+                  condition: state is! LoadingState,
+                  builder: (context) => CustomButton(
+                    onPressed: () {
+                      if (AuthCubit.get(context).profilePhoto == null) {
+                        AuthCubit.get(context).updateUserData(
+                          name: nameController.text,
+                          email: emailController.text,
+                          phone: phoneController.text,
+                        );
+                      } else {
+                        AuthCubit.get(context).uploadImage(
+                          name: nameController.text,
+                          email: emailController.text,
+                          phone: phoneController.text,
+                        );
+                      }
+                    },
+                    height: 45.h,
+                    width: AppConstant.deviceWidth(context),
+                    radius: 10,
+                    color: AppColors.kPrimaryColor,
+                    textColor: AppColors.kWhiteColor,
+                    vertical: 0,
+                    horizontal: 0,
+                    fontSize: 16.sp,
+                    text: 'update profile',
+                  ),
+                  fallback: (context) => const CustomLoadingIndicator(),
                 ),
               ],
             ),

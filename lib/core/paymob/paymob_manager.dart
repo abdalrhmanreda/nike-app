@@ -1,4 +1,4 @@
-import 'package:nike/core/api/dio_helper.dart';
+import 'package:dio/dio.dart';
 import 'package:nike/core/paymob/paymob_api.dart';
 
 // class PaymobManager {
@@ -94,12 +94,11 @@ import 'package:nike/core/paymob/paymob_api.dart';
 //   }
 // }
 
-class PaymentManager {
+class PaymobManager {
   // process 1 => get token
   Future<String> _authenticationToken() async {
     try {
-      var response =
-          await DioHelper.postData(url: PaymobApi.authenticationToken, data: {
+      var response = await Dio().post(PaymobApi.authenticationToken, data: {
         'api_key': PaymobApi.paymobApiKey,
       });
       return response.data['token'];
@@ -117,8 +116,7 @@ class PaymentManager {
     required List items,
   }) async {
     try {
-      var response =
-          await DioHelper.postData(url: PaymobApi.orderRegistration, data: {
+      var response = await Dio().post(PaymobApi.orderRegistration, data: {
         'auth_token': authToken,
         'delivery_needed': "$deliveryNeeded",
         'amount_cents': amount,
@@ -142,7 +140,7 @@ class PaymentManager {
     required int integrationId,
   }) async {
     try {
-      var response = await DioHelper.postData(url: PaymobApi.paymentKey, data: {
+      var response = await Dio().post(PaymobApi.paymentKey, data: {
         "auth_token": authToken,
         "amount_cents": amount,
         "expiration": 5000,

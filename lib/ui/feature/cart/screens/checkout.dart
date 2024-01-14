@@ -4,12 +4,12 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:gap/gap.dart';
 import 'package:nike/config/colors/app_colors.dart';
 import 'package:nike/core/components/custom_app_bar.dart';
-import 'package:nike/ui/feature/authentication/controller/auth_cubit.dart';
+import 'package:nike/core/paymob/paymob_manager.dart';
 import 'package:nike/ui/feature/cart/components/price_part.dart';
 import 'package:nike/ui/feature/cart/controller/cart_cubit.dart';
-import 'package:paymob_payment/paymob_payment.dart';
+import 'package:url_launcher/url_launcher.dart';
 
-import '../../../../core/paymob/paymob_api.dart';
+import '../../authentication/controller/auth_cubit.dart';
 import '../components/details_item.dart';
 import '../components/location_image.dart';
 
@@ -30,8 +30,9 @@ class CheckoutScreen extends StatelessWidget {
             width: 340.w,
             padding: EdgeInsets.only(
               top: 10.h,
-              right: 3.w,
+              right: 10.w,
               bottom: 10.h,
+              left: 10.w,
             ),
             decoration: ShapeDecoration(
               shape: RoundedRectangleBorder(
@@ -49,15 +50,15 @@ class CheckoutScreen extends StatelessWidget {
                       ),
                 ),
                 const Gap(10),
-                const DetailsItem(
-                  title: 'abdalrhman@gmail.com',
+                DetailsItem(
+                  title: AuthCubit.get(context).userModel!.email!,
                   subtitle: 'Email',
                   icon: IconlyBroken.message,
                 ),
                 const Gap(15),
-                const DetailsItem(
-                  title: '00000000000000',
-                  subtitle: 'Email',
+                DetailsItem(
+                  title: AuthCubit.get(context).userModel!.phone!,
+                  subtitle: 'phone',
                   icon: IconlyBroken.call,
                 ),
                 const Gap(15),
@@ -83,23 +84,16 @@ class CheckoutScreen extends StatelessWidget {
             padding: const EdgeInsets.all(15.0),
             child: PricePart(
               onPressed: () {
-                PaymobPayment.instance
-                    .initialize(
-                  apiKey: PaymobApi
-                      .paymobApiKey, // from dashboard Select Settings -> Account Info -> API Key
-                  integrationID: PaymobApi
-                      .paymobIntegrationId, // from dashboard Select Developers -> Payment Integrations -> Online Card ID
-                  iFrameID: 804387, // from paymob Select Developers -> iframes
-                )
+                PaymobManager()
+                    .getPaymentKey(
+                        amount: CartCubit.get(context).totalPrice.toInt() *
+                            100.toInt(),
+                        currency: 'EGP')
                     .then((value) async {
-                  final PaymobResponse? response2 =
-                      await PaymobPayment.instance.pay(
-                    currency: "EGP",
-                    amountInCents: {CartCubit.get(context).totalPrice * 100}
-                        .toString(), // 200 EGP
-                    onPayment: (response) =>
-                        print('----------------------${response.toString()}'),
-                    context: context, // Optional
+                  await launchUrl(
+                    Uri.parse(
+                      'https://accept.paymobsolutions.com/api/acceptance/iframes/804387?payment_token=$value',
+                    ),
                   );
                 });
               },
