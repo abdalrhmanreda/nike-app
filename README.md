@@ -22,7 +22,7 @@ Social media authentication options.
 The main screen where users land after logging in.
 Displaying featured or new sneakers.
 Categories or filters for easy navigation.
-![Home](https://github.com/abdalrhmanreda/nike-app/assets/93455945/27974229-c7a9-4494-96b0-f55f3923b6fe)
+<img width="375" alt="Favourite" src="https://github.com/abdalrhmanreda/nike-app/assets/93455945/27974229-c7a9-4494-96b0-f55f3923b6fe">
 
 
 4- Favorite:
