@@ -1,5 +1,4 @@
 
-
 1- Onboarding:
 This could involve the initial setup and introduction to the app for new users.
 Registration or sign-up process.
