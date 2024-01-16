@@ -12,14 +12,23 @@ Secure login mechanisms to ensure user data privacy.
 Password recovery or reset functionalities.
 Social media authentication options.
 
+![Register Account](https://github.com/abdalrhmanreda/nike-app/assets/93455945/09975a81-fc2a-40dc-8213-deb15adada16)
+![Sign in](https://github.com/abdalrhmanreda/nike-app/assets/93455945/0243da13-9d5e-491a-88c6-c822aa6d5a89)
+
+
+
 3- Home:
 The main screen where users land after logging in.
 Displaying featured or new sneakers.
 Categories or filters for easy navigation.
+![Home](https://github.com/abdalrhmanreda/nike-app/assets/93455945/27974229-c7a9-4494-96b0-f55f3923b6fe)
+
 
 4- Favorite:
 Users can mark sneakers as favorites.
 A dedicated section to view and manage favorite items.
+<img width="375" alt="Favourite" src="https://github.com/abdalrhmanreda/nike-app/assets/93455945/8b688886-ff14-42e1-b928-c96b743d4e56">
+
 
 5-Cart:
 Users can add items to their shopping cart.
