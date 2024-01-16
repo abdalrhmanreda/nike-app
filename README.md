@@ -14,7 +14,7 @@ Welcome screens or tutorials to guide users.
 Secure login mechanisms to ensure user data privacy.
 Password recovery or reset functionalities.
 Social media authentication options.
-<img width="350" alt="auth" src="(https://github.com/abdalrhmanreda/nike-app/assets/93455945/09975a81-fc2a-40dc-8213-deb15adada16">
+<img width="350" alt="auth" src="https://github.com/abdalrhmanreda/nike-app/assets/93455945/09975a81-fc2a-40dc-8213-deb15adada16">
 <img width="350" alt="auth" src="https://github.com/abdalrhmanreda/nike-app/assets/93455945/0243da13-9d5e-491a-88c6-c822aa6d5a89">
 
 
