@@ -35,9 +35,8 @@ A dedicated section to view and manage favorite items.
 Users can add items to their shopping cart.
 A view to manage and review items in the cart.
 Checkout and payment options.
-
-![Checkout](https://github.com/abdalrhmanreda/nike-app/assets/93455945/cb3a427d-94b2-49d6-848c-4bc34985a808)
-![My Cart](https://github.com/abdalrhmanreda/nike-app/assets/93455945/bc98014d-bc4c-4cc9-80e8-45fa9c7f7826)
+<img width="350" alt="Favourite" src="https://github.com/abdalrhmanreda/nike-app/assets/93455945/cb3a427d-94b2-49d6-848c-4bc34985a808">
+<img width="350" alt="Favourite" src="https://github.com/abdalrhmanreda/nike-app/assets/93455945/bc98014d-bc4c-4cc9-80e8-45fa9c7f7826">
 
 
 6- Profile, Edit Profile:
